@@ -18,7 +18,7 @@ By the end of this tutorial, you will be able to:
 
 _Distant reading_ generally refers to the use of computational methods to analyze literary texts. Created by Eric Lease Morgan at the University of Notre Dame, the [Distant Reader](https://distantreader.org/) is a web-based text analysis toolset for “reading” and analyzing texts. It takes unstructured data (text) as input, and it outputs sets of structured data for analysis. The Distant Reader is intended to supplement the traditional reading process by simplifying the process of identifying trends and anomalies in large volumes of text. It is also a method for pre-processing data to be used in natural language processing. 
 
-Much of the following is adapted from Eric Lease Morgan’s documentation on the Distant Reader tool. See the references section of this tutorial for links to these resources. 
+_Much of the following is adapted from Eric Lease Morgan’s documentation and workshops about the Distant Reader tool. See the references section of this tutorial for links to these resources._ 
 
 ### What We Can Do With the Distant Reader
 
