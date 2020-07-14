@@ -20,7 +20,7 @@ _Distant reading_ generally refers to the use of computational methods to analyz
 
 Much of the following is adapted from Eric Lease Morgan’s documentation on the Distant Reader tool. See the references section of this tutorial for links to these resources. 
 
-## What We Can Do With the Distant Reader
+### What We Can Do With the Distant Reader
 
 Designed to “read” everything from a single item to a large corpus, the Distant Reader can help answer questions like: 
 * How big is the corpus, and how does its size compare to other corpora?
