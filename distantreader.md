@@ -1,10 +1,10 @@
-# Using and Hacking the Distant Reader
+# Using the Distant Reader
 
 ## Objectives
-By the end of this tutorial, you will:
-* Be familiar with the types of 
-* Know how to submit content and download results
-* Know some options for interpreting your downloaded results
+By the end of this tutorial, you will be able to:
+* Identify problems the Distant Reader addresses
+* Submit content to the Distant Reader and download results
+* Compare some methods for interpreting your downloaded results
 
 ## What You Need
 * Computer with a web browser and internet connection
