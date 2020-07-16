@@ -43,7 +43,7 @@ Designed to “read” everything from a single item to a large corpus, the Dist
 
 ## Getting Started
 1. Using your web browser, navigate to https://distantreader.org/
-![DRCreateAccount1](https://user-images.githubusercontent.com/15221098/87683727-6b9cbf80-c74f-11ea-8f9f-684248ce3927.png)
+![DRCreateAccount1 class=thumbnail](https://user-images.githubusercontent.com/15221098/87683727-6b9cbf80-c74f-11ea-8f9f-684248ce3927.png)
 2. Select “Create Account” on the top right
 ![DRCreateAccount2](https://user-images.githubusercontent.com/15221098/87683733-6d668300-c74f-11ea-9893-c78f148c627c.png)
 3. Fill in your account information
