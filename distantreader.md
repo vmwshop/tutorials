@@ -57,3 +57,5 @@ Designed to “read” everything from a single item to a large corpus, the Dist
 1. Articulate a research question
 2. Identify which type of input 
 
+
+<img src="https://user-images.githubusercontent.com/15221098/87683735-6d668300-c74f-11ea-8d73-4e6deecac18e.png" alt="Nature" class="responsive w3-border w3-padding" width="600">
