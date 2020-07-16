@@ -2,7 +2,7 @@
 
 ## Objectives
 By the end of this tutorial, you will be able to:
-* Identify problems the Distant Reader addresses
+* Identify the types of problems the Distant Reader addresses
 * Submit content to the Distant Reader and download results
 * Compare some methods for interpreting your downloaded results
 
@@ -19,6 +19,10 @@ By the end of this tutorial, you will be able to:
 _Distant reading_ generally refers to the use of computational methods to analyze literary texts. Created by Eric Lease Morgan at the University of Notre Dame, the [Distant Reader](https://distantreader.org/) is a web-based text analysis toolset for “reading” and analyzing texts. It takes unstructured data (text) as input, and it outputs sets of structured data for analysis. The Distant Reader is intended to supplement the traditional reading process by simplifying the process of identifying trends and anomalies in large volumes of text. It is also a method for pre-processing data to be used in natural language processing. 
 
 _Much of the following is adapted from Eric Lease Morgan’s documentation and workshops about the Distant Reader tool. See the references section of this tutorial for links to these resources._ 
+
+### How the Distant Reader Works
+
+The Distant Reader is a system which locally harvests/caches content you specify. It then transforms the content into plain text, performs sets of natural language processing & text mining against the text, saves the results in a number of formats, reduces the whole to a cross-platform database file, queries the database thus summarizing the collection, zips the results of the entire process into a single file, and makes the file available to you for further investigation.
 
 ### What We Can Do With the Distant Reader
 
@@ -37,7 +41,14 @@ Designed to “read” everything from a single item to a large corpus, the Dist
 * Who is mentioned in the corpus, how frequently, and where?
 * What places are mentioned in the corpus, how frequently, and where?
 
-### How the Distant Reader Works
+## Getting Started
+1. Using your web browser, navigate to https://distantreader.org/
+2. Select “Create Account” on the top right
+3. Fill in your account information
+4. Confirm your account information and login
+5. You should now see your Distant Reader Portal Dashboard where your “study carrels” live
 
-The Distant Reader is a system which locally harvests/caches content you specify. It then transforms the content into plain text, performs sets of natural language processing & text mining against the text, saves the results in a number of formats, reduces the whole to a cross-platform database file, queries the database thus summarizing the collection, zips the results of the entire process into a single file, and makes the file available to you for further investigation.
+## Submit Content to the Distant Reader
+1. Articulate a research question
+2. Identify which type of input 
 
