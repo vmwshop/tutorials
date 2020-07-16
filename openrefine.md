@@ -26,6 +26,6 @@ _NOTE_: If using a Mac, you may get a security warning that your computer doesnâ
 
 Once you have the app downloaded and installed, simply launch the app, upload your data, and start working! As a reminder, when you launch the OpenRefine app, your default internet browser will open. This is how you interact with the application even though your data is still being hosted locally on your personal drive. So no need to worry about the security of your data! 
 
-<img src="https://user-images.githubusercontent.com/15221098/87688668-44e18780-c755-11ea-93cb-6f880ee16740.png" width="550"> 
+<img src="https://user-images.githubusercontent.com/15221098/87688668-44e18780-c755-11ea-93cb-6f880ee16740.png" width="auto"> 
 
 ## 
