@@ -20,28 +20,30 @@ OpenRefine (previously Google Refine) is a powerful, opensource tool for working
 
 ## Get Started
 
-To get started, there is no account sign up! All you need to do is visit **[this page](https://openrefine.org/download.html)** and pick the download kit that is applicable to your operating system. 
+To get started, there is no account sign up! All you need to do is visit **[the OpenRefine Downloads Page](https://openrefine.org/download.html)** and pick the download kit that is applicable to your operating system. 
 
 > _NOTE_: If using a Mac, you may get a security warning that your computer doesn’t recognize the developer and won’t let you open the application. If that is the case, then go to your System Settings > Security & Privacy > Click the lock icon in the bottom left corner of the window > Click the _“Open Anyway”_ button in the _“Allow apps downloaded from”_ section of your General
 Settings. Open it again and you should be good to go!
 
 Once you have the app downloaded and installed, simply launch the app, upload your data, and start working! As a reminder, when you launch the OpenRefine app, your default internet browser will open. This is how you interact with the application even though your data is still being hosted locally on your personal drive. So no need to worry about the security of your data! 
 
-Click the “Choose Files” button, select your dataset, and click “Next”. For this workshop, we have pre-messed up some data for you to use HERE called Allegheny County Dog Licenses.csv. If you already have some data that you know is messy, feel free to use that and follow along with the same steps! Just be prepared for us to use different values and have different “mistakes” within our provided data than what you might have. 
+**1.** Click the “Choose Files” button, select your dataset, and click “Next”. For this workshop, we have pre-messed up some data for you to use HERE called Allegheny County Dog Licenses.csv. If you already have some data that you know is messy, feel free to use that and follow along with the same steps! Just be prepared for us to use different values and have different “mistakes” within our provided data than what you might have. 
 
 <img scr="https://user-images.githubusercontent.com/15221098/87823893-3d4bdc80-c842-11ea-97c2-47a5dd3128fd.png" class="responsive" alt="ORgettingstarted1" width="850">
 
-What you will see when your file is finished uploading is a preview of what your data will look like in your new project within OpenRefine. There are some other options you have here, but for this basic understanding of the tool, just click the “Create Project” button in the top right corner to continue. 
+**2.** What you will see when your file is finished uploading is a preview of what your data will look like in your new project within OpenRefine. There are some other options you have here, but for this basic understanding of the tool, just click the “Create Project” button in the top right corner to continue. 
 
 <img scr="https://user-images.githubusercontent.com/15221098/87824121-ad5a6280-c842-11ea-955f-ef931f0918c5.png" class="responsive" alt="ORgettingstarted2" width="850">
 
-Enjoy the progress bar as your project is created, then you will see the first ten rows of your data as a new OpenRefine project! You will also notice that the fine folks at OpenRefine have provided a link to some great screencasts on using filters and facets. Much of this tutorial is based on these videos, so please feel free to reference those as well. 
+**3.** Enjoy the progress bar as your project is created, then you will see the first ten rows of your data as a new OpenRefine project! You will also notice that the fine folks at OpenRefine have [provided a link to some great screencasts](https://github.com/OpenRefine/OpenRefine/wiki/Screencasts) on using filters and facets. Much of this tutorial is based on these videos, so please feel free to reference those as well. 
 
 <img src="https://user-images.githubusercontent.com/15221098/87824197-d24ed580-c842-11ea-95ad-5a330fe90798.png" class="responsive" alt="ORgettingstarted3" width="850">
 
 ## Facets 
 
-Facets are the bread and butter of OpenRefine when it comes to cleaning up messy data as well as sorting and filtering it. Essentially what they are is a collection of each value in each cell of your data, grouped together with a total count for each unique datapoint. When you create a “text facet,” OpenRefine automatically separates and groups them based on text and characters. In the Breed column of our data, click the dropdown arrow in the column header and select _Facet_ > _Text Facet_
+Facets are the bread and butter of OpenRefine when it comes to cleaning up messy data as well as sorting and filtering it. Essentially what they are is a collection of each value in each cell of your data, grouped together with a total count for each unique datapoint. When you create a “text facet,” OpenRefine automatically separates and groups them based on text and characters. 
+
+**1.** In the Breed column of our data, click the dropdown arrow in the column header and select _Facet_ > _Text Facet_
 
 <img src="https://user-images.githubusercontent.com/15221098/87824323-0de99f80-c843-11ea-912c-e1b001de2aff.png" class="responsive" alt="ORfacets1" width="850">
 
