@@ -2,10 +2,7 @@
 
 ## Objectives
 
-By the end of this tutorial, you should be able to:
-- Identify and clean up errors en masse in a large dataset
-- Sort and filter large amounts of data
-- Save a dataset in a new format
+By the end of this tutorial, you should be able to use Facets to clean up messy data and filter and export exactly what you need.
 
 ## What You Need
 - Computer with an internet browser and internet connection
@@ -31,6 +28,105 @@ Settings. Open it again and you should be good to go!
 
 Once you have the app downloaded and installed, simply launch the app, upload your data, and start working! As a reminder, when you launch the OpenRefine app, your default internet browser will open. This is how you interact with the application even though your data is still being hosted locally on your personal drive. So no need to worry about the security of your data! 
 
-<img src="https://user-images.githubusercontent.com/15221098/87691722-ecac8480-c758-11ea-8eb1-281bda1e8998.png" alt="ORgettingstarted1" class="responsive" width="850"> 
+Click the “Choose Files” button, select your dataset, and click “Next”. For this workshop, we have pre-messed up some data for you to use HERE called Allegheny County Dog Licenses.csv. If you already have some data that you know is messy, feel free to use that and follow along with the same steps! Just be prepared for us to use different values and have different “mistakes” within our provided data than what you might have. 
 
-## 
+What you will see when your file is finished uploading is a preview of what your data will look like in your new project within OpenRefine. There are some other options you have here, but for this basic understanding of the tool, just click the “Create Project” button in the top right corner to continue. 
+
+<img scr="https://user-images.githubusercontent.com/15221098/87823893-3d4bdc80-c842-11ea-97c2-47a5dd3128fd.png" class="responsive" width="850">
+
+Enjoy the progress bar as your project is created, then you will see the first ten rows of your data as a new OpenRefine project! You will also notice that the fine folks at OpenRefine have provided a link to some great screencasts on using filters and facets. Much of this tutorial is based on these videos, so please feel free to reference those as well. 
+
+[[SCREENSHOT]]
+
+## Facets 
+
+Facets are the bread and butter of OpenRefine when it comes to cleaning up messy data as well as sorting and filtering it. Essentially what they are is a collection of each value in each cell of your data, grouped together with a total count for each unique datapoint. When you create a “text facet,” OpenRefine automatically separates and groups them based on text and characters. In the Breed column of our data, click the dropdown arrow in the column header and select _Facet_ > _Text Facet_
+
+[[SCREENSHOT]]
+
+In the left sidebar, you will see a list of all of the different breeds in your dataset grouped together with a total count for each. Take a look through these carefully and you will notice that there are some that appear to be duplicates of each other. Here’s where your clean up begins. 
+
+[[SCREENSHOT]]
+
+You will see some minor typos, find trailing spaces, etc. OpenRefine has some great built-in features to help rid your data of these quickly. The first of which lives in your facet widget in the left sidebar. Click the “Cluster” button in the top right corner of the widget. Here you will see a list of any data points that OpenRefine thinks are supposed to be the same. The “Values in Cluster” column shows you what values are up for being combined and the “New Cell Value” column shows you what OpenRefine wants to change them to. For our dataset, OpenRefine got them all right, so click the checkbox in each row in the “Merge” column (or click the “Select All” button under the table) then click “Merge Selected & Close”. 
+
+[[SCREENSHOT]]
+
+Take another look at your Breed facets. Scroll down until you find the “AM PIT BULL TERRIER” and “AM PIT BULL MIX” values. You will notice that they each only have one entry and right under them there are “AM PIT BULL TERRIER” AND “AM PITT BULL MIX” values with hundreds of entries each. We’ve found another typo! These are quick fixes. Simply hover over each value and click the “Edit” button that appears to the right of them. This will bring up a text box where you can manually edit the typo from “PIT BUL” to “PIT BULL”, etc. 
+
+[[SCREENSHOT]]
+
+Once you click “Apply” you will see your typo’ed value disappear and the count of the correctly spelled value increase by one. 
+
+[[SCREENSHOT]]
+
+Listed here are some other minor errors in the provided dataset that you can use this method to locate and correct. Scrolling through your list of facets sorted by name is a quick way to identify these by noticing lower than usual counts for values. 
+
+- Edit the “BAGLE” value to “BEAGLE”
+- Edit the “BOXTER” value to “BOXER”
+- Edit the “MATLEESE” value to “MALTESE”
+- Edit the “MIX” VALUE to “MIXED”
+
+### Other Quick Edits
+
+#### Eliminate Extra Spaces
+
+A common issue with large datasets is trailing or leading spaces. Meaning there is a space either right before or right after the value in the cell. OpenRefine makes trimming these off of your data super easy! 
+
+Again in the “Breed” column of your dataset, click the dropdown arrow by the column header and hover over “Edit Cells” > “ Common Transformations” > Click “Trim leading and trailing whitespace”.
+
+[[SCREENSHOT]]
+
+#### Split Columns with Multiple Values
+
+Look at the “ValidDate” column of our data. You will see that the values have both a date and a time. We want a separate column for “ValidTime”. In the header of the “ValidDate” column, click the dropdown arrow and hover over “Edit column” > Click “Split into several columns”. Notice how the dates and times in the “ValidDate” cells are separated by a “T”. Enter “T” in the “Separator” box in the Split column window and click “OK”. 
+
+[[SCREENSHOT]]
+
+Now you have your dates and times in separate columns! Notice how OpenRefine automatically names the headers of these columns based on the original column’s name. Simply edit these by clicking the dropdown next to the header name > Hover over “Edit column” > Click “Rename this column”. 
+
+[[SCREENSHOT]]
+
+#### Add Text To Existing Values
+
+Just for clarity’s sake, we want all of our pups that are designated as “MIXED” to read as “MIXED BREED”. So let’s add the word “BREED” to any occurrence of the word “MIXED” in the “Breeds” column. 
+
+Back in your “Facets” widget, scroll down to the “MIXED” value and select it. The facet will be bolded and change to orange to signify that it’s selected. 
+
+[[SCREENSHOT]]
+
+With the facet selected, click the dropdown arrow in the “Breed” column header > Hover over “Edit cells” > Click “Transform…”
+
+[[SCREENSHOT]]
+
+Here you will use what OpenRefine calls “Google Refine Expression Language” to tell OpenRefine how you want to transform your cells. For this example, in the “Expression” box, use the following command to add your text to the existing values:
+
+```
+value+” BREED”
+```
+
+You will see a preview of your handy work in the table under the “Expression” box. Click “OK” when it looks the way you want it to. 
+
+[[SCREENSHOT]]
+
+### Sorting and Filtering Data
+
+Now that your data is all cleaned up and ready for use, you can use facets to filter out what you don’t need, sort everything by a specific value, or a combination of both! 
+
+Filtering is about as easy as it gets. Click the dropdown of the “LicenceType” column header > Hover over “Facet” > Click “Text Facet”. Let’s say we want to find out how many of our registered pups are seniors. From your facet widget in the left sidebar, hover over each of the values that include “Senior”. As you hover over each, you will see the option to either “edit” or “include”. Click “include” for each value. As you do this for each facet, they will all become bold and turn orange, signifying that they are selected. You will also notice the number of matching rows at the top of the page adjusts to show you how many rows contain our senior pups. 
+
+[[SCREENSHOT]]
+
+From here, you can Export your filtered data by clicking the “Export” dropdown in the top right corner of the screen and selecting your desired format. For this example, we will choose “Comma-separated value”. 
+
+[[SCREENSHOT]]
+
+This is one of the beauties of OpenRefine. You have now exported a filtered portion of your dataset to maybe send off to your boss or manipulate further within a different spreadsheet program, but your OpenRefine project remains right where you left off! Now you can jump back into OpenRefine and filter and export your data however else you might need to.  
+
+
+
+
+##### Other Resources and References
+
+Miriam Posner’s [“Get started with OpenRefine”](http://miriamposner.com/classes/dh101f17/tutorials-guides/data-manipulation/get-started-with-openrefine/)
+
