@@ -14,18 +14,20 @@ By the end of this tutorial, you should be able to:
 
 ## About OpenRefine
 
-OpenRefine (previously Google Refine) is a powerful tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data. OpenRefine is an app that is downloaded to your personal computer that then uses your internet browser to interact with it. While it might look as though you are uploading your data to the internet through your browser, the data is in fact still being locally hosted on your hard drive. 
+OpenRefine (previously Google Refine) is a powerful, opensource tool for working with messy data. Clean up small to large mistakes en masse, convert data from one format to another, and add to a dataset by pulling data from an online source into your dataset. OpenRefine is an app that is downloaded to your personal computer that then uses your internet browser to interact with it. While it might look as though you are uploading your data to the internet through your browser, the data is in fact still being locally hosted on your hard drive. 
 
 ### What Can It Be Used For?
 - Clean up messy data
+- Combine data from a website with an outside dataset
+- Convert a dataset from one format to another
 - 
 
 ## Get Started
 
 To get started, there is no account sign up! All you need to do is visit **[this page](https://openrefine.org/download.html)** and pick the download kit that is applicable to your operating system. 
 
-> _NOTE_: If using a Mac, you may get a security warning that your computer doesn’t recognize the developer and won’t let you open the application. If that is the case, then go to your System Settings > Security & Privacy > Click the _“Open Anyway”_ button in the _“Allow apps downloaded from”_ section of your General
-Settings.
+> _NOTE_: If using a Mac, you may get a security warning that your computer doesn’t recognize the developer and won’t let you open the application. If that is the case, then go to your System Settings > Security & Privacy > Click the lock icon in the bottom left corner of the window > Click the _“Open Anyway”_ button in the _“Allow apps downloaded from”_ section of your General
+Settings. Open it again and you should be good to go!
 
 Once you have the app downloaded and installed, simply launch the app, upload your data, and start working! As a reminder, when you launch the OpenRefine app, your default internet browser will open. This is how you interact with the application even though your data is still being hosted locally on your personal drive. So no need to worry about the security of your data! 
 
