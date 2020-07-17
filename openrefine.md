@@ -17,7 +17,6 @@ OpenRefine (previously Google Refine) is a powerful, opensource tool for working
 - Clean up messy data
 - Combine data from a website with an outside dataset
 - Convert a dataset from one format to another
-- 
 
 ## Get Started
 
@@ -30,31 +29,33 @@ Once you have the app downloaded and installed, simply launch the app, upload yo
 
 Click the “Choose Files” button, select your dataset, and click “Next”. For this workshop, we have pre-messed up some data for you to use HERE called Allegheny County Dog Licenses.csv. If you already have some data that you know is messy, feel free to use that and follow along with the same steps! Just be prepared for us to use different values and have different “mistakes” within our provided data than what you might have. 
 
+<img scr="https://user-images.githubusercontent.com/15221098/87823893-3d4bdc80-c842-11ea-97c2-47a5dd3128fd.png" class="responsive" alt="ORgettingstarted1" width="850">
+
 What you will see when your file is finished uploading is a preview of what your data will look like in your new project within OpenRefine. There are some other options you have here, but for this basic understanding of the tool, just click the “Create Project” button in the top right corner to continue. 
 
-<img scr="https://user-images.githubusercontent.com/15221098/87823893-3d4bdc80-c842-11ea-97c2-47a5dd3128fd.png" class="responsive" width="850">
+<img scr="https://user-images.githubusercontent.com/15221098/87824121-ad5a6280-c842-11ea-955f-ef931f0918c5.png" class="responsive" alt="ORgettingstarted2" width="850">
 
 Enjoy the progress bar as your project is created, then you will see the first ten rows of your data as a new OpenRefine project! You will also notice that the fine folks at OpenRefine have provided a link to some great screencasts on using filters and facets. Much of this tutorial is based on these videos, so please feel free to reference those as well. 
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/87824197-d24ed580-c842-11ea-95ad-5a330fe90798.png" class="responsive" alt="ORgettingstarted3" width="850">
 
 ## Facets 
 
 Facets are the bread and butter of OpenRefine when it comes to cleaning up messy data as well as sorting and filtering it. Essentially what they are is a collection of each value in each cell of your data, grouped together with a total count for each unique datapoint. When you create a “text facet,” OpenRefine automatically separates and groups them based on text and characters. In the Breed column of our data, click the dropdown arrow in the column header and select _Facet_ > _Text Facet_
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/87824323-0de99f80-c843-11ea-912c-e1b001de2aff.png" class="responsive" alt="ORfacets1" width="850">
 
 In the left sidebar, you will see a list of all of the different breeds in your dataset grouped together with a total count for each. Take a look through these carefully and you will notice that there are some that appear to be duplicates of each other. Here’s where your clean up begins. 
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/87824431-3d98a780-c843-11ea-8f46-a70573c98b2f.png" class="responsive" alt="ORfacets2" width="850">
 
 You will see some minor typos, find trailing spaces, etc. OpenRefine has some great built-in features to help rid your data of these quickly. The first of which lives in your facet widget in the left sidebar. Click the “Cluster” button in the top right corner of the widget. Here you will see a list of any data points that OpenRefine thinks are supposed to be the same. The “Values in Cluster” column shows you what values are up for being combined and the “New Cell Value” column shows you what OpenRefine wants to change them to. For our dataset, OpenRefine got them all right, so click the checkbox in each row in the “Merge” column (or click the “Select All” button under the table) then click “Merge Selected & Close”. 
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/87824474-56a15880-c843-11ea-9388-31d851c126c5.png" class="responsive" alt="ORfacets3" width="850">
 
 Take another look at your Breed facets. Scroll down until you find the “AM PIT BULL TERRIER” and “AM PIT BULL MIX” values. You will notice that they each only have one entry and right under them there are “AM PIT BULL TERRIER” AND “AM PITT BULL MIX” values with hundreds of entries each. We’ve found another typo! These are quick fixes. Simply hover over each value and click the “Edit” button that appears to the right of them. This will bring up a text box where you can manually edit the typo from “PIT BUL” to “PIT BULL”, etc. 
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/87824514-69b42880-c843-11ea-9f3d-a5cbaebb5aa8.png" class="responsive" alt="ORfacets4" width="850">
 
 Once you click “Apply” you will see your typo’ed value disappear and the count of the correctly spelled value increase by one. 
 
