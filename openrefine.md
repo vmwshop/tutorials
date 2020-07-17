@@ -29,11 +29,11 @@ Once you have the app downloaded and installed, simply launch the app, upload yo
 
 **1.** Click the “Choose Files” button, select your dataset, and click “Next”. For this workshop, we have pre-messed up some data for you to use HERE called Allegheny County Dog Licenses.csv. If you already have some data that you know is messy, feel free to use that and follow along with the same steps! Just be prepared for us to use different values and have different “mistakes” within our provided data than what you might have. 
 
-<img scr="https://user-images.githubusercontent.com/15221098/87823893-3d4bdc80-c842-11ea-97c2-47a5dd3128fd.png" class="responsive" alt="ORgettingstarted1" width="850">
+<img scr="https://user-images.githubusercontent.com/15221098/87825832-d4fefa00-c845-11ea-9251-113dbb17fa6d.png" class="responsive" alt="ORgettingstarted1" width="850">
 
 **2.** What you will see when your file is finished uploading is a preview of what your data will look like in your new project within OpenRefine. There are some other options you have here, but for this basic understanding of the tool, just click the “Create Project” button in the top right corner to continue. 
 
-<img scr="https://user-images.githubusercontent.com/15221098/87824121-ad5a6280-c842-11ea-955f-ef931f0918c5.png" class="responsive" alt="ORgettingstarted2" width="850">
+<img scr="https://user-images.githubusercontent.com/15221098/87825880-eba55100-c845-11ea-9d96-c9e4a708226a.png" class="responsive" alt="ORgettingstarted2" width="850">
 
 **3.** Enjoy the progress bar as your project is created, then you will see the first ten rows of your data as a new OpenRefine project! You will also notice that the fine folks at OpenRefine have [provided a link to some great screencasts](https://github.com/OpenRefine/OpenRefine/wiki/Screencasts) on using filters and facets. Much of this tutorial is based on these videos, so please feel free to reference those as well. 
 
