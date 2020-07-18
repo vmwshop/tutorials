@@ -7,7 +7,7 @@ By the end of this tutorial, you should be able to use Facets to clean up messy 
 ## What You Need
 - Computer with an internet browser and internet connection
 - A dataset - ideally something on the larger size (i.e. tens or hundreds of thousands of data points)
-    - We have prepared **this dataset** for this workshop
+    - We have prepared **this dataset** for this tutorial
     - Your own data can be uploaded as a file in many different formats (csv, json, wiki, xls, etc.), pulled from a webpage, or even copy/pasted as text
 
 ## About OpenRefine
