@@ -8,10 +8,6 @@ By the end of this tutorial, you will be able to:
 
 ## What You Need
 * Computer with a web browser and internet connection
-* Text editor - Any will do, but here are some good options:
-  * Windows - [Notepad++](https://notepad-plus-plus.org/downloads/), [Sublime Text](https://www.sublimetext.com/3)
-  * Mac - [BBedit](https://www.barebones.com/products/bbedit/download.html), [Sublime Text](https://www.sublimetext.com/3), [Atom](https://atom.io/)
-* Spreadsheet application (Microsoft Excel or Macintosh Numbers work just fine)
 * A corpus (We will be using a dataset from the [Western Pennsylvania Regional Data Center](http://www.wprdc.org/) and a Wikipedia URL)
 
 ## About the Distant Reader
@@ -122,6 +118,49 @@ The results of the Distant Reader process is a "study carrel" -- a .zip file con
 2. Now navigate to the “Named Entities” table in the “Other” Dropdown. <p><img src="https://user-images.githubusercontent.com/15221098/87861091-f37df780-c910-11ea-86e6-3d311a0f97ab.png" alt="DRinterp1" class="responsive" width="400"></p>
 3. The named entity pages list names of people (PERSON), organizations (ORG), places (GRE), and locations (LOC). To learn who is mentioned in your study carrel, enter "PERSON" into the text area. To learn what organizations, places, or locations are mentioned in your study carrel, enter the labels "ORG", "GRE", or "LOC" into the text area. <p><img src="https://user-images.githubusercontent.com/15221098/87861092-f4168e00-c910-11ea-8aed-9b1146b27836.png" alt="DRinterp2" class="responsive" width="400"></p>
 4. All of the other pages linked from the top of the index.htm page operate very similarly. Explore those now. 
-5. And there you have it! You now know the basics of working with the Distant Reader.
+5. And there you have it! You now know the basics of working with the Distant Reader. As with everything, using the tool requires practice and refining. Remeber that it's almost impossible to break anyhting using the Distant Reader, so you can rest assured when trying all sorts of experiments.
+
+## Cleaning and Analyzing Your Study Carrel
+
+Notice how the content we used cannot simply be taken at face value. For example, Wikipedia and it’s related privacy policy information tends to take over frequency assessments if not cleaned.
+<p><img src="https://user-images.githubusercontent.com/15221098/87861701-c46a8480-c916-11ea-8a85-95729610d7ed.png" alt="keywords" class="responsive" width="400"></p>
+<p><img src="https://user-images.githubusercontent.com/15221098/87861700-c16f9400-c916-11ea-9bfe-8ef107ddf850.png" alt="DRIssues1" class="responsive" width="400"></p>
+The Distance Reader can help with pre-processing, but there is always work to do in terms of cleaning your data and conducting analysis. There are three essential types of desktop tools you will need/want in order to use the content of a study carrel. These types include: text editors, spreadsheet/database applications, and analysis programs. Please
+
+### Text Editors
+Text editors read and write plain text files -- files with no formatting and no binary characters. Plain text files usually have a .txt extension. Every single file in a Distant Reader study carrel (except one) is a plain text file, and therefore, every single file (except one) is openable by any text editor. You can use a text editor to find/replace to find any character and change it to something else, which is useful for stopwords, carriage returns, newline characters, etc. Another very useful function of a text editor, especially used for the purposes of text mining and natural language processing, is the ability to change the case of all letters to either their upper or lower-case forms. Such is the most basic of text normalization/cleaning processes.
+
+* Here are some good options:
+  * Windows - [Notepad++](https://notepad-plus-plus.org/downloads/), [Sublime Text](https://www.sublimetext.com/3)
+  * Mac - [BBedit](https://www.barebones.com/products/bbedit/download.html), [Sublime Text](https://www.sublimetext.com/3), [Atom](https://atom.io/)
+
+### Spreadsheet/Database Applications
+Spreadsheet/database applications are designed to read "delimited" files, plain text files where each line is a row in a matrix, and each item is punctuated by some special character such as a tab character or a comma. These items are the columns in the matrix. The whole file is a kin to a spreadsheet or a database. Like a text editor, you will want to use the spreadsheet/database application to support sort.
+
+The majority of the files in a study carrel are delimited files, and these delimited files are really annotated lists. Examples include lists of word and their parts-of-speech, lists of documents and the URLs they contain, or lists of sentences and the named-entities they include. Given these files the student, researcher, or scholar can compare & contrast the ratio of named entities across a corpus, or they could plot the ebb & flow of an idea over time.
+
+* Some common spreadsheet applications: 
+  * [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel)
+  * [Apple Numbers](https://www.apple.com/numbers/)
+
+### Analysis Programs
+
+Analysis programs cover a wide spectrum of tools and these tools fall into a number of categories including counting & tabulating, concordancing, topic modeling, and visualizing. It is not within the scope of this tutorial to cover all of these programs, but here are a few that can be useful when working with Distant Reader study carrels:
+
+* [OpenRefine](https://openrefine.org/download.html#) - OpenRefine (previously Google Refine) is a powerful, opensource tool for working with messy data. Key features include cleaning up small to large mistakes en masse, converting data from one format to another, and adding to a dataset by pulling data from an online source into your dataset. 
+
+* [AntConc](https://www.laurenceanthony.net/software/antconc/) - AntConc contains seven tools. 
+  * Concordance Tool: This tool shows search results in a 'KWIC' (KeyWord In Context) format. This allows you to see how words and phrases are commonly used in a corpus of texts.
+  * Concordance Plot Tool: This tool shows search results plotted as a 'barcode' format. This allows you to see the position where search results appear in target texts.
+  * File View Tool: This tool shows the text of individual files. This allows you to investigate in more detail the results generated in other tools of AntConc.
+  * Clusters/N-Grams: The Clusters Tool shows clusters based on the search condition. In effect it summarizes the results generated in the Concordance Tool or Concordance Plot Tool. The N-Grams Tool, on the other hand, scans the entire corpus for 'N' (e.g. 1 word, 2 words, …) length clusters. This allows you to find common expressions in a corpus.
+  * Collocates: This tool shows the collocates of a search term. This allows you to investigate non-sequential patterns in language.
+  * Word List: This tool counts all the words in the corpus and presents them in an ordered list. This allows you to quickly find which words are the most frequent in a corpus.
+  * Keyword List: This tool shows the which words are unusually frequent (or infrequent) in the corpus in comparison with the words in a reference corpus. This allows you to identify characteristic words in the corpus, for example, as part of a genre or ESP study.
+
+* [MALLET Topic Modeling Tool](http://mallet.cs.umass.edu/topics.php) - Topic Modeling Tool is a GUI/desktop topic modeler based on the venerable MALLET suite of software. Technically speaking, topic modeling is an unsupervised machine learning process used to extract latent themes from a text. Given a text and an integer, a topic modeler will count & tabulate the frequency of words and compare those frequencies with the distances between the words. The words form "clusters" when they are both frequent and near each other, and these clusters can sometimes represent themes, topics, or subjects. Topic modeling is often used to denote the "aboutness" of a text or compare themes between authors, dates, genres, demographics, other topics, or other metadata items.
+
+* [Wordle](http://www.wordle.net/) -  Visualized word frequencies, while often considered sophomoric, can be quite useful when it comes to understanding a text, especially when the frequencies are focused on things like parts-of-speech, named entities, or co-occurrences. Wordle visualizes such frequencies.
+
 
 
