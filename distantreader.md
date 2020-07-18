@@ -8,7 +8,7 @@ By the end of this tutorial, you will be able to:
 
 ## What You Need
 * Computer with a web browser and internet connection
-* A corpus (We will be using a dataset from the [Western Pennsylvania Regional Data Center](http://www.wprdc.org/) and a Wikipedia URL)
+* A corpus (we will be using a dataset from the [Western Pennsylvania Regional Data Center](http://www.wprdc.org/) and a Wikipedia URL)
 
 ## About the Distant Reader
 
