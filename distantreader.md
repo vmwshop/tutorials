@@ -111,7 +111,8 @@ The results of the Distant Reader process is a "study carrel" -- a .zip file con
 
 ### Working with Your Study Carrel - Narrative Reports
 1. Open the .zip file and navigate to the HTML text file called “index.htm.” This is the root of the narrative interface and will open in your web browser.<p><img src="https://user-images.githubusercontent.com/15221098/87859041-57e48b00-c900-11ea-9b50-ad8abbdddb26.png" alt="DRnarrative1" class="responsive" width="400"></p>
-2. The supplied narrative reports including frequencies, keywords, and topic modeling can be seen down the left-hand side of the page.<p><img src="https://user-images.githubusercontent.com/15221098/87860394-33da7700-c90b-11ea-939a-5620c9cacf99.png" alt="DRnarrative2" class="responsive" width="600"></p> 
+2. The supplied narrative reports including frequencies, keywords, and topic modeling can be accessed on the left-hand side of the page.<p><img src="https://user-images.githubusercontent.com/15221098/87860394-33da7700-c90b-11ea-939a-5620c9cacf99.png" alt="DRnarrative2" class="responsive" width="600"></p> 
 3. Take some time now to explore the narrative reports. Eric Lease Morgan provides some detail as to what these reports can help tell you about your data.
+> As you can see, this single .csv does not have a ton of variation or narrative data to analyze. While not the most exciting dataset, this does at least point to the idea that this dataset is used for bureaucratic purposes and is fairly consistent. Think about what you see in these reports and why using Distant Reader for this type of dataset might not be the best option.
 4. Also, see the standard-output.txt file in the unzipped study carrel, as it will both summarize and elaborate upon this narrative report.<p><img src="https://user-images.githubusercontent.com/15221098/87860396-34730d80-c90b-11ea-9d60-d0a8f0f03e70.png" alt="DRnarrative3" class="responsive" width="600"></p>
 
