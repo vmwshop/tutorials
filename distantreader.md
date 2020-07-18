@@ -97,7 +97,9 @@ to the best of your ability, update the list with author, title, or date values 
  * Read the standard output report, which is a simple summary of what the Reader found; look at this report first. 
  * Download the study carrel.
 <p><img src="https://user-images.githubusercontent.com/15221098/87858426-c4a95680-c8fb-11ea-9215-fd9955e6117f.png" alt="DRInput3" class="responsive" width="400"><img src="https://user-images.githubusercontent.com/15221098/87858427-c4a95680-c8fb-11ea-8ca2-190d24d1822c.png" alt="DRInput4" class="responsive" width="400"></p>
+
 ## Working with the Distant Reader Results ("Study Carrels")
+
 ### Study Carrels
 The results of the Distant Reader process is a "study carrel" -- a .zip file containing a set of structured data that includes your original content, various transformations of it, and various sets of analysis. The following sections detail how to download your study carrel and some basic ways of interacting with the results.
 
