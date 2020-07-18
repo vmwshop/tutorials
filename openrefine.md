@@ -2,7 +2,9 @@
 
 ## Objectives
 
-By the end of this tutorial, you should be able to use Facets to clean up messy data and then filter and export a specific portion of your dataset.
+By the end of this tutorial, you will be able to:
+* Use Facets to clean up messy data
+* Filter and export a specific portion of your dataset
 
 ## What You Need
 - Computer with an internet browser and internet connection
@@ -133,7 +135,7 @@ Now that your data is all cleaned up and ready for use, you can use facets to fi
 
 <img src="https://user-images.githubusercontent.com/15221098/87826773-7c306100-c847-11ea-8e0b-de8f1458323b.png" class="responsive" alt="ORsortandfilter2" width="850"> 
 
-This is one of the beauties of OpenRefine. You have now exported a filtered portion of your dataset to maybe send off to your boss or manipulate further within a different spreadsheet program, but your OpenRefine project remains right where you left off! Now you can jump back into OpenRefine and remove your filters and export your data again however else you might need to.  
+You have now exported a filtered portion of your dataset to manipulate further or send away, but your OpenRefine project remains right where you left off! Now you can jump back into OpenRefine and remove your filters and export your data again however else you might need to.  
 
 
 
