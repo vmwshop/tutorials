@@ -28,6 +28,8 @@ Settings. Open it again and you should be good to go!
 
 Once you have the app downloaded and installed simply launch the app, upload your data, and start working! As a reminder, when you launch the OpenRefine app, your default internet browser will open. This is how you interact with the application even though your data is still being hosted locally on your personal drive. So no need to worry about the security of your data! 
 
+## Cleaning Up Your Data
+
 **1.** Click the “Choose Files” button, select your dataset, and click “Next”. For this workshop, we have pre-messed up some data for you to use **HERE** called _Allegheny County Dog Licenses.csv_. If you already have some data that you know is messy, feel free to use that and follow along with the same steps! Just be prepared for us to use different values and have different “mistakes” within our provided data than what you might have. 
 
 <img scr="https://user-images.githubusercontent.com/15221098/87825832-d4fefa00-c845-11ea-9251-113dbb17fa6d.png" class="responsive" alt="ORgettingstarted1" width="850">
@@ -134,7 +136,7 @@ This is one of the beauties of OpenRefine. You have now exported a filtered port
 
 #### Other Resources and References
 
-[OpenRefine Video Tutorials](https://github.com/OpenRefine/OpenRefine/wiki/Screencasts)
-[Miriam Posner’s “Get started with OpenRefine”](http://miriamposner.com/classes/dh101f17/tutorials-guides/data-manipulation/get-started-with-openrefine/)
-[Google Refine Expression Language Guide](https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language)
+- [OpenRefine Video Tutorials](https://github.com/OpenRefine/OpenRefine/wiki/Screencasts)
+- [Miriam Posner’s “Get started with OpenRefine”](http://miriamposner.com/classes/dh101f17/tutorials-guides/data-manipulation/get-started-with-openrefine/)
+- [Google Refine Expression Language Guide](https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language)
 
