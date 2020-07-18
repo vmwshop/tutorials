@@ -12,7 +12,7 @@ By the end of this tutorial, you will be able to:
   * Windows - [Notepad++](https://notepad-plus-plus.org/downloads/), [Sublime Text](https://www.sublimetext.com/3)
   * Mac - [BBedit](https://www.barebones.com/products/bbedit/download.html), [Sublime Text](https://www.sublimetext.com/3), [Atom](https://atom.io/)
 * Spreadsheet application (Microsoft Excel or Macintosh Numbers work just fine)
-* A dataset (We will be using datasets from the [Western Pennsylvania Regional Data Center](http://www.wprdc.org/))
+* A corpus (We will be using a dataset from the [Western Pennsylvania Regional Data Center](http://www.wprdc.org/) and a Wikipedia URL)
 
 ## About the Distant Reader
 
@@ -119,8 +119,8 @@ The results of the Distant Reader process is a "study carrel" -- a .zip file con
 ### Working with Your Study Carrel - Interactive Reports
 1. The links at the top of the page point to interactive HTML pages. Each page is really a table listing bi-grams, noun-verb combinations, adjective-noun combinations, questions, etc. Let’s look at how to browse, sort, and search the content of the menu items named Ngrams, POS, Grammars, and Others. You can use these reports to look for patterns or anomalies, ask themselves questions, and then enter text into any of the available text areas in order to answer (or at least address) their question: For example, enter the words "who", "what", "when", "where", "why", "how", or "how many" into the text area of the question page. The interactive HTML pages are akin to a back-of-the-book index.
 > As mentioned above, our data output regarding bike lanes does not have a lot of fodder for questions like these. Let’s continue using our [Bike Lanes Wikipedia Study Carrel](https://en.wikipedia.org/wiki/Bike_lane) for the rest of this section.
-2. Now navigate to the “Named Entities” table in the “Other” Dropdown.
-3. The named entity pages list names of people (PERSON), organizations (ORG), places (GRE), and locations (LOC). To learn who is mentioned in your study carrel, enter "PERSON" into the text area. To learn what organizations, places, or locations are mentioned in your study carrel, enter the labels "ORG", "GRE", or "LOC" into the text area. 
+2. Now navigate to the “Named Entities” table in the “Other” Dropdown. <p><img src="https://user-images.githubusercontent.com/15221098/87861091-f37df780-c910-11ea-86e6-3d311a0f97ab.png" alt="DRinterp1" class="responsive" width="400"></p>
+3. The named entity pages list names of people (PERSON), organizations (ORG), places (GRE), and locations (LOC). To learn who is mentioned in your study carrel, enter "PERSON" into the text area. To learn what organizations, places, or locations are mentioned in your study carrel, enter the labels "ORG", "GRE", or "LOC" into the text area. <p><img src="https://user-images.githubusercontent.com/15221098/87861092-f4168e00-c910-11ea-8aed-9b1146b27836.png" alt="DRinterp2" class="responsive" width="400"></p>
 4. All of the other pages linked from the top of the index.htm page operate very similarly. Explore those now. 
 5. And there you have it! You now know the basics of working with the Distant Reader.
 
