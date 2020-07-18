@@ -1,17 +1,18 @@
-# OpenRefine Tutorial
+# OpenRefine 
 
 ## Objectives
 
-By the end of this tutorial, you should be able to use Facets to clean up messy data and filter and export exactly what you need.
+By the end of this tutorial, you should be able to use Facets to clean up messy data and then filter and export a specific portion of your dataset.
 
 ## What You Need
 - Computer with an internet browser and internet connection
 - A dataset - ideally something on the larger size (i.e. tens or hundreds of thousands of data points)
-    - This can be uploaded as a file in many different formats (csv, json, wiki, xls, etc.), from a webpage, or even via copy/paste as text
+    - We have prepared **this dataset** for this workshop
+    - Your own data can be uploaded as a file in many different formats (csv, json, wiki, xls, etc.), pulled from a webpage, or even copy/pasted as text
 
 ## About OpenRefine
 
-OpenRefine (previously Google Refine) is a powerful, opensource tool for working with messy data. Clean up small to large mistakes en masse, convert data from one format to another, and add to a dataset by pulling data from an online source into your dataset. OpenRefine is an app that is downloaded to your personal computer that then uses your internet browser to interact with it. While it might look as though you are uploading your data to the internet through your browser, the data is in fact still being locally hosted on your hard drive. 
+OpenRefine (previously Google Refine) is a powerful, opensource tool for working with messy data. Key features include cleaning up small to large mistakes en masse, converting data from one format to another, and adding to a dataset by pulling data from an online source into your dataset. OpenRefine is an app that is downloaded to your personal computer that then uses your internet browser to interact with it. While it might look as though you are uploading your data to the internet through your browser, the data is in fact still being locally hosted on your hard drive. 
 
 ### What Can It Be Used For?
 - Clean up messy data
@@ -25,13 +26,13 @@ To get started, there is no account sign up! All you need to do is visit **[the 
 > _NOTE_: If using a Mac, you may get a security warning that your computer doesn’t recognize the developer and won’t let you open the application. If that is the case, then go to your System Settings > Security & Privacy > Click the lock icon in the bottom left corner of the window > Click the _“Open Anyway”_ button in the _“Allow apps downloaded from”_ section of your General
 Settings. Open it again and you should be good to go!
 
-Once you have the app downloaded and installed, simply launch the app, upload your data, and start working! As a reminder, when you launch the OpenRefine app, your default internet browser will open. This is how you interact with the application even though your data is still being hosted locally on your personal drive. So no need to worry about the security of your data! 
+Once you have the app downloaded and installed simply launch the app, upload your data, and start working! As a reminder, when you launch the OpenRefine app, your default internet browser will open. This is how you interact with the application even though your data is still being hosted locally on your personal drive. So no need to worry about the security of your data! 
 
-**1.** Click the “Choose Files” button, select your dataset, and click “Next”. For this workshop, we have pre-messed up some data for you to use HERE called Allegheny County Dog Licenses.csv. If you already have some data that you know is messy, feel free to use that and follow along with the same steps! Just be prepared for us to use different values and have different “mistakes” within our provided data than what you might have. 
+**1.** Click the “Choose Files” button, select your dataset, and click “Next”. For this workshop, we have pre-messed up some data for you to use **HERE** called _Allegheny County Dog Licenses.csv_. If you already have some data that you know is messy, feel free to use that and follow along with the same steps! Just be prepared for us to use different values and have different “mistakes” within our provided data than what you might have. 
 
 <img scr="https://user-images.githubusercontent.com/15221098/87825832-d4fefa00-c845-11ea-9251-113dbb17fa6d.png" class="responsive" alt="ORgettingstarted1" width="850">
 
-**2.** What you will see when your file is finished uploading is a preview of what your data will look like in your new project within OpenRefine. There are some other options you have here, but for this basic understanding of the tool, just click the “Create Project” button in the top right corner to continue. 
+**2.** What you will see when your file is finished uploading is a preview of what your data will look like in your new project within OpenRefine. There are some other options available at this point, but for this basic understanding of the tool, just click the “Create Project” button in the top right corner to continue. 
 
 <img scr="https://user-images.githubusercontent.com/15221098/87825880-eba55100-c845-11ea-9d96-c9e4a708226a.png" class="responsive" alt="ORgettingstarted2" width="850">
 
@@ -43,7 +44,7 @@ Once you have the app downloaded and installed, simply launch the app, upload yo
 
 Facets are the bread and butter of OpenRefine when it comes to cleaning up messy data as well as sorting and filtering it. Essentially what they are is a collection of each value in each cell of your data, grouped together with a total count for each unique datapoint. When you create a “text facet,” OpenRefine automatically separates and groups them based on text and characters. 
 
-**1.** In the Breed column of our data, click the dropdown arrow in the column header and select _Facet_ > _Text Facet_
+**1.** In the Breed column of our data, click the dropdown arrow in the column header and select "Facet" > "Text Facet"
 
 <img src="https://user-images.githubusercontent.com/15221098/87824323-0de99f80-c843-11ea-912c-e1b001de2aff.png" class="responsive" alt="ORfacets1" width="850">
 
@@ -55,7 +56,7 @@ Facets are the bread and butter of OpenRefine when it comes to cleaning up messy
 
 <img src="https://user-images.githubusercontent.com/15221098/87824474-56a15880-c843-11ea-9388-31d851c126c5.png" class="responsive" alt="ORfacets3" width="850">
 
-**4.** Take another look at your Breed facets. Scroll down until you find the “AM PIT BULL TERRIER” and “AM PIT BULL MIX” values. You will notice that they each only have one entry and right under them there are “AM PIT BULL TERRIER” AND “AM PITT BULL MIX” values with hundreds of entries each. We’ve found another typo! These are quick fixes. Simply hover over each value and click the “Edit” button that appears to the right of them. This will bring up a text box where you can manually edit the typo from “PIT BUL” to “PIT BULL”, etc. 
+**4.** Take another look at your Breed facets. Scroll down until you find the “AM PIT BUL TERRIER” and “AM PIT BULL MIX” values. You will notice that they each only have one entry and right under them there are “AM PIT BULL TERRIER” AND “AM PITT BULL MIX” values with hundreds of entries each. We’ve found another typo! These are quick fixes. Simply hover over each value and click the “Edit” button that appears to the right of them. This will bring up a text box where you can manually edit the typo from “PIT BUL” to “PIT BULL”, etc. 
 
 <img src="https://user-images.githubusercontent.com/15221098/87824514-69b42880-c843-11ea-9f3d-a5cbaebb5aa8.png" class="responsive" alt="ORfacets4" width="850">
 
@@ -70,7 +71,7 @@ Facets are the bread and butter of OpenRefine when it comes to cleaning up messy
 - Edit the “BAGLE” value to “BEAGLE”
 - Edit the “BOXTER” value to “BOXER”
 - Edit the “MATLEESE” value to “MALTESE”
-- Edit the “MIX” VALUE to “MIXED”
+- Edit the “MIX” value to “MIXED”
 
 ### Other Quick Edits
 
@@ -78,13 +79,13 @@ Facets are the bread and butter of OpenRefine when it comes to cleaning up messy
 
 A common issue with large datasets is trailing or leading spaces. Meaning there is a space either right before or right after the value in the cell. OpenRefine makes trimming these off of your data super easy! 
 
-**1.** Again in the “Breed” column of your dataset, click the dropdown arrow by the column header and hover over “Edit Cells” > “ Common Transformations” > Click “Trim leading and trailing whitespace”.
+**1.** Again in the “Breed” column of your dataset, click the dropdown arrow by the column header and hover over “Edit Cells” > “ Common Transformations” > Click “Trim leading and trailing whitespace”. You can repeat this for each column just be sure that you've cleared up any trailing spaces throughout your data.
 
 <img src="https://user-images.githubusercontent.com/15221098/87826248-8bfb7580-c846-11ea-8686-da19dc895e2d.png" class="responsive" alt="ORotheredits1" width="850">
 
 #### Split Columns with Multiple Values
 
-**1.** Look at the “ValidDate” column of our data. You will see that the values have both a date and a time. We want a separate column for “ValidTime”. In the header of the “ValidDate” column, click the dropdown arrow and hover over “Edit column” > Click “Split into several columns”. Notice how the dates and times in the “ValidDate” cells are separated by a “T”. Enter “T” in the “Separator” box in the Split column window and click “OK”. 
+**1.** Look at the “ValidDate” column of our data. You will see that the values have both a date and a time in the same cell. We want a separate column for “ValidTime”. In the header of the “ValidDate” column, click the dropdown arrow and hover over “Edit column” > Click “Split into several columns”. Notice how the dates and times in the “ValidDate” cells are separated by a “T”. Enter “T” in the “Separator” box in the Split column window and click “OK”. 
 
 <img src="https://user-images.githubusercontent.com/15221098/87826318-af262500-c846-11ea-95ad-cc79d5e5820b.png" class="responsive" alt="ORotheredits2" width="850">
 
@@ -96,7 +97,7 @@ A common issue with large datasets is trailing or leading spaces. Meaning there 
 
 Just for clarity’s sake, we want all of our pups that are designated as “MIXED” to read as “MIXED BREED”. So let’s add the word “BREED” to any occurrence of the word “MIXED” in the “Breeds” column. 
 
-**1.** Back in your “Facets” widget, scroll down to the “MIXED” value and select it. The facet will be bolded and change to orange to signify that it’s selected. 
+**1.** Back in your Facets widget, scroll down to the “MIXED” value and select it. The facet will be bolded and change to orange to signify that it’s selected. 
 
 <img src="https://user-images.githubusercontent.com/15221098/87826584-2b206d00-c847-11ea-9e86-5eb4da23adba.png" class="responsive" alt="ORotheredits4" width="850"> 
 
@@ -104,17 +105,18 @@ Just for clarity’s sake, we want all of our pups that are designated as “MIX
 
 <img src="https://user-images.githubusercontent.com/15221098/87826637-3d9aa680-c847-11ea-9d57-eca51ecff7e1.png" class="responsive" alt="ORotheredits5" width="850"> 
 
-**3.** Here you will use what OpenRefine calls “Google Refine Expression Language” to tell OpenRefine how you want to transform your cells. For this example, in the “Expression” box, use the following command to add your text to the existing values:
+**3.** Here you will use what OpenRefine calls _Google Refine Expression Language_ to tell OpenRefine how you want to transform your cells. For this example, in the “Expression” box, use the following command to add your text to the existing values:
 
 ```
 value+” BREED”
 ```
+Luckily, the Google Refine Expression Language is pretty simple and there tons of [resources available](https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language) on using it if you run into a more complicated need for it, so it's not really necessary to learn it.
 
 You will see a preview of your handy work in the table under the “Expression” box. Click “OK” when it looks the way you want it to. 
 
 <img src="https://user-images.githubusercontent.com/15221098/87826691-55722a80-c847-11ea-9aaa-9a1c9e6b0e08.png" class="responsive" alt="ORotheredits6" width="850"> 
 
-### Sorting and Filtering Data
+### Filtering Data
 
 Now that your data is all cleaned up and ready for use, you can use facets to filter out what you don’t need, sort everything by a specific value, or a combination of both! Filtering is about as easy as it gets. 
 
@@ -129,7 +131,10 @@ Now that your data is all cleaned up and ready for use, you can use facets to fi
 This is one of the beauties of OpenRefine. You have now exported a filtered portion of your dataset to maybe send off to your boss or manipulate further within a different spreadsheet program, but your OpenRefine project remains right where you left off! Now you can jump back into OpenRefine and remove your filters and export your data again however else you might need to.  
 
 
-##### Other Resources and References
 
-Miriam Posner’s [“Get started with OpenRefine”](http://miriamposner.com/classes/dh101f17/tutorials-guides/data-manipulation/get-started-with-openrefine/)
+#### Other Resources and References
+
+[OpenRefine Video Tutorials](https://github.com/OpenRefine/OpenRefine/wiki/Screencasts)
+[Miriam Posner’s “Get started with OpenRefine”](http://miriamposner.com/classes/dh101f17/tutorials-guides/data-manipulation/get-started-with-openrefine/)
+[Google Refine Expression Language Guide](https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language)
 
