@@ -69,9 +69,7 @@ If you want to submit multiple files to the Reader, pull them altogether Create 
 > * Keep your file names simple, less than 64 characters, and avoid extraneous characters.
 
 * **Zip file with companion CSV file -**
-As the size of your corpus increases, so does the need for context. This context can often be manifested as metadata (authors, titles, dates, subject, genre, formats, etc.). For example, you might want to compare and contrast who wrote what. You will probably want to observe themes over space and time. You might want to see how things differ between different types of documents. 
-
-To do this sort of analysis you will need to know metadata regarding your corpus. This is where the CSV file comes in; by including a CSV file named “metadata.csv” in the .zip file, the Distant Reader will be able to provide meaningful context.
+As the size of your corpus increases, so does the need for context. This context can often be manifested as metadata (authors, titles, dates, subject, genre, formats, etc.). For example, you might want to compare and contrast who wrote what. You will probably want to observe themes over space and time. You might want to see how things differ between different types of documents. To do this sort of analysis you will need to know metadata regarding your corpus. This is where the CSV file comes in; by including a CSV file named “metadata.csv” in the .zip file, the Distant Reader will be able to provide meaningful context.
 
 > How to create this CSV File:
 > * Assemble a set of files for analysis
@@ -81,6 +79,7 @@ assign a header to the list (column) and call it “file”
 to the best of your ability, update the list with author, title, or date values for each file
 > * Save the result as a CSV file named “metadata.csv” and put it in the folder/directory to be zipped
 > * Compress the folder/directory to create the zip file
+
 
 ## Getting Started
 1. Using your web browser, navigate to https://distantreader.org/
