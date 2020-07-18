@@ -157,7 +157,7 @@ Analysis programs cover a wide spectrum of tools and these tools fall into a num
   * Collocates: This tool shows the collocates of a search term. This allows you to investigate non-sequential patterns in language.
   * Word List: This tool counts all the words in the corpus and presents them in an ordered list. This allows you to quickly find which words are the most frequent in a corpus.
   * Keyword List: This tool shows the which words are unusually frequent (or infrequent) in the corpus in comparison with the words in a reference corpus. This allows you to identify characteristic words in the corpus, for example, as part of a genre or ESP study.
-
+  
 * [MALLET Topic Modeling Tool](http://mallet.cs.umass.edu/topics.php) - Topic Modeling Tool is a GUI/desktop topic modeler based on the venerable MALLET suite of software. Technically speaking, topic modeling is an unsupervised machine learning process used to extract latent themes from a text. Given a text and an integer, a topic modeler will count & tabulate the frequency of words and compare those frequencies with the distances between the words. The words form "clusters" when they are both frequent and near each other, and these clusters can sometimes represent themes, topics, or subjects. Topic modeling is often used to denote the "aboutness" of a text or compare themes between authors, dates, genres, demographics, other topics, or other metadata items.
 
 * [Wordle](http://www.wordle.net/) -  Visualized word frequencies, while often considered sophomoric, can be quite useful when it comes to understanding a text, especially when the frequencies are focused on things like parts-of-speech, named entities, or co-occurrences. Wordle visualizes such frequencies.
