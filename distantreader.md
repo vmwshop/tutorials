@@ -52,14 +52,35 @@ Given a URL, the Reader will cache the URL’s content, crawl the URL one level 
 
 > Caveats: 
 > * The Reader can only cache 100% freely accessible content, which means the content cannot be behind paywalls or firewalls. 
-> * Many URLs do not point to the content itself, but instead, they point to ill-structured pages describing the content (think “splash” and “landing” pages). These things are not presented in a consistent nor computer-readable fashion, so make try to avoid these metadata pages. 
-> * Many Web pages include links for navigating around the site. They also include links to things like “contact us” and “about this site”. If found, the Reader will crawl such links and include their content in the resulting corpus. This may not be a bad thing, but be aware of this in your analysis. 
-
+> * Many URLs do not point to the content itself, but instead, they point to ill-structured pages describing the content (think “splash” and “landing” pages). These things are not presented in a consistent nor computer-readable fashion, so make try to avoid these types of content-less pages. 
+> * Many Web pages include links for navigating around the site. They also include links to things like “contact us” and “about this site”. If found, the Reader will crawl such links and include their content in the resulting corpus. This may not be an undesirable thing given your research questions, but be aware of this in your analysis. 
+ 
 
 * **List of URLs -**
-* **Zip file -**
-* **Zip file with companion CSV file -**
+The Reader will take lists of URLs as a plain text file (.txt.). Like the single URL approach, the list of URLs must point to freely available content, and pointing to landing pages or splash pages is probably to be avoided. Unlike the single URL approach, the URLs in the list will not be used as starting points for Web crawling. Thus, if the list contains ten items, then ten items will be cached for analysis. 
 
+> Tip: Pulling URLs from link can be incredibly tedious. Try using a URL extraction tool to speed up the process. Eric Lease Morgan suggest the Google Chrome extension called [Link Grabber](https://chrome.google.com/webstore/detail/link-grabber/caodelkhipncidmoebgbbeemedohcdma?hl=en-US).
+
+* **Zip file -**
+If you want to submit multiple files to the Reader, pull them altogether Create a folder/directory on your computer, copy just about any file into the folder/directory (see caveats for single files above), then compress the file into a .zip file. Submit the result to the Reader. This method is helpful for circumventing URL authorization restrictions because you can put licensed content into your zip files and it will be analyzed just like any other content. Converting files into plain text in bulk can also allow pre-processing to take place (e.g., you can find/replace to clean up header and footer information)
+
+> Caveats: 
+> * The .zip files must be smaller than 64 megabytes. 
+> * Keep your file names simple, less than 64 characters, and avoid extraneous characters.
+
+* **Zip file with companion CSV file -**
+As the size of your corpus increases, so does the need for context. This context can often be manifested as metadata (authors, titles, dates, subject, genre, formats, etc.). For example, you might want to compare and contrast who wrote what. You will probably want to observe themes over space and time. You might want to see how things differ between different types of documents. 
+
+To do this sort of analysis you will need to know metadata regarding your corpus. This is where the CSV file comes in; by including a CSV file named “metadata.csv” in the .zip file, the Distant Reader will be able to provide meaningful context.
+
+> How to create this CSV File:
+> * Assemble a set of files for analysis
+> * Use your favorite spreadsheet or database application to create a list of the file names
+assign a header to the list (column) and call it “file”
+> * Create one or more columns whose headers are “author” and/or “title” and/or “date”
+to the best of your ability, update the list with author, title, or date values for each file
+> * Save the result as a CSV file named “metadata.csv” and put it in the folder/directory to be zipped
+> * Compress the folder/directory to create the zip file
 
 ## Getting Started
 1. Using your web browser, navigate to https://distantreader.org/
