@@ -8,7 +8,7 @@ By the end of this tutorial, you should be able to use Facets to clean up messy 
 - Computer with an internet browser and internet connection
 - A dataset - ideally something on the larger size (i.e. tens or hundreds of thousands of data points)
     - We have prepared **[this dataset](https://raw.githubusercontent.com/janethaler/dsamtools/master/Allegheny%20County%20Dog%20Licenses.csv)** for this tutorial
-        - Click the "this dataset" link above
+        - Right click the "this dataset" link above and select "Open in New Tab" 
         - On the webpage that opens, right click and select "Save As"
         - Save the .csv file somewhere you can easily access it again when it's time to upload it
     - Your own data can be uploaded as a file in many different formats (csv, json, wiki, xls, etc.), pulled from a webpage, or even copy/pasted as text
@@ -33,7 +33,7 @@ Once you have the app downloaded and installed simply launch the app, upload you
 
 ## Cleaning Up Your Data
 
-**1.** Click the “Choose Files” button, select your dataset, and click “Next”. For this workshop, we have pre-messed up some data for you to use **HERE** called _Allegheny County Dog Licenses.csv_. If you already have some data that you know is messy, feel free to use that and follow along with the same steps! Just be prepared for us to use different values and have different “mistakes” within our provided data than what you might have. 
+**1.** Click the “Choose Files” button, select your dataset, and click “Next”. For this workshop, we have pre-messed up some data for you to use **[HERE](https://github.com/janethaler/dsamtools/blob/master/openrefine.md#what-you-need)** called _Allegheny County Dog Licenses.csv_. If you already have some data that you know is messy, feel free to use that and follow along with the same steps! Just be prepared for us to use different values and have different “mistakes” within our provided data than what you might have. 
 
 <img src="https://user-images.githubusercontent.com/15221098/87857135-50b68080-c8f2-11ea-8f74-80d2897f285d.png" class="responsive" alt="ORgetstarted1" width="850">
 
@@ -49,7 +49,7 @@ Once you have the app downloaded and installed simply launch the app, upload you
 
 Facets are the bread and butter of OpenRefine when it comes to cleaning up messy data as well as sorting and filtering it. Essentially what they are is a collection of each value in each cell of your data, grouped together with a total count for each unique datapoint. When you create a “text facet,” OpenRefine automatically separates and groups them based on text and characters. 
 
-**1.** In the Breed column of our data, click the dropdown arrow in the column header and select "Facet" > "Text Facet"
+**1.** In the Breed column of our data, click the dropdown arrow in the column header and select "Facet" > "Text facet"
 
 <img src="https://user-images.githubusercontent.com/15221098/87824323-0de99f80-c843-11ea-912c-e1b001de2aff.png" class="responsive" alt="ORfacets1" width="850">
 
@@ -84,7 +84,7 @@ Facets are the bread and butter of OpenRefine when it comes to cleaning up messy
 
 A common issue with large datasets is trailing or leading spaces. Meaning there is a space either right before or right after the value in the cell. OpenRefine makes trimming these off of your data super easy! 
 
-**1.** Again in the “Breed” column of your dataset, click the dropdown arrow by the column header and hover over “Edit Cells” > “ Common Transformations” > Click “Trim leading and trailing whitespace”. You can repeat this for each column just be sure that you've cleared up any trailing spaces throughout your data.
+**1.** Again in the “Breed” column of your dataset, click the dropdown arrow by the column header and hover over “Edit Cells” > “ Common Transformations” > Click “Trim leading and trailing whitespace”. You can repeat this for each column just to be sure that you've cleared up any trailing spaces throughout your data.
 
 <img src="https://user-images.githubusercontent.com/15221098/87826248-8bfb7580-c846-11ea-8686-da19dc895e2d.png" class="responsive" alt="ORotheredits1" width="850">
 
@@ -110,7 +110,7 @@ Just for clarity’s sake, we want all of our pups that are designated as “MIX
 
 <img src="https://user-images.githubusercontent.com/15221098/87826637-3d9aa680-c847-11ea-9d57-eca51ecff7e1.png" class="responsive" alt="ORotheredits5" width="850"> 
 
-**3.** Here you will use what OpenRefine calls _Google Refine Expression Language_ to tell OpenRefine how you want to transform your cells. For this example, in the “Expression” box, use the following command to add your text to the existing values:
+**3.** Here you will use what OpenRefine calls _General Refine Expression Language or GREL_ to tell OpenRefine how you want to transform your cells. For this example, in the “Expression” box, use the following command to add your text to the existing values:
 
 ```
 value+” BREED”
@@ -141,5 +141,5 @@ This is one of the beauties of OpenRefine. You have now exported a filtered port
 
 - [OpenRefine Video Tutorials](https://github.com/OpenRefine/OpenRefine/wiki/Screencasts)
 - [Miriam Posner’s “Get started with OpenRefine”](http://miriamposner.com/classes/dh101f17/tutorials-guides/data-manipulation/get-started-with-openrefine/)
-- [Google Refine Expression Language Guide](https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language)
+- [General Refine Expression Language Guide](https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language)
 - [OpenRefine on Github](https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Users) 
