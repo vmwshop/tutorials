@@ -48,7 +48,7 @@ Designed to “read” everything from a single item to a large corpus, the Dist
 3. Fill in your account information, confirm your account, and log in.
 4. You should now see your Distant Reader Portal Dashboard where you can submit yout input and download the results (referred to as “study carrels”). <p><img src="https://user-images.githubusercontent.com/15221098/87683736-6d668300-c74f-11ea-8e69-6e84d81cd7e7.png" alt="DRHome" class="responsive" width="600"></p>
 
-## Submitting Content (Experiments) to the Distant Reader
+## Submitting Content ("Experiments") to the Distant Reader
 
 ### Types of Input
 The Distant Reader can currently accept these five types of input:
@@ -97,3 +97,16 @@ to the best of your ability, update the list with author, title, or date values 
  * Read the standard output report, which is a simple summary of what the Reader found; look at this report first. 
  * Download the study carrel.
 <p><img src="https://user-images.githubusercontent.com/15221098/87858426-c4a95680-c8fb-11ea-9215-fd9955e6117f.png" alt="DRInput3" class="responsive" width="400"><img src="https://user-images.githubusercontent.com/15221098/87858427-c4a95680-c8fb-11ea-8ca2-190d24d1822c.png" alt="DRInput4" class="responsive" width="400"></p>
+## Working with the Distant Reader Results ("Study Carrels")
+### Study Carrels
+The results of the Distant Reader process is a "study carrel" -- a .zip file containing a set of structured data that includes your original content, various transformations of it, and various sets of analysis. The following sections detail how to download your study carrel and some basic ways of interacting with the results.
+
+### Downloading Your Study Carrel
+1. Download the results of your experiment found under “ZipFile” in your experiment summary. <p><img src="https://user-images.githubusercontent.com/15221098/87859042-587d2180-c900-11ea-93c2-43d664fbb0e7.png" alt="DRstudycarrel1" class="responsive" width="400"></p>
+2. Find your locally downloaded .zip file. The zipped filed should have downloaded with “study-carrel” somewhere in the file name.
+3. Unzip the file by double-clicking it. 
+4. The resulting unzipped file will have a long, seemingly unrelated string of characters as the filename. Rename the file to something simpler and more relevant to you. Consider moving the file to your desktop while you work with it. 
+
+### Working with Your Study Carrel through the Narrative Interface
+1. Open the .zip file and navigate to the HTML text file called “index.htm.” This file will open in your web browser. <p><img src="https://user-images.githubusercontent.com/15221098/87859041-57e48b00-c900-11ea-9b50-ad8abbdddb26.png" alt="DRnarrative1" class="responsive" width="400"></p>
+
