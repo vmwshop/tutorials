@@ -162,5 +162,10 @@ Analysis programs cover a wide spectrum of tools and these tools fall into a num
 
 * [Wordle](http://www.wordle.net/) -  Visualized word frequencies, while often considered sophomoric, can be quite useful when it comes to understanding a text, especially when the frequencies are focused on things like parts-of-speech, named entities, or co-occurrences. Wordle visualizes such frequencies.
 
+## Distant Reader Resources
+* [Distant Reader Home](https://distantreader.org/)
+* [Distant Reader Workshop by Eric Lease Morgan on GitHub](https://github.com/ericleasemorgan/reader-workshop)
+* [Distant Reader Blog by Eric Lease Morgan](http://sites.nd.edu/emorgan/category/distant-reader/)
+
 
 
