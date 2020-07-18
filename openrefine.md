@@ -34,6 +34,9 @@ Once you have the app downloaded and installed simply launch the app, upload you
 
 <img scr="https://user-images.githubusercontent.com/15221098/87857135-50b68080-c8f2-11ea-8f74-80d2897f285d.png" class="responsive" alt="ORgettingstarted1" width="850">
 
+<img src="https://user-images.githubusercontent.com/15221098/87857135-50b68080-c8f2-11ea-8f74-80d2897f285d.png" class="responsive" alt="ORgetstarted1" width="850">
+
+
 **2.** What you will see when your file is finished uploading is a preview of what your data will look like in your new project within OpenRefine. There are some other options available at this point, but for this basic understanding of the tool, just click the “Create Project” button in the top right corner to continue. 
 
 <img scr="https://user-images.githubusercontent.com/15221098/87857139-5ad87f00-c8f2-11ea-8aa9-683c15222099.png" class="responsive" alt="ORgettingstarted2" width="850">
