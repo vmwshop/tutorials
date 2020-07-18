@@ -37,9 +37,29 @@ Designed to “read” everything from a single item to a large corpus, the Dist
 * What actions take place in the corpus (verbs)?
 * How are those things and actions described (adjectives and adverbs)?
 * What is the tone or “sentiment” of the corpus?
-* How are the things represented by nouns, verbs, and adjective related?
+* How are the things represented by nouns, verbs, and adjectives related?
 * Who is mentioned in the corpus, how frequently, and where?
 * What places are mentioned in the corpus, how frequently, and where?
+
+### Types of Input
+The Distant Reader can currently accept these five types of input:
+
+* **Single file -**
+A single file can be just about any file available to you, but it needs to contain textual data. Word documents, spreadsheets, HTML, and plain text will work. Image files like PNG and JPEG will not. PDFs will also work so long as they were created digitally with text content or [converted into text using OCR](https://acrobat.adobe.com/us/en/acrobat/how-to/ocr-software-convert-pdf-to-text.html#:~:text=Easily%20edit%20your%20scanned%20PDF,editable%2C%20searchable%20PDF%20files%20instantly.).
+
+* **Single URL -**
+Given a URL, the Reader will cache the URL’s content, crawl the URL one level deep, cache the result, and stop caching to create a corpus. This works well with URLs pointing to things like Wikipedia articles, open access journal articles, the home page of some sort of institution or organization, and blogs.
+
+> Caveats: 
+> * The Reader can only cache 100% freely accessible content, which means the content cannot be behind paywalls or firewalls. 
+> * Many URLs do not point to the content itself, but instead, they point to ill-structured pages describing the content (think “splash” and “landing” pages). These things are not presented in a consistent nor computer-readable fashion, so make try to avoid these metadata pages. 
+> * Many Web pages include links for navigating around the site. They also include links to things like “contact us” and “about this site”. If found, the Reader will crawl such links and include their content in the resulting corpus. This may not be a bad thing, but be aware of this in your analysis. 
+
+
+* **List of URLs -**
+* **Zip file -**
+* **Zip file with companion CSV file -**
+
 
 ## Getting Started
 1. Using your web browser, navigate to https://distantreader.org/
