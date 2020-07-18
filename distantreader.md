@@ -85,7 +85,7 @@ to the best of your ability, update the list with author, title, or date values 
 1. Using your web browser, navigate to https://distantreader.org/
 2. Select “Create Account” on the top right <p><img src="https://user-images.githubusercontent.com/15221098/87683727-6b9cbf80-c74f-11ea-8f9f-684248ce3927.png" alt="DRCreateAccount1" class="responsive" width="600"></p>
 3. Fill in your account information, confirm your account, and log in.
-4. You should now see your Distant Reader Portal Dashboard where you can submit yout input and download the results (referred to as “study carrels”). <img src="https://user-images.githubusercontent.com/15221098/87683736-6d668300-c74f-11ea-8e69-6e84d81cd7e7.png" alt="DRHome" class="responsive" width="600">
+4. You should now see your Distant Reader Portal Dashboard where you can submit yout input and download the results (referred to as “study carrels”). <p><img src="https://user-images.githubusercontent.com/15221098/87683736-6d668300-c74f-11ea-8e69-6e84d81cd7e7.png" alt="DRHome" class="responsive" width="600"></p>
 
 ## Submitting Content to the Distant Reader
 1. Articulate a research question
