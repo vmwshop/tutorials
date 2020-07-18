@@ -41,6 +41,15 @@ Designed to “read” everything from a single item to a large corpus, the Dist
 * Who is mentioned in the corpus, how frequently, and where?
 * What places are mentioned in the corpus, how frequently, and where?
 
+
+## Getting Started
+1. Using your web browser, navigate to https://distantreader.org/
+2. Select “Create Account” on the top right <p><img src="https://user-images.githubusercontent.com/15221098/87683727-6b9cbf80-c74f-11ea-8f9f-684248ce3927.png" alt="DRCreateAccount1" class="responsive" width="600"></p>
+3. Fill in your account information, confirm your account, and log in.
+4. You should now see your Distant Reader Portal Dashboard where you can submit yout input and download the results (referred to as “study carrels”). <p><img src="https://user-images.githubusercontent.com/15221098/87683736-6d668300-c74f-11ea-8e69-6e84d81cd7e7.png" alt="DRHome" class="responsive" width="600"></p>
+
+## Submitting Content (Experiments) to the Distant Reader
+
 ### Types of Input
 The Distant Reader can currently accept these five types of input:
 
@@ -54,7 +63,6 @@ Given a URL, the Reader will cache the URL’s content, crawl the URL one level 
 > * The Reader can only cache 100% freely accessible content, which means the content cannot be behind paywalls or firewalls. 
 > * Many URLs do not point to the content itself, but instead, they point to ill-structured pages describing the content (think “splash” and “landing” pages). These things are not presented in a consistent nor computer-readable fashion, so make try to avoid these types of content-less pages. 
 > * Many Web pages include links for navigating around the site. They also include links to things like “contact us” and “about this site”. If found, the Reader will crawl such links and include their content in the resulting corpus. This may not be an undesirable thing given your research questions, but be aware of this in your analysis. 
- 
 
 * **List of URLs -**
 The Reader will take lists of URLs as a plain text file (.txt.). Like the single URL approach, the list of URLs must point to freely available content, and pointing to landing pages or splash pages is probably to be avoided. Unlike the single URL approach, the URLs in the list will not be used as starting points for Web crawling. Thus, if the list contains ten items, then ten items will be cached for analysis. 
@@ -80,14 +88,8 @@ to the best of your ability, update the list with author, title, or date values 
 > * Save the result as a CSV file named “metadata.csv” and put it in the folder/directory to be zipped
 > * Compress the folder/directory to create the zip file
 
-
-## Getting Started
-1. Using your web browser, navigate to https://distantreader.org/
-2. Select “Create Account” on the top right <p><img src="https://user-images.githubusercontent.com/15221098/87683727-6b9cbf80-c74f-11ea-8f9f-684248ce3927.png" alt="DRCreateAccount1" class="responsive" width="600"></p>
-3. Fill in your account information, confirm your account, and log in.
-4. You should now see your Distant Reader Portal Dashboard where you can submit yout input and download the results (referred to as “study carrels”). <p><img src="https://user-images.githubusercontent.com/15221098/87683736-6d668300-c74f-11ea-8e69-6e84d81cd7e7.png" alt="DRHome" class="responsive" width="600"></p>
-
-## Submitting Content to the Distant Reader
-1. Articulate a research question
-2. Identify which [type of input](https://github.com/janethaler/dsamtools/blob/master/distantreader.md#types-of-input) 
-
+### Creating a New "Experiment"
+1. Determine your type of input and select the corresponding experiment application in your Distant Reader dashboard. For this tutorial, let’s try using a single .csv file. The file used here is the [Bike PGH Bicycle Pavement Markings June 2016](https://data.wprdc.org/dataset/on-road-bicycle-pavement-markings/resource/90fb26be-e754-4f45-b695-d17f0645dd2b) downloaded from the WPRDC site.
+2. Enter the name of your experiment, add your input (you can ignore pretty much everything else on the page), then submit your experiment by selecting “Save and Launch.”
+3. Your experiment is now sent to the queue. If there are fewer than ten jobs currently running, the submitted job will be run immediately. It takes almost two minutes for the Reader to instantiate a new virtual machine, and then, depending on the number and sizes of items to read, processing can take as short as four minutes or as long as twelve hours. Generally, this process takes less than ten minutes. It is not necessary to keep your Web browser open to the Reader's interface; the Distant Reader will do its work and wait for you to return. 
+4. When the Reader has finished, your dashboard will have been updated and you can navigate to the “Experiment Summary” page. From here you can: * Read the standard error report; send this to the author if something goes amiss. * Read the standard output report, which is a simple summary of what the Reader found; look at this report first. * Download the study carrel.
