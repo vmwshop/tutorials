@@ -1,4 +1,4 @@
-# OpenRefine 
+# Cleaning Data with OpenRefine 
 
 ## Objectives
 
