@@ -1,0 +1,39 @@
+# Natural Language Processing with spaCy
+
+## Objectives
+
+By the end of this tutorial, you will be able to:
+
+* Understand what spaCy is (and what it isn’t)
+* Submit content to the Distant Reader and download results
+* Compare some methods for interpreting your downloaded results
+
+## What You Need
+* Computer with a web browser and internet connection
+* Experience working from the command line
+* Experience with Python is not necessary for this tutorial, but basic working knowledge is recommended
+
+
+## About spaCy
+
+spaCy is a free, open-source library for advanced Natural Language Processing (NLP) in Python. If you’re working with a lot of text, you’ll eventually want to know more about it. For example, what’s it about? What do the words mean in context? Who is doing what to whom? What companies and products are mentioned? Which texts are similar to each other?
+
+spaCy is designed specifically for production use and helps you build applications that process and “understand” large volumes of text. It can be used to build information extraction or natural language understanding systems, or to pre-process text for deep learning.
+
+spaCy is not a platform or an API. Unlike a platform, spaCy does not provide a software as a service, or a web application. It’s an open-source library designed to help you build NLP applications, not a consumable service. Unlike [NLTK](https://github.com/nltk/nltk) or [Core NLP](https://stanfordnlp.github.io/CoreNLP/) which were designed for teaching and research, spaCy is not research software. This means that spaCy is integrated and opinionated. spaCy avoids asking the user to choose between multiple algorithms that deliver equivalent functionality. Instead, the menu is small and 
+
+_Much of the following is adapted from the spaCy Usage documentation. See the references section of this tutorial for links to this and other resources._ 
+
+### spaCy Features
+
+Name | Description
+------------ | -------------
+Tokenization | Segmenting text into words, punctuations marks etc
+Part-of-speech (POS) Tagging | Assigning word types to tokens, like verb or noun
+Dependency Parsing | Assigning syntactic dependency labels, describing the relations between individual tokens, like subject or object
+Lemmatization | Assigning the base forms of words. For example, the lemma of “was” is “be”, and the lemma of “rats” is “rat”
+
+### Feature Comparison
+Natural Language Understanding is an active area of research and development, so there are many different tools or technologies catering to different use-cases. The table below summarizes a few libraries (spaCy, NLTK, AllenNLP, StanfordNLP and TensorFlow) to help you get a feel for things fit together.
+
+[[table 2]]
