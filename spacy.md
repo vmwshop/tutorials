@@ -32,8 +32,23 @@ Tokenization | Segmenting text into words, punctuations marks etc
 Part-of-speech (POS) Tagging | Assigning word types to tokens, like verb or noun
 Dependency Parsing | Assigning syntactic dependency labels, describing the relations between individual tokens, like subject or object
 Lemmatization | Assigning the base forms of words. For example, the lemma of “was” is “be”, and the lemma of “rats” is “rat”
+Sentence Boundary Detection (SBD) | Finding and segmenting individual sentences
+Named Entity Recognition (NER) | Labelling named “real-world” objects, like persons, companies or locations
+Entity Linking (EL) | Disambiguating textual entities to unique identifiers in a Knowledge Base
+Similarity | Comparing words, text spans and documents and how similar they are to each other
+Text Classification | Assigning categories or labels to a whole document, or parts of a document
+Rule-based Matching | Finding sequences of tokens based on their texts and linguistic annotations, similar to regular expressions
+Training | Updating and improving a statistical model’s predictions
+Serialization | Saving objects to files or byte strings
 
 ### Feature Comparison
-Natural Language Understanding is an active area of research and development, so there are many different tools or technologies catering to different use-cases. The table below summarizes a few libraries (spaCy, NLTK, AllenNLP, StanfordNLP and TensorFlow) to help you get a feel for things fit together.
+Natural Language Understanding is an active area of research and development, so there are many different tools or technologies catering to different use-cases. The table below summarizes a few libraries (spaCy, NLTK, AllenNLP, StanfordNLP and TensorFlow) to help you get a feel what is good for what.
 
-[[table 2]]
+ | SPACY | NLTK | ALLEN-NLP | STANFORD-NLP | TENSOR-FLOW
+ ------------ | ------------- | ------------- | ------------- | ------------- | -------------
+ I’m a beginner and just getting started with NLP | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x:
+ I want to build an end-to-end production application | :white_check_mark: | :x: | :x: | :x: | :white_check_mark:
+ I want to try out different neural network architectures for NLP | :x: | :x: | :white_check_mark: | :x: | :white_check_mark:
+ I want to try the latest models with state-of-the-art accuracy | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+ I want to train models from my own data | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+ I want my application to be efficient on CPU | :white_check_mark: | :white_check_mark: | :x: | :x: | :x:
