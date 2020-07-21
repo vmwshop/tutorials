@@ -61,7 +61,7 @@ spaCy is compatible with 64-bit CPython 2.7 / 3.5+ and runs on Unix/Linux, macOS
 
 For more detailed information and varied options see the [spaCY Installation Guide](https://spacy.io/usage#installation)
 
-### Install Using pip (English Model -- [Other Language Models Available Here](https://spacy.io/usage/models))
+### Install Using pip (English Model -- _Other Language Models Available [Here](https://spacy.io/usage/models)_)
 1. Navigate to the terminal
 > * To open the terminal in Linux, press Ctrl+Alt+T in Ubuntu, or press Alt+F2, type in gnome-terminal, and press enter. In Raspberry Pi, type in lxterminal
 > * To open the terminal in MacOS, either open your Applications folder, then open Utilities and double-click on Terminal, or press Command - spacebar to launch Spotlight and type "Terminal," then double-click the search result
