@@ -1,4 +1,4 @@
-# Using the Distant Reader
+# Distant Reading with the Distant Reader
 
 ## Objectives
 By the end of this tutorial, you will be able to:
