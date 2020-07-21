@@ -44,7 +44,7 @@ Serialization | Saving objects to files or byte strings
 ### Feature Comparison
 Natural Language Understanding is an active area of research and development, so there are many different tools or technologies catering to different use-cases. The table below summarizes a few libraries (spaCy, NLTK, AllenNLP, StanfordNLP and TensorFlow) to help you get a feel what is good for what.
 
- Use | spaCy | NLTK | ALLEN-NLP | STANFORD-NLP | TENSOR-FLOW
+ Use | spaCy | NLTK | AllenNLP | StanfordNLP | TensorFlow
  ------------ | ------------- | ------------- | ------------- | ------------- | -------------
  I’m a beginner and just getting started with NLP | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x:
  I want to build an end-to-end production application | :white_check_mark: | :x: | :x: | :x: | :white_check_mark:
