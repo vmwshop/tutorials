@@ -5,8 +5,7 @@
 By the end of this tutorial, you will be able to:
 
 * Understand what spaCy is (and what it isn’t)
-* Submit content to the Distant Reader and download results
-* Compare some methods for interpreting your downloaded results
+* ADD STUFF HERE
 
 ## What You Need
 * Computer with a web browser and internet connection
@@ -81,8 +80,9 @@ $ python -m venv .env
 $ .env\Scripts\activate
 $ pip install -U spacy
 ```
-3. Download core English model by running the following commands
-> spaCy core models are general-purpose pretrained models to predict named entities, part-of-speech tags and syntactic dependencies, which can be used out-of-the-box and fine-tuned on more specific data. 
+3. Download core statistical model by running the following command
+> While some of spaCy’s features work independently, others require statistical models to be loaded, which enable spaCy to predict linguistic annotations.spaCy core models are general-purpose pretrained models to predict named entities, part-of-speech tags and syntactic dependencies, which can be used out-of-the-box and fine-tuned on more specific data.
+
 > As our input will be in English, this is the download for the core English model-- _other models available [here](https://spacy.io/usage/models)_
 
 MacOS/Linux
