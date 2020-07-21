@@ -61,12 +61,12 @@ spaCy is compatible with 64-bit CPython 2.7 / 3.5+ and runs on Unix/Linux, macOS
 
 For more detailed information and varied options see the [spaCY Installation Guide](https://spacy.io/usage#installation)
 
-### Install Using pip (English Model -- _Other Language Models Available [Here](https://spacy.io/usage/models)_)
+### Install Using pip (English Model)
 1. Navigate to the terminal
 > * To open the terminal in Linux, press Ctrl+Alt+T in Ubuntu, or press Alt+F2, type in gnome-terminal, and press enter. In Raspberry Pi, type in lxterminal
 > * To open the terminal in MacOS, either open your Applications folder, then open Utilities and double-click on Terminal, or press Command - spacebar to launch Spotlight and type "Terminal," then double-click the search result
 > * To open the command prompt in Windows, press Windows+R to open “Run” box, then type “cmd” and then click “OK” to open a regular Command Prompt. Type “cmd” and then press Ctrl+Shift+Enter to open an administrator Command Prompt
-2. Install in a virtual environment with the following commands
+2. Install in a virtual environment by running the following commands
 > When using pip it is generally recommended to install packages in a virtual environment to avoid modifying system state
 
 MacOS/Linux
@@ -74,12 +74,22 @@ MacOS/Linux
 $ python -m venv .env
 $ source .env/bin/activate
 $ pip install -U spacy
-$ python -m spacy download en_core_web_sm
 ```
 Windows
 ```
 $ python -m venv .env
 $ .env\Scripts\activate
 $ pip install -U spacy
+```
+3. Download core English model by running the following commands
+> spaCy core models are general-purpose pretrained models to predict named entities, part-of-speech tags and syntactic dependencies, which can be used out-of-the-box and fine-tuned on more specific data. 
+> As our input will be in English, this is the download for the core English model-- _other models available [Here](https://spacy.io/usage/models)_
+
+MacOS/Linux
+```
+$ python -m spacy download en_core_web_sm
+```
+Windows
+```
 $ python -m spacy download en_core_web_sm
 ```
