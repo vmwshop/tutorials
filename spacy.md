@@ -42,7 +42,7 @@ Training | Updating and improving a statistical model’s predictions
 Serialization | Saving objects to files or byte strings
 
 ### Feature Comparison
-Natural Language Understanding is an active area of research and development, so there are many different tools or technologies catering to different use-cases. The table below summarizes a few libraries (spaCy, NLTK, AllenNLP, StanfordNLP and TensorFlow) to help you get a feel what is good for what.
+Natural Language Understanding is an active area of research and development, so there are many different tools or technologies catering to different use-cases. The table below summarizes a few libraries to help you get a feel of which to use for what.
 
  Use | spaCy | NLTK | AllenNLP | StanfordNLP | TensorFlow
  ------------ | ------------- | ------------- | ------------- | ------------- | -------------
