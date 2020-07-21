@@ -16,3 +16,6 @@ OpenRefine (previously Google Refine) is a powerful, opensource tool for working
 By the end of this tutorial, you will be able to:
 * Use Facets to clean up messy data
 * Filter and export a specific portion of your dataset
+
+### [spaCy](spacy.md)
+spaCy is a free, open-source library for advanced Natural Language Processing (NLP) in Python. It's designed specifically for production use and helps you build applications that process large volumes of text. spaCy comes with pretrained statistical models and word vectors, and currently supports tokenization for 60+ languages. It features state-of-the-art speed, convolutional neural network models for tagging, parsing and named entity recognition and easy deep learning integration.
