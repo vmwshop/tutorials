@@ -83,7 +83,7 @@ $ pip install -U spacy
 ```
 3. Download core English model by running the following commands
 > spaCy core models are general-purpose pretrained models to predict named entities, part-of-speech tags and syntactic dependencies, which can be used out-of-the-box and fine-tuned on more specific data. 
-> As our input will be in English, this is the download for the core English model-- _other models available [Here](https://spacy.io/usage/models)_
+> As our input will be in English, this is the download for the core English model-- _other models available [here](https://spacy.io/usage/models)_
 
 MacOS/Linux
 ```
