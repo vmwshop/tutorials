@@ -9,7 +9,7 @@ By the end of this tutorial, you will be able to:
 ## What You Need
 - Computer with an internet browser and internet connection
 - A dataset - ideally something on the larger size (i.e. tens or hundreds of thousands of data points)
-    - We have prepared **[this dataset](https://raw.githubusercontent.com/janethaler/dsamtools/master/Allegheny%20County%20Dog%20Licenses.csv)** for this tutorial
+    - We have prepared **[this dataset](https://raw.githubusercontent.com/janethaler/dsamtools/master/Allegheny%20County%20Dog%20Licenses.csv)** for this tutorial. 
         - Right click the "this dataset" link above and select "Open in New Tab" 
         - On the webpage that opens, right click and select "Save As"
         - Save the .csv file somewhere you can easily access it again when it's time to upload it
