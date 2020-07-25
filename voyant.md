@@ -97,9 +97,103 @@ The most obvious change is in the “Trends” block of your corpus. Using the S
 
 ### Trends
 
+The Trends tool shows you a line graph of the frequency of a selected word in your corpus. 
+
+[[SCREENSHOT]]
+> (This is the default view from the beginning of this tutorial. Yours will look a little different right now if you’ve been following along.)
+
+Since we selected “westley” from our Summary tool, you should just see one line on your Trends graph. If you’re familiar with the movie (spoiler ahead if you haven’t seen it), “The Princess Bride,” you will know that the character, Westley is actually The Man In Black at the beginning of the movie. With our Trends tool, we can visually show when that change occurs by using the search syntax to add a line for The Man In Black.
+
+1. Click within the search bar at the bottom of the Trends block and select the term “westley” from the list that appears. Even though we have the term selected from our Summary tool already, we need to select it again here to make sure we get the results we’re looking for.
+
+[[SCREENSHOT]]
+
+2. In the search bar at the bottom of the Trends block, hover your mouse over the “?” symbol to reveal a cheat sheet of search syntaxes. 
+
+[[SCREENSHOT]]
+> This little pop up only lasts for a few seconds. Click the “?” symbol to open a static lightbox version of the cheat sheet.
+
+3. Based on this cheat sheet, if we want Voyant to search for “man in black” as a single term, all we need to do is surround those three words in quotation marks when we type them into the search bar. Do that and press your Enter key.
+
+[[SCREENSHOT]]
+> After you press the Enter key, you might see a random word pop into your search bar. Just click the little “x” next to that word to remove it. 
+
+Now our line graph shows lines for each term and we can visually see the point in the story when The Man In Black is revealed to actually be Westley! (What a twist!)
+
+4. In the bottom right corner of the Trends block, click on the “Display” dropdown. Here you can change the appearance of the graph. To really illustrate our point here, click the “Area” option from the list to change it to an area graph of solid colors. 
+
+[[SCREENSHOT]]  
+
+### Reader
+The Reader tool displays the text from your corpus with some useful features for quickly finding information on a word while showing it in the context of the rest of the text. 
+
+[[SCREENSHOT]]
+
+1. Hover over a few words. This displays the total count of that word.
+
+[[SCREENSHOT]]
+
+2. The search bar also functions in the same way as the search bar in the Trends tool. However, in Reader, it highlights the searched word or term and displays a small, simple line graph to illustrate that word or term’s frequency throughout the text. Click within the search bar and select the word “humperdinck”. You will notice the line graph shift. You can also click on the line graph itself to jump to a part of the text that has a higher frequency of your searched word or term. 
+
+[[SCREENSHOT]]
+
+### Contexts
+
+The Contexts tool is a great way to get a snapshot of exactly what it’s called, the context of a word in your text. It shows a list of each occurrence of the selected word and a few words that appear on either side of that occurrence. 
+
+[[SCREENSHOT]]
+
+1.  By default, Voyant selects the word with the highest frequency from your corpus in the Contexts block. For this example, let’s pick something else. Selecting a new word for the Contexts tool can be done a couple of ways: 
+
+Click the word in the Reader block
+Click a data point from the line graph in the Trends block
+Using the search bar at the bottom of the Contexts block
+
+However you want to get there, select the word “fezzik”.
+
+[[SCREENSHOT]] 
+
+2. Take a look down the list of the occurrences of “fezzick”. Each line of the table shows each individual occurrence of the word with one column showing the text on the left side of the word and another column showing the text that appears to the right of the word. Click the first line of the table and notice how the blocks for the Reader and Trends tools both change to help elaborate on the context of that occurrence of the word. 
+
+[[SCREENSHOT]]
+
+3. To add additional terms to your Contexts tool, use the search bar by either clicking and selecting a word or by typing in a word or phrase using Voyant’s search syntax. You can find a cheat sheet for the syntax again by clicking the little “?” symbol on the right end of the search bar. For this example, add “inigo” since he and Fezzik are together for most of the movie. 
+
+[[SCREENSHOT]]
+
+Adding multiple terms to your Contexts tool allows you to get a bird’s eye view of any consistencies in the contexts of different terms!
+
+## Exporting and Embedding your Corpus
+
+One of the beauties of Voyant is the ability to not only export your corpus but also embed it into an online collection, article, or webpage. This adds new depth to your data or research and allows readers to interact with it. 
+
+1. Hover your mouse over the blue header at the top of your browser window to expose four icons. Click on the icon that is a rounded rectangle with an arrow sticking diagonally out of it.
+
+[[SCREENSHOT]]
+
+2. You are provided with a few different options here. The default is a URL that, when clicked, will populate your corpus in the exact condition that is at the time of click the “Export” button. If you select this option, Voyant will open that URL in a new tab and you can copy it from there. To find additional options, click the “Export View (Tools and Data)” dropdown to expose the following options:
+
+[[SCREENSHOT]]
 
 
+## Other Tips and Tricks
 
-### Other Resources and References
+### Resize Your Tool Blocks
+
+If you need to expand or contract the blocks of any of the tools displayed in your corpus, just hover your mouse over the border of the block until you see the resize icon then click and drag it to your desired size. 
+
+[[SCREENSHOT]]
+
+### Changing Your Blocks to Other Tools
+
+We only showed you 5 of the tools available for your corpus. To change one of your blocks, hover over the gray header area of the block you want to change and click the icon with four small rectangles.
+
+[[SCREENSHOT]]
+
+Check out Voyant’s help database (linked below) to explore all of their available tools! 
+
+
+## Other Resources and References
  
-[Voyant Help Database](https://voyant-tools.org/docs/#!/guide/about)
+**[Voyant Help Database](https://voyant-tools.org/docs/#!/guide/about)**
+
