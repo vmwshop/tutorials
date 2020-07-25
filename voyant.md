@@ -56,7 +56,7 @@ The tools you will see in the default skin include the following:
 
 The top left panel of your corpus shows you a cirrus. This is essentially just a word cloud that sizes a set number of terms from your data based on the frequency in which they appear, displaying the most frequently used words largest. 
 
-<img src="https://user-images.githubusercontent.com/15221098/88464334-c0df7c00-ce87-11ea-8e41-7b512d694617.png" class="responsive" alt="voyantcirrus1" width="850">
+<img src="https://user-images.githubusercontent.com/15221098/88464334-c0df7c00-ce87-11ea-8e41-7b512d694617.png" class="responsive" alt="voyantcirrus1">
 
 At first glance, you will notice some odd words appearing larger than you might expect from the script of the movie (if you are familiar with it already). For example, the word, “cut” appears larger than any other word in the cirrus. This seems odd given it most likely is not a word used that often in the actual dialog of the film. Upon another quick look at the original link to the script, you will notice that every camera cut is labeled in the script. For our purposes, we don’t need that word associated with our analysis, so let’s remove it. 
 
@@ -80,17 +80,17 @@ This will reveal the different options for filtering out what Voyant considers f
 
 Let’s move down to the Summary tool right underneath the cirrus. This tool is just a simple, brief summary of some of the key elements of our text like the total word count, average words per sentence, and a list and count of the most frequent words in the corpus.
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464380-34818900-ce88-11ea-8e2b-e43d5da0931f.png" class="responsive" alt="voyantsummary1">
 
 By default, the summary lists the top 5 most frequent words in your corpus. If you would like to expand that list, click and drag the slider in the bottom left corner of the block labeled “Items:” to your desired number. This increases in increments of 5. 
 
 1. Slide your items slide up to 30. Give Voyant about 30 seconds to catch up, and you will see your list of most frequent words increase.
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464399-685cae80-ce88-11ea-8647-e17a5535b566.png" class="responsive" alt="voyantsummary2">
 
 2. In your list of most frequent words, click the yellow highlighted word, “westley”. Now take a look at the rest of your corpus. 
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464413-862a1380-ce88-11ea-9af6-58f026134191.png" class="responsive" alt="voyantsummary3">
 
 The most obvious change is in the “Trends” block of your corpus. Using the Summary tool, you can select individual words and that will trigger the rest of the tools within the corpus to adjust and show analysis on that specific word. 
 
@@ -98,30 +98,31 @@ The most obvious change is in the “Trends” block of your corpus. Using the S
 
 The Trends tool shows you a line graph of the frequency of a selected word in your corpus. 
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464427-a2c64b80-ce88-11ea-9d14-91eb6eed97f0.png" class="responsive" alt="voyanttrends1">
 > (This is the default view from the beginning of this tutorial. Yours will look a little different right now if you’ve been following along.)
 
 Since we selected “westley” from our Summary tool, you should just see one line on your Trends graph. If you’re familiar with the movie (spoiler ahead if you haven’t seen it), “The Princess Bride,” you will know that the character, Westley is actually The Man In Black at the beginning of the movie. With our Trends tool, we can visually show when that change occurs by using the search syntax to add a line for The Man In Black.
 
 1. Click within the search bar at the bottom of the Trends block and select the term “westley” from the list that appears. Even though we have the term selected from our Summary tool already, we need to select it again here to make sure we get the results we’re looking for.
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464442-bd98c000-ce88-11ea-8c32-f033af8f4992.png" class="responsive" alt="voyanttrends2">
 
 2. In the search bar at the bottom of the Trends block, hover your mouse over the “?” symbol to reveal a cheat sheet of search syntaxes. 
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464453-cdb09f80-ce88-11ea-9387-0cf357425802.png" class="responsive" alt="voyanttrends3">
 > This little pop up only lasts for a few seconds. Click the “?” symbol to open a static lightbox version of the cheat sheet.
 
 3. Based on this cheat sheet, if we want Voyant to search for “man in black” as a single term, all we need to do is surround those three words in quotation marks when we type them into the search bar. Do that and press your Enter key.
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464459-de611580-ce88-11ea-8130-bc5a951f0421.png" class="responsive" alt="voyanttrends4">
 > After you press the Enter key, you might see a random word pop into your search bar. Just click the little “x” next to that word to remove it. 
 
 Now our line graph shows lines for each term and we can visually see the point in the story when The Man In Black is revealed to actually be Westley! (What a twist!)
 
 4. In the bottom right corner of the Trends block, click on the “Display” dropdown. Here you can change the appearance of the graph. To really illustrate our point here, click the “Area” option from the list to change it to an area graph of solid colors. 
 
-[[SCREENSHOT]]  
+<img src="https://user-images.githubusercontent.com/15221098/88464468-f5a00300-ce88-11ea-8a15-fc4d1edde129.png" class="responsive" alt="voyanttrends5">
+  
 
 ### Reader
 The Reader tool displays the text from your corpus with some useful features for quickly finding information on a word while showing it in the context of the rest of the text. 
