@@ -33,17 +33,16 @@ Voyant has their own very impressive help database that much of this tutorial is
 
 Getting started with Voyant is about as easy as it gets. Simply go to **[https://voyant-tools.org/](https://voyant-tools.org/), input your data using one of the available options, and click “Reveal”. 
 
-[[SCREENSHOT]]
-1. For this tutorial, copy/paste this URL into the text box: **[https://www.imsdb.com/scripts/Princess-Bride,-The.html](https://www.imsdb.com/scripts/Princess-Bride,-The.html)** then click “Reveal”.
+<img src="https://user-images.githubusercontent.com/15221098/88464255-3a2a9f00-ce87-11ea-859f-ae463f1cd94a.png" class="responsive" alt="voyantgetstarted1" width="850">
 
-[[SCREENSHOT]]
+1. For this tutorial, copy/paste this URL into the text box: **[https://www.imsdb.com/scripts/Princess-Bride,-The.html](https://www.imsdb.com/scripts/Princess-Bride,-The.html)** then click “Reveal”.
 
 
 ## Corpus
 
 When Voyant generates a corpus for your data, it automatically shows it using their default skin. In this case, “skin” just refers to which of their tools are displayed. These are customizable based on your needs with a ton of different options, but for this tutorial, we are going to focus on their default skin.
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464310-9b527280-ce87-11ea-8b3a-11d20f464607.png" class="responsive" alt="voyantcorpus" width="850">
 
 The tools you will see in the default skin include the following: 
 
@@ -57,25 +56,25 @@ The tools you will see in the default skin include the following:
 
 The top left panel of your corpus shows you a cirrus. This is essentially just a word cloud that sizes a set number of terms from your data based on the frequency in which they appear, displaying the most frequently used words largest. 
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464334-c0df7c00-ce87-11ea-8e41-7b512d694617.png" class="responsive" alt="voyantcirrus1" width="850">
 
 At first glance, you will notice some odd words appearing larger than you might expect from the script of the movie (if you are familiar with it already). For example, the word, “cut” appears larger than any other word in the cirrus. This seems odd given it most likely is not a word used that often in the actual dialog of the film. Upon another quick look at the original link to the script, you will notice that every camera cut is labeled in the script. For our purposes, we don’t need that word associated with our analysis, so let’s remove it. 
 
 1. Hover your mouse over the header of the cirrus block on your screen. You will notice a few buttons appear. Click the icon that looks like a small switch. (it will say “Define options for this tool” when your mouse hovers over it)
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464342-d2c11f00-ce87-11ea-8a57-732f7be3dfc0.png" class="responsive" alt="voyantcirrus2" width="850">
 
 This will reveal the different options for filtering out what Voyant considers functional words like “I”, “the”, “a”, etc. Voyant calls these **“Stopwords”**.
 
 2. To the right of the “Stopwords:” dropdown, click the “Edit List” button.
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464350-f1bfb100-ce87-11ea-9529-321130b1dfc0.png" class="responsive" alt="voyantcirrus3" width="850">
 
 3. Here you will see the full list of words that Voyant identified as Stopwords listed one word, number, or symbol per line. On the line directly underneath the last entry of this list, type the word “cut” and click “Save”. Click “Confirm”.
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464355-ff753680-ce87-11ea-8a7f-6bc8331407ea.png" class="responsive" alt="voyantcirrus4" width="850">
 
-“Cut” has not been removed from our cirrus.
+“Cut” has now been removed from our cirrus.
 
 ### Summary
 
