@@ -130,39 +130,39 @@ Now our line graph shows lines for each term and we can visually see the point i
 ### Reader
 The Reader tool displays the text from your corpus with some useful features for quickly finding information on a word while showing it in the context of the rest of the text. 
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464560-c5a52f80-ce89-11ea-9421-6a7e85f2f21e.png" class="responsive" alt="voyantreader1">
 
 1. Hover over a few words. This displays the total count of that word.
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464569-e077a400-ce89-11ea-8516-bd9a0b09acc5.png" class="responsive" alt="voyantreader2">
 
 2. The search bar also functions in the same way as the search bar in the Trends tool. However, in Reader, it highlights the searched word or term and displays a small, simple line graph to illustrate that word or term’s frequency throughout the text. Click within the search bar and select the word “humperdinck”. You will notice the line graph shift. You can also click on the line graph itself to jump to a part of the text that has a higher frequency of your searched word or term. 
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464574-ec636600-ce89-11ea-9d0f-3c9992da119b.png" class="responsive" alt="voyantreader3">
 
 ### Contexts
 
 The Contexts tool is a great way to get a snapshot of exactly what it’s called, the context of a word in your text. It shows a list of each occurrence of the selected word and a few words that appear on either side of that occurrence. 
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464607-33e9f200-ce8a-11ea-84dc-df7e3b839917.png" class="responsive" alt="voyantcontexts1">
 
 1.  By default, Voyant selects the word with the highest frequency from your corpus in the Contexts block. For this example, let’s pick something else. Selecting a new word for the Contexts tool can be done a couple of ways: 
 
-Click the word in the Reader block
-Click a data point from the line graph in the Trends block
-Using the search bar at the bottom of the Contexts block
+- Click the word in the Reader block
+- Click a data point from the line graph in the Trends block
+- Using the search bar at the bottom of the Contexts block
 
 However you want to get there, select the word “fezzik”.
 
-[[SCREENSHOT]] 
+<img src="https://user-images.githubusercontent.com/15221098/88464617-51b75700-ce8a-11ea-99d6-df358cefe24a.png" class="responsive" alt="voyantcontexts2">
 
 2. Take a look down the list of the occurrences of “fezzick”. Each line of the table shows each individual occurrence of the word with one column showing the text on the left side of the word and another column showing the text that appears to the right of the word. Click the first line of the table and notice how the blocks for the Reader and Trends tools both change to help elaborate on the context of that occurrence of the word. 
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464626-60057300-ce8a-11ea-93ae-5d966b7b975e.png" class="responsive" alt="voyantcontexts3">
 
 3. To add additional terms to your Contexts tool, use the search bar by either clicking and selecting a word or by typing in a word or phrase using Voyant’s search syntax. You can find a cheat sheet for the syntax again by clicking the little “?” symbol on the right end of the search bar. For this example, add “inigo” since he and Fezzik are together for most of the movie. 
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464636-73184300-ce8a-11ea-8858-2c61a3540a9d.png" class="responsive" alt="voyantcontexts4">
 
 Adding multiple terms to your Contexts tool allows you to get a bird’s eye view of any consistencies in the contexts of different terms!
 
@@ -172,11 +172,11 @@ One of the beauties of Voyant is the ability to not only export your corpus but 
 
 1. Hover your mouse over the blue header at the top of your browser window to expose four icons. Click on the icon that is a rounded rectangle with an arrow sticking diagonally out of it.
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464643-84614f80-ce8a-11ea-952a-08af38daacb0.png" class="responsive" alt="voyantexport1">
 
 2. You are provided with a few different options here. The default is a URL that, when clicked, will populate your corpus in the exact condition that is at the time of click the “Export” button. If you select this option, Voyant will open that URL in a new tab and you can copy it from there. To find additional options, click the “Export View (Tools and Data)” dropdown to expose the following options:
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464649-95aa5c00-ce8a-11ea-99a8-811ff6f707e6.png" class="responsive" alt="voyantexport2">
 
 
 ## Other Tips and Tricks
@@ -185,13 +185,13 @@ One of the beauties of Voyant is the ability to not only export your corpus but 
 
 If you need to expand or contract the blocks of any of the tools displayed in your corpus, just hover your mouse over the border of the block until you see the resize icon then click and drag it to your desired size. 
 
-[[SCREENSHOT]]
+<img width="850" alt="Voyant_resize" src="https://user-images.githubusercontent.com/15221098/88464675-b70b4800-ce8a-11ea-96e1-2d9e40853b48.png">
 
 ### Changing Your Blocks to Other Tools
 
 We only showed you 5 of the tools available for your corpus. To change one of your blocks, hover over the gray header area of the block you want to change and click the icon with four small rectangles.
 
-[[SCREENSHOT]]
+<img src="https://user-images.githubusercontent.com/15221098/88464690-d013f900-ce8a-11ea-9a08-fe7c4b44a829.png" class="responsive" alt="voyanttools">
 
 Check out Voyant’s help database (linked below) to explore all of their available tools! 
 
