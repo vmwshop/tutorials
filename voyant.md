@@ -10,7 +10,7 @@ Better understand the basic functions of Voyant
 
 ## What You Need
 Computer with an internet browser and internet connection
-A dataset 
+- A dataset 
     - In a file as HTML, MS Word, MS Excel, ODT, Pages (Apple), PDF, plain text, RTF, XML, and others 
     - A zipped folder of multiple files
     - Copy/pasted text
@@ -25,9 +25,9 @@ Voyant has their own very impressive help database that much of this tutorial is
 
 ## What Can It Be Used For? 
 
-More thoroughly analyze large (or small) amounts of text or data 
-Add functionality to online collections, journals, blogs, or web sites by providing interactive analysis
-Develop your own tools using Voyant’s functionality and code
+- More thoroughly analyze large (or small) amounts of text or data 
+- Add functionality to online collections, journals, blogs, or web sites by providing interactive analysis
+- Develop your own tools using Voyant’s functionality and code
 
 ## Get Started
 
