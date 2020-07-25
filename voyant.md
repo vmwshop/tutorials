@@ -62,17 +62,17 @@ At first glance, you will notice some odd words appearing larger than you might 
 
 1. Hover your mouse over the header of the cirrus block on your screen. You will notice a few buttons appear. Click the icon that looks like a small switch. (it will say “Define options for this tool” when your mouse hovers over it)
 
-<img src="https://user-images.githubusercontent.com/15221098/88464342-d2c11f00-ce87-11ea-8a57-732f7be3dfc0.png" class="responsive" alt="voyantcirrus2" width="850">
+<img src="https://user-images.githubusercontent.com/15221098/88464342-d2c11f00-ce87-11ea-8a57-732f7be3dfc0.png" class="responsive" alt="voyantcirrus2">
 
 This will reveal the different options for filtering out what Voyant considers functional words like “I”, “the”, “a”, etc. Voyant calls these **“Stopwords”**.
 
 2. To the right of the “Stopwords:” dropdown, click the “Edit List” button.
 
-<img src="https://user-images.githubusercontent.com/15221098/88464350-f1bfb100-ce87-11ea-9529-321130b1dfc0.png" class="responsive" alt="voyantcirrus3" width="850">
+<img src="https://user-images.githubusercontent.com/15221098/88464350-f1bfb100-ce87-11ea-9529-321130b1dfc0.png" class="responsive" alt="voyantcirrus3">
 
 3. Here you will see the full list of words that Voyant identified as Stopwords listed one word, number, or symbol per line. On the line directly underneath the last entry of this list, type the word “cut” and click “Save”. Click “Confirm”.
 
-<img src="https://user-images.githubusercontent.com/15221098/88464355-ff753680-ce87-11ea-8a7f-6bc8331407ea.png" class="responsive" alt="voyantcirrus4" width="850">
+<img src="https://user-images.githubusercontent.com/15221098/88464355-ff753680-ce87-11ea-8a7f-6bc8331407ea.png" class="responsive" alt="voyantcirrus4">
 
 “Cut” has now been removed from our cirrus.
 
@@ -99,7 +99,8 @@ The most obvious change is in the “Trends” block of your corpus. Using the S
 The Trends tool shows you a line graph of the frequency of a selected word in your corpus. 
 
 <img src="https://user-images.githubusercontent.com/15221098/88464427-a2c64b80-ce88-11ea-9d14-91eb6eed97f0.png" class="responsive" alt="voyanttrends1">
->(This is the default view from the beginning of this tutorial. Yours will look a little different right now if you’ve been following along.)
+
+> (This is the default view from the beginning of this tutorial. Yours will look a little different right now if you’ve been following along.)
 
 Since we selected “westley” from our Summary tool, you should just see one line on your Trends graph. If you’re familiar with the movie (spoiler ahead if you haven’t seen it), “The Princess Bride,” you will know that the character, Westley is actually The Man In Black at the beginning of the movie. With our Trends tool, we can visually show when that change occurs by using the search syntax to add a line for The Man In Black.
 
@@ -110,12 +111,14 @@ Since we selected “westley” from our Summary tool, you should just see one l
 2. In the search bar at the bottom of the Trends block, hover your mouse over the “?” symbol to reveal a cheat sheet of search syntaxes. 
 
 <img src="https://user-images.githubusercontent.com/15221098/88464453-cdb09f80-ce88-11ea-9387-0cf357425802.png" class="responsive" alt="voyanttrends3">
->This little pop up only lasts for a few seconds. Click the “?” symbol to open a static lightbox version of the cheat sheet.
+
+> This little pop up only lasts for a few seconds. Click the “?” symbol to open a static lightbox version of the cheat sheet.
 
 3. Based on this cheat sheet, if we want Voyant to search for “man in black” as a single term, all we need to do is surround those three words in quotation marks when we type them into the search bar. Do that and press your Enter key.
 
 <img src="https://user-images.githubusercontent.com/15221098/88464459-de611580-ce88-11ea-8130-bc5a951f0421.png" class="responsive" alt="voyanttrends4">
->After you press the Enter key, you might see a random word pop into your search bar. Just click the little “x” next to that word to remove it. 
+
+> After you press the Enter key, you might see a random word pop into your search bar. Just click the little “x” next to that word to remove it. 
 
 Now our line graph shows lines for each term and we can visually see the point in the story when The Man In Black is revealed to actually be Westley! (What a twist!)
 
