@@ -31,7 +31,7 @@ Voyant has their own very impressive help database that much of this tutorial is
 
 ## Get Started
 
-Getting started with Voyant is about as easy as it gets. Simply go to **[https://voyant-tools.org/](https://voyant-tools.org/), input your data using one of the available options, and click “Reveal”. 
+Getting started with Voyant is about as easy as it gets. Simply go to **[https://voyant-tools.org/](https://voyant-tools.org/)**, input your data using one of the available options, and click “Reveal”. 
 
 <img src="https://user-images.githubusercontent.com/15221098/88464255-3a2a9f00-ce87-11ea-859f-ae463f1cd94a.png" class="responsive" alt="voyantgetstarted1" width="850">
 
@@ -46,11 +46,11 @@ When Voyant generates a corpus for your data, it automatically shows it using th
 
 The tools you will see in the default skin include the following: 
 
-- [Cirrus](linktosection)
-- [Summary](linktosection)
-- [Trends](linktosection)
-- [Contexts](linktosection)
-- [Reader](linktosection)
+- [Cirrus](https://github.com/janethaler/dsamtools/blob/master/voyant.md#cirrus)
+- [Summary](https://github.com/janethaler/dsamtools/blob/master/voyant.md#summary)
+- [Trends](https://github.com/janethaler/dsamtools/blob/master/voyant.md#trends)
+- [Reader](https://github.com/janethaler/dsamtools/blob/master/voyant.md#reader)
+- [Contexts](https://github.com/janethaler/dsamtools/blob/master/voyant.md#contexts)
 
 ### Cirrus
 
