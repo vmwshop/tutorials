@@ -3,10 +3,8 @@
 ## Objectives
 
 By the end of this tutorial, you should be able to:
-Create a default corpus using Voyant
-Better understand the basic functions of Voyant
-
-
+- Understand the basic functions of Voyant
+- Create a default corpus using Voyant
 
 ## What You Need
 Computer with an internet browser and internet connection
