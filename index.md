@@ -13,7 +13,7 @@ By the end of this tutorial, you will be able to:
 ### [Voyant](voyant.md)
 Voyant Tools is an open-source, web-based text reading and analysis environment. When you upload or submit text into Voyant, it generates a corpus with a plethora of different tools built right into the program to help you quickly “see through your data,” as the Voyant catchphrase states.
 
-By the end of this tutorial, you should be able to:
+By the end of this tutorial, you will be able to:
 * Understand the basic functions of Voyant
 * Create a default corpus using Voyant
 
