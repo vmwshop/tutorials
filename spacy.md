@@ -1,7 +1,6 @@
 # Natural Language Processing with spaCy
 
 ## Objectives
-
 By the end of this tutorial, you will be able to:
 
 * Understand what spaCy is (and what it isn’t)
@@ -14,7 +13,6 @@ By the end of this tutorial, you will be able to:
 
 
 ## About spaCy
-
 spaCy is a free, open-source library for advanced Natural Language Processing (NLP) in Python. If you’re working with a lot of text, you’ll eventually want to know more about it. For example, what’s it about? What do the words mean in context? Who is doing what to whom? What companies and products are mentioned? Which texts are similar to each other?
 
 spaCy is designed specifically for production use and helps you build applications that process and “understand” large volumes of text. It can be used to build information extraction or natural language understanding systems, or to pre-process text for deep learning.
@@ -66,13 +64,20 @@ For more detailed information and varied options see the [spaCY Installation Gui
 > * To open the terminal in MacOS, either open your Applications folder, then open Utilities and double-click on Terminal, or press Command - spacebar to launch Spotlight and type "Terminal," then double-click the search result
 > * To open the command prompt in Windows, press Windows+R to open “Run” box, then type “cmd” and then click “OK” to open a regular Command Prompt. Type “cmd” and then press Ctrl+Shift+Enter to open an administrator Command Prompt
 2. Install in a virtual environment by running the following commands
-> When using pip it is generally recommended to install packages in a virtual environment to avoid modifying system state
+> When using pip it is generally recommended to install packages in a virtual environment to avoid modifying system state. The first two commands here set up a virtual environment and the third installs spaCy in that environment. 
 
 MacOS/Linux
 ```
 $ python -m venv .env
 $ source .env/bin/activate
 $ pip install -U spacy
+```
+MacOS/Linux with Python3 and pip3 
+> If you try the previous commands and nothing returns, try these instead. They go straight to the latest version of python and pip. If these work, remember to add use `python3` and `pip3` for all future commands where you see `python` or `pip`, too!
+```
+$ python3 -m venv .env
+$ source .env/bin/activate
+$ pip3 install -U spacy
 ```
 Windows
 ```
@@ -85,7 +90,8 @@ $ pip install -U spacy
 
 > As our input will be in English, this is the download for the core English model-- _other models available [here](https://spacy.io/usage/models)_
 
-MacOS/Linux
+MacOS/Linux 
+> Don't forget to use `python3` and `pip3` if that worked for you in Step 2. 
 ```
 $ python -m spacy download en_core_web_sm
 ```
