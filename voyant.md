@@ -1,34 +1,29 @@
 # Voyant Tutorial
 
 ## Objectives
-
 By the end of this tutorial, you should be able to:
 - Understand the basic functions of Voyant
 - Create a default corpus using Voyant
 
 ## What You Need
 Computer with an internet browser and internet connection
-- A dataset 
-    - In a file as HTML, MS Word, MS Excel, ODT, Pages (Apple), PDF, plain text, RTF, XML, and others 
+- A dataset, which can be:
+    - A single file - HTML, MS Word, MS Excel, ODT, Pages (Apple), PDF, plain text, RTF, XML will work
     - A zipped folder of multiple files
     - Copy/pasted text
     - A set of URLs, one per line
 
-
 ## About Voyant
-
 Voyant Tools is an open-source, web-based text reading and analysis environment. When you upload or submit text into Voyant, it generates a corpus with a plethora of different tools built right into the program to help you quickly “see through your data,” as the Voyant catchphrase states. 
 
 Voyant has their own very impressive help database that much of this tutorial is based on. Look for it in the references and resources section below. 
 
-## What Can It Be Used For? 
-
+## What Can We Do With Voyant
 - More thoroughly analyze large (or small) amounts of text or data 
 - Add functionality to online collections, journals, blogs, or web sites by providing interactive analysis
 - Develop your own tools using Voyant’s functionality and code
 
-## Get Started
-
+## Getting Started
 Getting started with Voyant is about as easy as it gets. Simply go to **[https://voyant-tools.org/](https://voyant-tools.org/)**, input your data using one of the available options, and click “Reveal”. 
 
 <img src="https://user-images.githubusercontent.com/15221098/88464255-3a2a9f00-ce87-11ea-859f-ae463f1cd94a.png" class="responsive" alt="voyantgetstarted1" width="850">
@@ -37,7 +32,6 @@ Getting started with Voyant is about as easy as it gets. Simply go to **[https:/
 
 
 ## Corpus
-
 When Voyant generates a corpus for your data, it automatically shows it using their default skin. In this case, “skin” just refers to which of their tools are displayed. These are customizable based on your needs with a ton of different options, but for this tutorial, we are going to focus on their default skin.
 
 <img src="https://user-images.githubusercontent.com/15221098/88464310-9b527280-ce87-11ea-8b3a-11d20f464607.png" class="responsive" alt="voyantcorpus" width="850">
@@ -51,7 +45,6 @@ The tools you will see in the default skin include the following:
 - [Contexts](https://github.com/janethaler/dsamtools/blob/master/voyant.md#contexts)
 
 ### Cirrus
-
 The top left panel of your corpus shows you a cirrus. This is essentially just a word cloud that sizes a set number of terms from your data based on the frequency in which they appear, displaying the most frequently used words largest. 
 
 <img src="https://user-images.githubusercontent.com/15221098/88464334-c0df7c00-ce87-11ea-8e41-7b512d694617.png" class="responsive" alt="voyantcirrus1">
