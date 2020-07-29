@@ -3,7 +3,7 @@
 ## Objectives
 
 By the end of this tutorial, you will be able to:
-* Use Facets to clean up messy data
+* Facet (count & tabulate) messy data
 * Filter and export a specific portion of your dataset
 
 ## What You Need
