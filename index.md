@@ -10,6 +10,13 @@ By the end of this tutorial, you will be able to:
 * Submit content to the Distant Reader and download results
 * Compare some methods for interpreting your downloaded results
 
+### [Voyant](voyant.md)
+Voyant Tools is an open-source, web-based text reading and analysis environment. When you upload or submit text into Voyant, it generates a corpus with a plethora of different tools built right into the program to help you quickly “see through your data,” as the Voyant catchphrase states.
+
+By the end of this tutorial, you should be able to:
+* Understand the basic functions of Voyant
+* Create a default corpus using Voyant
+
 ### [OpenRefine](openrefine.md)
 OpenRefine (previously Google Refine) is a powerful, opensource tool for working with messy data. Key features include cleaning up small to large mistakes en masse, converting data from one format to another, and adding to a dataset by pulling data from an online source into your dataset.
 
