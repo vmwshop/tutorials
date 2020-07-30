@@ -8,7 +8,7 @@ By the end of this tutorial, you will be able to:
 
 ## What You Need
 * Computer with a web browser and internet connection
-* A corpus (we will be using a dataset from the [Western Pennsylvania Regional Data Center](http://www.wprdc.org/) and a Wikipedia URL)
+* A text-based dataset (we will be using a dataset from the [Western Pennsylvania Regional Data Center](http://www.wprdc.org/) and a Wikipedia URL -- more on types of input later)
 
 ## About the Distant Reader
 
@@ -88,11 +88,12 @@ to the best of your ability, update the list with author, title, or date values 
 1. Determine your type of input and select the corresponding experiment application in your Distant Reader dashboard. For this tutorial, let’s try using a single .csv file. The file used here is the [Bike PGH Bicycle Pavement Markings June 2016](https://data.wprdc.org/dataset/on-road-bicycle-pavement-markings/resource/90fb26be-e754-4f45-b695-d17f0645dd2b) downloaded from the WPRDC site.
 2. Enter the name of your experiment, add your input (you can ignore pretty much everything else on the page), then submit your experiment by selecting “Save and Launch.” <img src="https://user-images.githubusercontent.com/15221098/87858423-c4a95680-c8fb-11ea-92e8-d86f03a7c8ef.png" alt="DRInput1" class="responsive" width="600">
 3. Your experiment is now sent to the queue. If there are fewer than ten jobs currently running, the submitted job will be run immediately. It takes almost two minutes for the Reader to instantiate a new virtual machine, and then, depending on the number and sizes of items to read, processing can take as short as four minutes or as long as twelve hours. Generally, this process takes less than ten minutes. It is not necessary to keep your Web browser open to the Reader's interface; the Distant Reader will do its work and wait for you to return. <img src="https://user-images.githubusercontent.com/15221098/87858425-c4a95680-c8fb-11ea-8468-019c47f73466.png" alt="DRInput2" class="responsive" width="600">
-4. When the Reader has finished, your dashboard will have been updated and you can navigate to the “Experiment Summary” page. From here you can: 
- * Read the standard error report; send this to the author if something goes amiss. 
- * Read the standard output report, which is a simple summary of what the Reader found; look at this report first. 
- * Download the study carrel.
+4. When the Reader has finished, your dashboard will have been updated and you can navigate to the “Experiment Summary” page.
 <img src="https://user-images.githubusercontent.com/15221098/87858426-c4a95680-c8fb-11ea-9215-fd9955e6117f.png" alt="DRInput3" class="responsive" width="400"><img src="https://user-images.githubusercontent.com/15221098/87858427-c4a95680-c8fb-11ea-8ca2-190d24d1822c.png" alt="DRInput4" class="responsive" width="400">
+> From here you can: 
+> * Read the standard error report; send this to the author if something goes amiss. 
+> * Read the standard output report, which is a simple summary of what the Reader found; look at this report first. 
+> * Download the study carrel.
 
 ## Working with the Distant Reader Results ("Study Carrels")
 
@@ -110,7 +111,7 @@ The results of the Distant Reader process is a "study carrel" -- a .zip file con
 <img src="https://user-images.githubusercontent.com/15221098/87859041-57e48b00-c900-11ea-9b50-ad8abbdddb26.png" alt="DRnarrative1" class="responsive" width="400">
 2. The body of the study carrel's narrative interface provides a very broad overview of your study carrel. Narrative reports including frequencies, keywords, and topic modeling can be accessed on the left-hand side of the page. <img src="https://user-images.githubusercontent.com/15221098/87860394-33da7700-c90b-11ea-939a-5620c9cacf99.png" alt="DRnarrative2" class="responsive" width="600">
 3. Take some time now to explore the narrative reports. Eric Lease Morgan provides some detail as to what these reports can help tell you about your data. Also, see the standard-output.txt file in the unzipped study carrel, as it will both summarize and elaborate upon this narrative report.<img src="https://user-images.githubusercontent.com/15221098/87860396-34730d80-c90b-11ea-9d60-d0a8f0f03e70.png" alt="DRnarrative3" class="responsive" width="600">
-> As you can see, this single .csv does not have a ton of variation or narrative data to analyze. While not the most exciting dataset, this does at least point to the idea that this dataset is used for bureaucratic purposes and is fairly consistent. Think about what you see in these reports and how using Distant Reader for this type of dataset might not be the best option. 
+> As you can see, this single .csv does not have a ton of variation or narrative data to analyze. While not the most exciting corpus, this does at least point to the idea that this dataset is used for bureaucratic purposes and is fairly consistent. Think about what you see in these reports and how using Distant Reader for this type of dataset might not be the best option. 
 > Let’s try running an experiment with more narrative content to see how this works more clearly. To keep with the theme, let’s find the URL for the Wikipedia page for [Bike Lanes](https://en.wikipedia.org/wiki/Bike_lane) and follow the same steps as the [Creating a New Experiment](https://github.com/janethaler/dsamtools/blob/master/distantreader.md#creating-a-new-experiment) section above. What differences do you see?
 
 ### Working with Your Study Carrel - Interactive Reports
@@ -124,9 +125,11 @@ The results of the Distant Reader process is a "study carrel" -- a .zip file con
 ## Cleaning and Analyzing Your Study Carrel
 
 Notice how the content we used cannot simply be taken at face value. For example, Wikipedia and it’s related privacy policy information tends to take over frequency assessments if not cleaned.
+
 <img src="https://user-images.githubusercontent.com/15221098/87861701-c46a8480-c916-11ea-8a85-95729610d7ed.png" alt="keywords" class="responsive" width="400">
 <img src="https://user-images.githubusercontent.com/15221098/87861700-c16f9400-c916-11ea-9bfe-8ef107ddf850.png" alt="DRIssues1" class="responsive" width="400">
-The Distance Reader can help with pre-processing, but there is always work to do in terms of cleaning your data and conducting analysis. There are three essential types of desktop tools you will need/want in order to use the content of a study carrel. These types include: text editors, spreadsheet/database applications, and analysis programs. Please
+
+The Distance Reader can help with pre-processing, but there is always work to do in terms of cleaning your data and conducting analysis. There are three essential types of desktop tools you will need/want in order to use the content of a study carrel. These types include: text editors, spreadsheet/database applications, and analysis programs.
 
 ### Text Editors
 Text editors read and write plain text files -- files with no formatting and no binary characters. Plain text files usually have a .txt extension. Every single file in a Distant Reader study carrel (except one) is a plain text file, and therefore, every single file (except one) is openable by any text editor. You can use a text editor to find/replace to find any character and change it to something else, which is useful for stopwords, carriage returns, newline characters, etc. Another very useful function of a text editor, especially used for the purposes of text mining and natural language processing, is the ability to change the case of all letters to either their upper or lower-case forms. Such is the most basic of text normalization/cleaning processes.
