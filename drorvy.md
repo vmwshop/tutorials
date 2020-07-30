@@ -36,21 +36,25 @@ The results of downloading and uncompressing the Distant Reader study carrel .zi
 
 For more information on these and other files in Study Carrels, check out [Distant Reader “study carrels”: A manifest](https://sites.nd.edu/emorgan/2019/12/reader-manifest/).
 
-### Faceting Study Carrel Data Using OpenRefine
+### Faceting study carrel data using OpenRefine
 1. Download a sample [Study Carrel](https://carrels.distantreader.org/). These examples use the [“extraterrestrial-beings” Study Carrel](https://carrels.distantreader.org/library/extraterrestrial-beings/study-carrel.zip), but feel free to choose one that interests you. 
-<img src="https://user-images.githubusercontent.com/15221098/88934333-82164100-d24e-11ea-832a-15808e58ec08.png" alt="drorvy1" class="responsive" width="400">
+
+<img src="https://user-images.githubusercontent.com/15221098/88934333-82164100-d24e-11ea-832a-15808e58ec08.png" alt="drorvy1" class="responsive" width="500">
 
 2. If you have not already done so, [Download](https://openrefine.org/download.html) and install the OpenRefine app. Launch the OpenRefine. Reminder: When you launch the OpenRefine app, your default internet browser will open.
 
 3.Create a new project in OpenRefine and choose any file from the study carrel's part-of-speech (pos) directory as your input. Accept defaults and “create project”.
-<img src="https://user-images.githubusercontent.com/15221098/88934336-82aed780-d24e-11ea-8bbb-9d6238d8ce2b.png" alt="drorvy2" class="responsive" width="400">
-<img src="https://user-images.githubusercontent.com/15221098/88934337-82aed780-d24e-11ea-8abc-fb706e53f25b.png" alt="drorvy3" class="responsive" width="400">
+
+<img src="https://user-images.githubusercontent.com/15221098/88934336-82aed780-d24e-11ea-8bbb-9d6238d8ce2b.png" alt="drorvy2" class="responsive" width="850">
+<img src="https://user-images.githubusercontent.com/15221098/88934337-82aed780-d24e-11ea-8abc-fb706e53f25b.png" alt="drorvy3" class="responsive" width="840">
 
 4. Click the arrow next to the POS column and select Facet > Text facet.
-<img src="https://user-images.githubusercontent.com/15221098/88934339-83476e00-d24e-11ea-8fb0-c538e8e60eee.png" alt="drorvy4" class="responsive" width="400">
+
+<img src="https://user-images.githubusercontent.com/15221098/88934339-83476e00-d24e-11ea-8fb0-c538e8e60eee.png" alt="drorvy4" class="responsive" width="850">
 
 5. A column of words and a column of frequencies will appear to the left. In this case, the column of facets shows counts and tabulations of each type of part-of-speech in the file. Try faceting using the other available options including columns and facet types. 
-<img src="https://user-images.githubusercontent.com/15221098/88934340-83476e00-d24e-11ea-82a4-7f93ba79f6c1.png" alt="drorvy5" class="responsive" width="400">
+
+<img src="https://user-images.githubusercontent.com/15221098/88934340-83476e00-d24e-11ea-82a4-7f93ba79f6c1.png" alt="drorvy5" class="responsive" width="300">
 
 
 
