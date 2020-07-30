@@ -75,9 +75,7 @@ The Trends tool shows you a line graph of the frequency of a selected word in yo
 > This little pop up only lasts for a few seconds. Click the “?” symbol to open a static lightbox version of the cheat sheet.
 4. Based on this cheat sheet, if we want Voyant to search for “man in black” as a single term, all we need to do is surround those three words in quotation marks when we type them into the search bar. Now our line graph shows lines for each term and we can visually see the point in the story when The Man In Black is revealed to actually be Westley! (What a twist!) <img src="https://user-images.githubusercontent.com/15221098/88464459-de611580-ce88-11ea-8130-bc5a951f0421.png" class="responsive" alt="voyanttrends4" style="vertical-align:middle;margin:20px 0px">
 > After you press the Enter key, you might see a random word pop into your search bar. Just click the little “x” next to that word to remove it. 
-5. In the bottom right corner of the Trends block, click on the “Display” dropdown. Here you can change the appearance of the graph. 
-
-<img src="https://user-images.githubusercontent.com/15221098/88464468-f5a00300-ce88-11ea-8a15-fc4d1edde129.png" class="responsive" alt="voyanttrends5" style="vertical-align:middle;margin:20px 0px">
+5. In the bottom right corner of the Trends block, click on the “Display” dropdown. Here you can change the appearance of the graph. <img src="https://user-images.githubusercontent.com/15221098/88464468-f5a00300-ce88-11ea-8a15-fc4d1edde129.png" class="responsive" alt="voyanttrends5" style="vertical-align:middle;margin:20px 0px">
   
 
 ### Reader
@@ -87,9 +85,7 @@ The Reader tool displays the text from your corpus with some useful features for
 
 1. Hover over a few words. The hover text displays the total count of that word. <img src="https://user-images.githubusercontent.com/15221098/88464569-e077a400-ce89-11ea-8516-bd9a0b09acc5.png" class="responsive" alt="voyantreader2" style="vertical-align:middle;margin:20px 0px">
 
-2. The search bar also functions in the same way as the search bar in the Trends tool. However, in Reader, it highlights the searched word or term and displays a small, simple line graph to illustrate that word or term’s frequency throughout the text. Click within the search bar and select the word “humperdinck”. You will notice the line graph shift. You can also click on the line graph itself to jump to a part of the text that has a higher frequency of your searched word or term. 
-
-<img src="https://user-images.githubusercontent.com/15221098/88464574-ec636600-ce89-11ea-9d0f-3c9992da119b.png" class="responsive" alt="voyantreader3" style="vertical-align:middle;margin:20px 0px">
+2. The search bar also functions in the same way as the search bar in the Trends tool. However, in Reader, it highlights the searched word or term and displays a small, simple line graph to illustrate that word or term’s frequency throughout the text. Click within the search bar and select the word “humperdinck”. You will notice the line graph shift. You can also click on the line graph itself to jump to a part of the text that has a higher frequency of your searched word or term. <img src="https://user-images.githubusercontent.com/15221098/88464574-ec636600-ce89-11ea-9d0f-3c9992da119b.png" class="responsive" alt="voyantreader3" style="vertical-align:middle;margin:20px 0px">
 
 ### Contexts
 
