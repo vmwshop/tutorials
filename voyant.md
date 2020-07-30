@@ -63,7 +63,6 @@ By default, the summary lists the top 5 most frequent words in your corpus. Let'
 2. Slide your items slide up to 30. Give Voyant about 30 seconds to catch up, and you will see your list of most frequent words increase.
 <img src="https://user-images.githubusercontent.com/15221098/88464399-685cae80-ce88-11ea-8647-e17a5535b566.png" class="responsive" alt="voyantsummary2">
 3. In your list of most frequent words, take turns selecting the yellow highlighted words. Now take a look what this selection does to the rest of your corpus. Using the Summary tool, you can select individual words and that will trigger the rest of the tools within the corpus to adjust and show analysis on that specific word. The most obvious change in this case is the “Trends” block of your corpus.
-
 <img src="https://user-images.githubusercontent.com/15221098/88464413-862a1380-ce88-11ea-9af6-58f026134191.png" class="responsive" alt="voyantsummary3">
 
 
