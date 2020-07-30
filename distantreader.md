@@ -20,7 +20,7 @@ _Much of the following is adapted from Eric Lease Morgan’s documentation and w
 
 The Distant Reader is a system which locally harvests/caches content you specify. It then transforms the content into plain text, performs sets of natural language processing & text mining against the text, saves the results in a number of formats, reduces the whole to a cross-platform database file, queries the database thus summarizing the collection, zips the results of the entire process into a single file, and makes the file available to you for further investigation.
 
-### What We Can Do With the Distant Reader
+### What We Can Do with the Distant Reader
 
 Designed to “read” everything from a single item to a large corpus, the Distant Reader can help answer questions like: 
 * How big is the corpus, and how does its size compare to other corpora?
@@ -100,13 +100,14 @@ to the best of your ability, update the list with author, title, or date values 
 The results of the Distant Reader process is a "study carrel" -- a .zip file containing a set of structured data that includes your original content, various transformations of it, and various sets of analysis. Uncompressing the Distant Reader study carrel results in a directory/folder containing a standard set of [files and subdirectories](https://github.com/ericleasemorgan/reader-workshop#the-structured-data-of-study-carrels-taking-inventory-through-the-manifest). The following sections detail how to download your study carrel and some basic ways of interacting with the results.
 
 ### Downloading Your Study Carrel
-1. Download the results of your experiment found under “ZipFile” in your experiment summary. <p><img src="https://user-images.githubusercontent.com/15221098/87859042-587d2180-c900-11ea-93c2-43d664fbb0e7.png" alt="DRstudycarrel1" class="responsive" width="400"></p>
+1. Download the results of your experiment found under “ZipFile” in your experiment summary. <img src="https://user-images.githubusercontent.com/15221098/87859042-587d2180-c900-11ea-93c2-43d664fbb0e7.png" alt="DRstudycarrel1" class="responsive" width="400">
 2. Find your locally downloaded .zip file. The zipped filed should have downloaded with “study-carrel” somewhere in the file name.
 3. Unzip the file by double-clicking it. 
 4. The resulting unzipped file will have a long, seemingly unrelated string of characters as the filename. Rename the file to something simpler and more relevant to you. Consider moving the file to your desktop while you work with it. 
 
 ### Working with Your Study Carrel - Narrative Reports
-1. Open the .zip file and navigate to the HTML text file called “index.htm.” This is the root of the narrative interface and will open in your web browser. <img src="https://user-images.githubusercontent.com/15221098/87859041-57e48b00-c900-11ea-9b50-ad8abbdddb26.png" alt="DRnarrative1" class="responsive" width="400">
+1. Open the .zip file and navigate to the HTML text file called “index.htm.” This is the root of the narrative interface and will open in your web browser. 
+<img src="https://user-images.githubusercontent.com/15221098/87859041-57e48b00-c900-11ea-9b50-ad8abbdddb26.png" alt="DRnarrative1" class="responsive" width="400">
 2. The body of the study carrel's narrative interface provides a very broad overview of your study carrel. Narrative reports including frequencies, keywords, and topic modeling can be accessed on the left-hand side of the page. <img src="https://user-images.githubusercontent.com/15221098/87860394-33da7700-c90b-11ea-939a-5620c9cacf99.png" alt="DRnarrative2" class="responsive" width="600">
 3. Take some time now to explore the narrative reports. Eric Lease Morgan provides some detail as to what these reports can help tell you about your data. Also, see the standard-output.txt file in the unzipped study carrel, as it will both summarize and elaborate upon this narrative report.<img src="https://user-images.githubusercontent.com/15221098/87860396-34730d80-c90b-11ea-9d60-d0a8f0f03e70.png" alt="DRnarrative3" class="responsive" width="600">
 > As you can see, this single .csv does not have a ton of variation or narrative data to analyze. While not the most exciting dataset, this does at least point to the idea that this dataset is used for bureaucratic purposes and is fairly consistent. Think about what you see in these reports and how using Distant Reader for this type of dataset might not be the best option. 
