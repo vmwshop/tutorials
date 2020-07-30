@@ -1,9 +1,9 @@
 # Voyant Tutorial
 
 ## Objectives
-By the end of this tutorial, you should be able to:
+By the end of this tutorial, you will be able to:
 - Understand the basic functions of Voyant
-- Create a default corpus using Voyant
+- Create a corpus using Voyant
 
 ## What You Need
 Computer with an internet browser and internet connection
@@ -16,33 +16,33 @@ Computer with an internet browser and internet connection
 ## About Voyant
 Voyant Tools is an open-source, web-based text reading and analysis environment. When you upload or submit text into Voyant, it generates a corpus with a plethora of different tools built right into the program to help you quickly “see through your data,” as the Voyant catchphrase states. 
 
-Voyant has their own very impressive help database that much of this tutorial is based on. Look for it in the references and resources section below. 
+_This tutorial is adapted from documentation found in the Voyant help database. Look for it in the references and resources section below for a link to the database._
 
 ## What Can We Do With Voyant
-- More thoroughly analyze large (or small) amounts of text or data 
-- Add functionality to online collections, journals, blogs, or web sites by providing interactive analysis
-- Develop your own tools using Voyant’s functionality and code
+* More thoroughly analyze large (or small) amounts of text or data 
+* Add functionality to online collections, journals, blogs, or web sites by providing interactive analysis
+* Develop your own tools using Voyant’s functionality and code
 
 ## Getting Started
-Getting started with Voyant is about as easy as it gets. Simply go to **[https://voyant-tools.org/](https://voyant-tools.org/)**, input your data using one of the available options, and click “Reveal”. 
+1. Using your web browser, navigate to [https://voyant-tools.org/](https://voyant-tools.org/)
+2. Input your data using one of the available options (text or URLs). For this tutorial, copy/paste this URL into the text box: [https://www.imsdb.com/scripts/Princess-Bride,-The.html](https://www.imsdb.com/scripts/Princess-Bride,-The.html)
+3. Select "reveal"
 
 <img src="https://user-images.githubusercontent.com/15221098/88464255-3a2a9f00-ce87-11ea-859f-ae463f1cd94a.png" class="responsive" alt="voyantgetstarted1" width="850">
 
-1. For this tutorial, copy/paste this URL into the text box: **[https://www.imsdb.com/scripts/Princess-Bride,-The.html](https://www.imsdb.com/scripts/Princess-Bride,-The.html)** then click “Reveal”.
-
 
 ## Corpus
-When Voyant generates a corpus for your data, it automatically shows it using their default skin. In this case, “skin” just refers to which of their tools are displayed. These are customizable based on your needs with a ton of different options, but for this tutorial, we are going to focus on their default skin.
+When Voyant generates a corpus for your data, it automatically shows it using their default skin. In this case, “skin” refers to which tools are displayed. These are customizable based on your needs. For this tutorial, we are going to use the default skin.
 
 <img src="https://user-images.githubusercontent.com/15221098/88464310-9b527280-ce87-11ea-8b3a-11d20f464607.png" class="responsive" alt="voyantcorpus" width="850">
 
-The tools you will see in the default skin include the following: 
+The tools you see in the default skin include: 
 
-- [Cirrus](https://github.com/janethaler/dsamtools/blob/master/voyant.md#cirrus)
-- [Summary](https://github.com/janethaler/dsamtools/blob/master/voyant.md#summary)
-- [Trends](https://github.com/janethaler/dsamtools/blob/master/voyant.md#trends)
-- [Reader](https://github.com/janethaler/dsamtools/blob/master/voyant.md#reader)
-- [Contexts](https://github.com/janethaler/dsamtools/blob/master/voyant.md#contexts)
+* [Cirrus](https://github.com/janethaler/dsamtools/blob/master/voyant.md#cirrus)
+* [Summary](https://github.com/janethaler/dsamtools/blob/master/voyant.md#summary)
+* [Trends](https://github.com/janethaler/dsamtools/blob/master/voyant.md#trends)
+* [Reader](https://github.com/janethaler/dsamtools/blob/master/voyant.md#reader)
+* [Contexts](https://github.com/janethaler/dsamtools/blob/master/voyant.md#contexts)
 
 ### Cirrus
 The top left panel of your corpus shows you a cirrus. This is essentially just a word cloud that sizes a set number of terms from your data based on the frequency in which they appear, displaying the most frequently used words largest. 
@@ -189,5 +189,5 @@ Check out Voyant’s help database (linked below) to explore all of their availa
 
 ## Other Resources and References
  
-**[Voyant Help Database](https://voyant-tools.org/docs/#!/guide/about)**
+* [Voyant Help Database](https://voyant-tools.org/docs/#!/guide/about)
 
