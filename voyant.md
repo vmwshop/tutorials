@@ -2,16 +2,16 @@
 
 ## Objectives
 By the end of this tutorial, you will be able to:
-- Understand the basic functions of Voyant
-- Create a corpus using Voyant
+* Understand the basic functions of Voyant
+* Create a corpus using Voyant
 
 ## What You Need
-Computer with an internet browser and internet connection
-- A dataset, which can be:
-    - A single file - HTML, MS Word, MS Excel, ODT, Pages (Apple), PDF, plain text, RTF, XML will work
-    - A zipped folder of multiple files
-    - Copy/pasted text
-    - A set of URLs, one per line
+* Computer with an internet browser and internet connection
+* A dataset, which can be:
+    * A single file - HTML, MS Word, MS Excel, ODT, Pages (Apple), PDF, plain text, RTF, XML will work
+    * A zipped folder of multiple files
+    * Copy/pasted text
+    * A set of URLs, one per line
 
 ## About Voyant
 Voyant Tools is an open-source, web-based text reading and analysis environment. When you upload or submit text into Voyant, it generates a corpus with a plethora of different tools built right into the program to help you quickly “see through your data,” as the Voyant catchphrase states. 
@@ -24,66 +24,56 @@ _This tutorial is adapted from documentation found in the Voyant help database. 
 * Develop your own tools using Voyant’s functionality and code
 
 ## Getting Started
-1. Using your web browser, navigate to [https://voyant-tools.org/](https://voyant-tools.org/)
-2. Input your data using one of the available options (text or URLs). For this tutorial, copy/paste this URL into the text box: [https://www.imsdb.com/scripts/Princess-Bride,-The.html](https://www.imsdb.com/scripts/Princess-Bride,-The.html)
-3. Select "reveal"
+1. Using your web browser, navigate to [https://voyant-tools.org/](https://voyant-tools.org/).
+2. Input your data using one of the available options (text or URLs). For this tutorial, copy/paste this URL into the text box: [https://www.imsdb.com/scripts/Princess-Bride,-The.html](https://www.imsdb.com/scripts/Princess-Bride,-The.html).
+3. Select "reveal".
 
 <img src="https://user-images.githubusercontent.com/15221098/88464255-3a2a9f00-ce87-11ea-859f-ae463f1cd94a.png" class="responsive" alt="voyantgetstarted1" width="850">
 
-
-## Corpus
-When Voyant generates a corpus for your data, it automatically shows it using their default skin. In this case, “skin” refers to which tools are displayed. These are customizable based on your needs. For this tutorial, we are going to use the default skin.
+## Exploring Your Voyant Corpus
+When Voyant generates a corpus for your data, it automatically shows it using their default skin. In this case, “skin” refers to which tools are displayed. These are customizable based on your needs. For this tutorial, we are going to use the default skin. Let's explore what we can do with these tools one-by-one.
 
 <img src="https://user-images.githubusercontent.com/15221098/88464310-9b527280-ce87-11ea-8b3a-11d20f464607.png" class="responsive" alt="voyantcorpus" width="850">
 
-The tools you see in the default skin include: 
-
-* [Cirrus](https://github.com/janethaler/dsamtools/blob/master/voyant.md#cirrus)
-* [Summary](https://github.com/janethaler/dsamtools/blob/master/voyant.md#summary)
-* [Trends](https://github.com/janethaler/dsamtools/blob/master/voyant.md#trends)
-* [Reader](https://github.com/janethaler/dsamtools/blob/master/voyant.md#reader)
-* [Contexts](https://github.com/janethaler/dsamtools/blob/master/voyant.md#contexts)
 
 ### Cirrus
-The top left panel of your corpus shows you a cirrus. This is essentially just a word cloud that sizes a set number of terms from your data based on the frequency in which they appear, displaying the most frequently used words largest. 
+The top left panel of your corpus shows you a cirrus. This is essentially a word cloud that sizes a set number of terms from your data based on the frequency in which they appear, displaying the most frequently used words as the largest. 
 
 <img src="https://user-images.githubusercontent.com/15221098/88464334-c0df7c00-ce87-11ea-8e41-7b512d694617.png" class="responsive" alt="voyantcirrus1">
 
-At first glance, you will notice some odd words appearing larger than you might expect from the script of the movie (if you are familiar with it already). For example, the word, “cut” appears larger than any other word in the cirrus. This seems odd given it most likely is not a word used that often in the actual dialog of the film. Upon another quick look at the original link to the script, you will notice that every camera cut is labeled in the script. For our purposes, we don’t need that word associated with our analysis, so let’s remove it. 
+At first glance, you may notice some odd words appearing larger than you might expect from the script of the movie (if you are familiar with it already). For example, the word, “cut” appears larger than any other word in the cirrus. This seems odd given it most likely is not a word used that often in the actual dialog of the film. Upon another quick look at the original link to the script, you will notice that every camera cut is labeled in the script. For our purposes, we don’t need that word associated with our analysis, so let’s remove it. 
 
-1. Hover your mouse over the header of the cirrus block on your screen. You will notice a few buttons appear. Click the icon that looks like a small switch. (it will say “Define options for this tool” when your mouse hovers over it)
+1. Hover your mouse over the header of the cirrus block on your screen. You will notice a few buttons appear. Click the icon that looks like a small switch to “define options for this tool.” This will reveal the different options for filtering out function words and stopwords like “I”, “the”, “a”, etc. 
 
 <img src="https://user-images.githubusercontent.com/15221098/88464342-d2c11f00-ce87-11ea-8a57-732f7be3dfc0.png" class="responsive" alt="voyantcirrus2">
 
-This will reveal the different options for filtering out what Voyant considers functional words like “I”, “the”, “a”, etc. Voyant calls these **“Stopwords”**.
-
-2. To the right of the “Stopwords:” dropdown, click the “Edit List” button.
+2. To the right of the “Stopwords” dropdown, click the “Edit List” button.
 
 <img src="https://user-images.githubusercontent.com/15221098/88464350-f1bfb100-ce87-11ea-9529-321130b1dfc0.png" class="responsive" alt="voyantcirrus3">
 
-3. Here you will see the full list of words that Voyant identified as Stopwords listed one word, number, or symbol per line. On the line directly underneath the last entry of this list, type the word “cut” and click “Save”. Click “Confirm”.
+3. Here you will see the full list of words that Voyant identified as stopwords listed one word, number, or symbol per line. On the line directly underneath the last entry of this list, type the word “cut” and click “Save”. Click “Confirm”. “Cut” has now been removed from our cirrus.
 
 <img src="https://user-images.githubusercontent.com/15221098/88464355-ff753680-ce87-11ea-8a7f-6bc8331407ea.png" class="responsive" alt="voyantcirrus4">
 
-“Cut” has now been removed from our cirrus.
 
 ### Summary
 
-Let’s move down to the Summary tool right underneath the cirrus. This tool is just a simple, brief summary of some of the key elements of our text like the total word count, average words per sentence, and a list and count of the most frequent words in the corpus.
+Let’s move down to the Summary tool right underneath the cirrus. This tool is a brief summary of some of the key elements in our text like the total word count, average words per sentence, and a list and count of the most frequent words in the corpus.
 
 <img src="https://user-images.githubusercontent.com/15221098/88464380-34818900-ce88-11ea-8e2b-e43d5da0931f.png" class="responsive" alt="voyantsummary1">
 
-By default, the summary lists the top 5 most frequent words in your corpus. If you would like to expand that list, click and drag the slider in the bottom left corner of the block labeled “Items:” to your desired number. This increases in increments of 5. 
+By default, the summary lists the top 5 most frequent words in your corpus. Let's exapnd that list. 
 
-1. Slide your items slide up to 30. Give Voyant about 30 seconds to catch up, and you will see your list of most frequent words increase.
+1. Click and drag the slider in the bottom left corner of the block labeled “Items” to your desired number. This increases in increments of 5. 
+
+2. Slide your items slide up to 30. Give Voyant about 30 seconds to catch up, and you will see your list of most frequent words increase.
 
 <img src="https://user-images.githubusercontent.com/15221098/88464399-685cae80-ce88-11ea-8647-e17a5535b566.png" class="responsive" alt="voyantsummary2">
 
-2. In your list of most frequent words, click the yellow highlighted word, “westley”. Now take a look at the rest of your corpus. 
+3. In your list of most frequent words, take turns selecting the yellow highlighted words. Now take a look what this selection does to the rest of your corpus. Using the Summary tool, you can select individual words and that will trigger the rest of the tools within the corpus to adjust and show analysis on that specific word. The most obvious change in this case is the “Trends” block of your corpus.
 
 <img src="https://user-images.githubusercontent.com/15221098/88464413-862a1380-ce88-11ea-9af6-58f026134191.png" class="responsive" alt="voyantsummary3">
 
-The most obvious change is in the “Trends” block of your corpus. Using the Summary tool, you can select individual words and that will trigger the rest of the tools within the corpus to adjust and show analysis on that specific word. 
 
 ### Trends
 
@@ -91,21 +81,21 @@ The Trends tool shows you a line graph of the frequency of a selected word in yo
 
 <img src="https://user-images.githubusercontent.com/15221098/88464427-a2c64b80-ce88-11ea-9d14-91eb6eed97f0.png" class="responsive" alt="voyanttrends1">
 
-> (This is the default view from the beginning of this tutorial. Yours will look a little different right now if you’ve been following along.)
+> (This is the default view from the beginning of this tutorial. Yours will look a little different right now if you have been following along.)
 
-Since we selected “westley” from our Summary tool, you should just see one line on your Trends graph. If you’re familiar with the movie (spoiler ahead if you haven’t seen it), “The Princess Bride,” you will know that the character, Westley is actually The Man In Black at the beginning of the movie. With our Trends tool, we can visually show when that change occurs by using the search syntax to add a line for The Man In Black.
+1. Select “westley” in the Summary tool. You should now just see one line on your Trends graph. If you’re familiar with the movie (**spoiler alert**), you will know that Westley is actually also the Man in Black mentioned frequently in the first third of the movie. With our Trends tool, we can visually show when Westley leaves the picture, becomes the Man in Black, and is then eventually realized to be Westley by using the search syntax to add a line for the Man in Black.
 
-1. Click within the search bar at the bottom of the Trends block and select the term “westley” from the list that appears. Even though we have the term selected from our Summary tool already, we need to select it again here to make sure we get the results we’re looking for.
+2. Click within the search bar at the bottom of the Trends block and select the term “westley” from the list that appears. Even though we have the term selected from our Summary tool already, we need to select it again here to make sure we get the results we are looking for.
 
 <img src="https://user-images.githubusercontent.com/15221098/88464442-bd98c000-ce88-11ea-8c32-f033af8f4992.png" class="responsive" alt="voyanttrends2">
 
-2. In the search bar at the bottom of the Trends block, hover your mouse over the “?” symbol to reveal a cheat sheet of search syntaxes. 
+3. In the search bar at the bottom of the Trends block, hover your mouse over the “?” symbol to reveal a cheat sheet of search syntaxes. 
 
 <img src="https://user-images.githubusercontent.com/15221098/88464453-cdb09f80-ce88-11ea-9387-0cf357425802.png" class="responsive" alt="voyanttrends3">
 
 > This little pop up only lasts for a few seconds. Click the “?” symbol to open a static lightbox version of the cheat sheet.
 
-3. Based on this cheat sheet, if we want Voyant to search for “man in black” as a single term, all we need to do is surround those three words in quotation marks when we type them into the search bar. Do that and press your Enter key.
+4. Based on this cheat sheet, if we want Voyant to search for “man in black” as a single term, all we need to do is surround those three words in quotation marks when we type them into the search bar. 
 
 <img src="https://user-images.githubusercontent.com/15221098/88464459-de611580-ce88-11ea-8130-bc5a951f0421.png" class="responsive" alt="voyanttrends4">
 
@@ -113,7 +103,7 @@ Since we selected “westley” from our Summary tool, you should just see one l
 
 Now our line graph shows lines for each term and we can visually see the point in the story when The Man In Black is revealed to actually be Westley! (What a twist!)
 
-4. In the bottom right corner of the Trends block, click on the “Display” dropdown. Here you can change the appearance of the graph. To really illustrate our point here, click the “Area” option from the list to change it to an area graph of solid colors. 
+5. In the bottom right corner of the Trends block, click on the “Display” dropdown. Here you can change the appearance of the graph. 
 
 <img src="https://user-images.githubusercontent.com/15221098/88464468-f5a00300-ce88-11ea-8a15-fc4d1edde129.png" class="responsive" alt="voyanttrends5">
   
