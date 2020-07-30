@@ -1,7 +1,7 @@
 # Faceting, Filtering, and Visualizing Distant Reader Data with OpenRefine and Voyant
 
 ## Objectives
-> This tutorial overviews how to use the Distant Reader, OpenRefine, and Voyant together. Please complete or review the [Distant Reader](distancereader.md), [OpenRefine](openrefine.md), and [Voyant](voyant.md) tutorials before proceeding.
+> This tutorial overviews how to use the Distant Reader, OpenRefine, and Voyant together. Please complete or review the [Distant Reader](distantreader.md), [OpenRefine](openrefine.md), and [Voyant](voyant.md) tutorials before proceeding.
 
 By the end of this tutorial, you will be able to:
 * Identify and locate tab-delimited files in a Distant Reader study carrel
