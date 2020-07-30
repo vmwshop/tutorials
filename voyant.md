@@ -1,4 +1,4 @@
-# Vi
+# Reading and Analyzing Text with Voyant
 
 ## Objectives
 By the end of this tutorial, you will be able to:
