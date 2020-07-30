@@ -44,15 +44,10 @@ The top left panel of your corpus shows you a cirrus. This is essentially a word
 At first glance, you may notice some odd words appearing larger than you might expect from the script of the movie (if you are familiar with it already). For example, the word, “cut” appears larger than any other word in the cirrus. This seems odd given it most likely is not a word used that often in the actual dialog of the film. Upon another quick look at the original link to the script, you will notice that every camera cut is labeled in the script. For our purposes, we don’t need that word associated with our analysis, so let’s remove it. 
 
 1. Hover your mouse over the header of the cirrus block on your screen. You will notice a few buttons appear. Click the icon that looks like a small switch to “define options for this tool.” This will reveal the different options for filtering out function words and stopwords like “I”, “the”, “a”, etc. 
-
 <img src="https://user-images.githubusercontent.com/15221098/88464342-d2c11f00-ce87-11ea-8a57-732f7be3dfc0.png" class="responsive" alt="voyantcirrus2">
-
 2. To the right of the “Stopwords” dropdown, click the “Edit List” button.
-
 <img src="https://user-images.githubusercontent.com/15221098/88464350-f1bfb100-ce87-11ea-9529-321130b1dfc0.png" class="responsive" alt="voyantcirrus3">
-
 3. Here you will see the full list of words that Voyant identified as stopwords listed one word, number, or symbol per line. On the line directly underneath the last entry of this list, type the word “cut” and click “Save”. Click “Confirm”. “Cut” has now been removed from our cirrus.
-
 <img src="https://user-images.githubusercontent.com/15221098/88464355-ff753680-ce87-11ea-8a7f-6bc8331407ea.png" class="responsive" alt="voyantcirrus4">
 
 
