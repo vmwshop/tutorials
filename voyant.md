@@ -1,4 +1,4 @@
-# Voyant Tutorial
+# Vi
 
 ## Objectives
 By the end of this tutorial, you will be able to:
@@ -7,8 +7,8 @@ By the end of this tutorial, you will be able to:
 
 ## What You Need
 * Computer with an internet browser and internet connection
-* A dataset, which can be:
-    * A single file - HTML, MS Word, MS Excel, ODT, Pages (Apple), PDF, plain text, RTF, XML will work
+* A text-based dataset, which can be:
+    * A single file - HTML, MS Word, MS Excel, ODT, Pages, PDF, plain text, RTF, XML will work
     * A zipped folder of multiple files
     * Copy/pasted text
     * A set of URLs, one per line
@@ -16,10 +16,11 @@ By the end of this tutorial, you will be able to:
 ## About Voyant
 Voyant Tools is an open-source, web-based text reading and analysis environment. When you upload or submit text into Voyant, it generates a corpus with a plethora of different tools built right into the program to help you quickly “see through your data,” as the Voyant catchphrase states. 
 
-_This tutorial is adapted from documentation found in the Voyant help database. Look for it in the references and resources section below for a link to the database._
+_This tutorial is adapted from documentation found in the Voyant help database. See the references and resources section below for a link to the database._
 
-## What Can We Do With Voyant
-* More thoroughly analyze large (or small) amounts of text or data 
+## What We Can Do With Voyant
+* More thoroughly analyze large (or small) amounts of text or data
+* Create graphic visualizations of textual data
 * Add functionality to online collections, journals, blogs, or web sites by providing interactive analysis
 * Develop your own tools using Voyant’s functionality and code
 
@@ -27,7 +28,6 @@ _This tutorial is adapted from documentation found in the Voyant help database. 
 1. Using your web browser, navigate to [https://voyant-tools.org/](https://voyant-tools.org/).
 2. Input your data using one of the available options (text or URLs). For this tutorial, copy/paste this URL into the text box: [https://www.imsdb.com/scripts/Princess-Bride,-The.html](https://www.imsdb.com/scripts/Princess-Bride,-The.html).
 3. Select "reveal".
-
 <img src="https://user-images.githubusercontent.com/15221098/88464255-3a2a9f00-ce87-11ea-859f-ae463f1cd94a.png" class="responsive" alt="voyantgetstarted1" width="850">
 
 ## Exploring Your Voyant Corpus
@@ -43,12 +43,9 @@ The top left panel of your corpus shows you a cirrus. This is essentially a word
 
 At first glance, you may notice some odd words appearing larger than you might expect from the script of the movie (if you are familiar with it already). For example, the word, “cut” appears larger than any other word in the cirrus. This seems odd given it most likely is not a word used that often in the actual dialog of the film. Upon another quick look at the original link to the script, you will notice that every camera cut is labeled in the script. For our purposes, we don’t need that word associated with our analysis, so let’s remove it. 
 
-1. Hover your mouse over the header of the cirrus block on your screen. You will notice a few buttons appear. Click the icon that looks like a small switch to “define options for this tool.” This will reveal the different options for filtering out function words and stopwords like “I”, “the”, “a”, etc. 
-<img src="https://user-images.githubusercontent.com/15221098/88464342-d2c11f00-ce87-11ea-8a57-732f7be3dfc0.png" class="responsive" alt="voyantcirrus2">
-2. To the right of the “Stopwords” dropdown, click the “Edit List” button.
-<img src="https://user-images.githubusercontent.com/15221098/88464350-f1bfb100-ce87-11ea-9529-321130b1dfc0.png" class="responsive" alt="voyantcirrus3">
-3. Here you will see the full list of words that Voyant identified as stopwords listed one word, number, or symbol per line. On the line directly underneath the last entry of this list, type the word “cut” and click “Save”. Click “Confirm”. “Cut” has now been removed from our cirrus.
-<img src="https://user-images.githubusercontent.com/15221098/88464355-ff753680-ce87-11ea-8a7f-6bc8331407ea.png" class="responsive" alt="voyantcirrus4">
+1. Hover your mouse over the header of the cirrus block on your screen. You will notice a few buttons appear. Click the icon that looks like a small switch to “define options for this tool.” This will reveal the different options for filtering out function words and stopwords like “I”, “the”, “a”, etc. <img src="https://user-images.githubusercontent.com/15221098/88464342-d2c11f00-ce87-11ea-8a57-732f7be3dfc0.png" class="responsive" alt="voyantcirrus2">
+2. To the right of the “Stopwords” dropdown, click the “Edit List” button. <img src="https://user-images.githubusercontent.com/15221098/88464350-f1bfb100-ce87-11ea-9529-321130b1dfc0.png" class="responsive" alt="voyantcirrus3">
+3. Here you will see the full list of words that Voyant identified as stopwords listed one word, number, or symbol per line. On the line directly underneath the last entry of this list, type the word “cut” and click “Save”. Click “Confirm”. “Cut” has now been removed from our cirrus. <img src="https://user-images.githubusercontent.com/15221098/88464355-ff753680-ce87-11ea-8a7f-6bc8331407ea.png" class="responsive" alt="voyantcirrus4">
 
 
 ### Summary
