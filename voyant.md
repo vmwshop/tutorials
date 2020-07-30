@@ -75,7 +75,9 @@ The Trends tool shows you a line graph of the frequency of a selected word in yo
 > This little pop up only lasts for a few seconds. Click the “?” symbol to open a static lightbox version of the cheat sheet.
 4. Based on this cheat sheet, if we want Voyant to search for “man in black” as a single term, all we need to do is surround those three words in quotation marks when we type them into the search bar. Now our line graph shows lines for each term and we can visually see the point in the story when The Man In Black is revealed to actually be Westley! (What a twist!) <img src="https://user-images.githubusercontent.com/15221098/88464459-de611580-ce88-11ea-8130-bc5a951f0421.png" class="responsive" alt="voyanttrends4">
 > After you press the Enter key, you might see a random word pop into your search bar. Just click the little “x” next to that word to remove it. 
-5. In the bottom right corner of the Trends block, click on the “Display” dropdown. Here you can change the appearance of the graph. <img src="https://user-images.githubusercontent.com/15221098/88464468-f5a00300-ce88-11ea-8a15-fc4d1edde129.png" class="responsive" alt="voyanttrends5">
+5. In the bottom right corner of the Trends block, click on the “Display” dropdown. Here you can change the appearance of the graph. 
+
+<img src="https://user-images.githubusercontent.com/15221098/88464468-f5a00300-ce88-11ea-8a15-fc4d1edde129.png" class="responsive" alt="voyanttrends5">
   
 
 ### Reader
@@ -83,9 +85,7 @@ The Reader tool displays the text from your corpus with some useful features for
 
 <img src="https://user-images.githubusercontent.com/15221098/88464560-c5a52f80-ce89-11ea-9421-6a7e85f2f21e.png" class="responsive" alt="voyantreader1">
 
-1. Hover over a few words. This displays the total count of that word.
-
-<img src="https://user-images.githubusercontent.com/15221098/88464569-e077a400-ce89-11ea-8516-bd9a0b09acc5.png" class="responsive" alt="voyantreader2">
+1. Hover over a few words. This displays the total count of that word. <img src="https://user-images.githubusercontent.com/15221098/88464569-e077a400-ce89-11ea-8516-bd9a0b09acc5.png" class="responsive" alt="voyantreader2">
 
 2. The search bar also functions in the same way as the search bar in the Trends tool. However, in Reader, it highlights the searched word or term and displays a small, simple line graph to illustrate that word or term’s frequency throughout the text. Click within the search bar and select the word “humperdinck”. You will notice the line graph shift. You can also click on the line graph itself to jump to a part of the text that has a higher frequency of your searched word or term. 
 
@@ -93,21 +93,18 @@ The Reader tool displays the text from your corpus with some useful features for
 
 ### Contexts
 
-The Contexts tool is a great way to get a snapshot of exactly what it’s called, the context of a word in your text. It shows a list of each occurrence of the selected word and a few words that appear on either side of that occurrence. 
+The Contexts tool shows each occurrence of a keyword with a bit of surrounding text (the context). It can be useful for studying more closely how terms are used in different contexts. 
 
 <img src="https://user-images.githubusercontent.com/15221098/88464607-33e9f200-ce8a-11ea-84dc-df7e3b839917.png" class="responsive" alt="voyantcontexts1">
 
-1.  By default, Voyant selects the word with the highest frequency from your corpus in the Contexts block. For this example, let’s pick something else. Selecting a new word for the Contexts tool can be done a couple of ways: 
+1. By default, Voyant selects the word with the highest frequency from your corpus in the Contexts block. For this example, let’s pick something else. Selecting a new word for the Contexts tool can be done a couple of ways: 
 
-- Click the word in the Reader block
-- Click a data point from the line graph in the Trends block
-- Using the search bar at the bottom of the Contexts block
-
-However you want to get there, select the word “fezzik”.
-
+> - Click the word in the Reader block
+> - Click a data point from the line graph in the Trends block
+> - Using the search bar at the bottom of the Contexts block
 <img src="https://user-images.githubusercontent.com/15221098/88464617-51b75700-ce8a-11ea-99d6-df358cefe24a.png" class="responsive" alt="voyantcontexts2">
 
-2. Take a look down the list of the occurrences of “fezzick”. Each line of the table shows each individual occurrence of the word with one column showing the text on the left side of the word and another column showing the text that appears to the right of the word. Click the first line of the table and notice how the blocks for the Reader and Trends tools both change to help elaborate on the context of that occurrence of the word. 
+2. However you want to get there, select the word “fezzik”. Take a look down the list of the occurrences of “fezzick”. Each line of the table shows each individual occurrence of the word with one column showing the text on the left side of the word and another column showing the text that appears to the right of the word. Click the first line of the table and notice how the blocks for the Reader and Trends tools both change to help elaborate on the context of that occurrence of the word. 
 
 <img src="https://user-images.githubusercontent.com/15221098/88464626-60057300-ce8a-11ea-93ae-5d966b7b975e.png" class="responsive" alt="voyantcontexts3">
 
