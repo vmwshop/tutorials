@@ -85,7 +85,7 @@ The Reader tool displays the text from your corpus with some useful features for
 
 <img src="https://user-images.githubusercontent.com/15221098/88464560-c5a52f80-ce89-11ea-9421-6a7e85f2f21e.png" class="responsive" alt="voyantreader1">
 
-1. Hover over a few words. This displays the total count of that word. <img src="https://user-images.githubusercontent.com/15221098/88464569-e077a400-ce89-11ea-8516-bd9a0b09acc5.png" class="responsive" alt="voyantreader2">
+1. Hover over a few words. The hover text displays the total count of that word. <img src="https://user-images.githubusercontent.com/15221098/88464569-e077a400-ce89-11ea-8516-bd9a0b09acc5.png" class="responsive" alt="voyantreader2">
 
 2. The search bar also functions in the same way as the search bar in the Trends tool. However, in Reader, it highlights the searched word or term and displays a small, simple line graph to illustrate that word or term’s frequency throughout the text. Click within the search bar and select the word “humperdinck”. You will notice the line graph shift. You can also click on the line graph itself to jump to a part of the text that has a higher frequency of your searched word or term. 
 
