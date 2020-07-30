@@ -37,48 +37,24 @@ The results of downloading and uncompressing the Distant Reader study carrel .zi
 For more information on these and other files in Study Carrels, check out [Distant Reader “study carrels”: A manifest](https://sites.nd.edu/emorgan/2019/12/reader-manifest/).
 
 ### Faceting and Filtering Study Carrel Data Using OpenRefine
-1. Download a sample [Study Carrel](https://carrels.distantreader.org/). These examples use the [“extraterrestrial-beings” Study Carrel](https://carrels.distantreader.org/library/extraterrestrial-beings/study-carrel.zip), but feel free to choose one that interests you. 
-
-<img src="https://user-images.githubusercontent.com/15221098/88934333-82164100-d24e-11ea-832a-15808e58ec08.png" alt="drorvy1" class="responsive" width="500">
-
+1. Download a sample [Study Carrel](https://carrels.distantreader.org/). These examples use the [“extraterrestrial-beings” Study Carrel](https://carrels.distantreader.org/library/extraterrestrial-beings/study-carrel.zip), but feel free to choose one that interests you. <img src="https://user-images.githubusercontent.com/15221098/88934333-82164100-d24e-11ea-832a-15808e58ec08.png" alt="drorvy1" class="responsive" width="500" style="vertical-align:middle;margin:20px 0px">
 2. If you have not already done so, [Download](https://openrefine.org/download.html) and install the OpenRefine app. Launch the OpenRefine. Reminder: When you launch the OpenRefine app, your default internet browser will open.
 
 #### Recipe 1: POS File - Parts of Speech Frequency and Grouping 
 
-3. Create a new project in OpenRefine and choose any file from the study carrel's part-of-speech (pos) directory as your input. Accept defaults and “create project”.
-
-<img src="https://user-images.githubusercontent.com/15221098/88934336-82aed780-d24e-11ea-8bbb-9d6238d8ce2b.png" alt="drorvy2" class="responsive" width="400">
-<img src="https://user-images.githubusercontent.com/15221098/88934337-82aed780-d24e-11ea-8abc-fb706e53f25b.png" alt="drorvy3" class="responsive" width="850">
-
-4. Click the arrow next to the POS column and select ```Facet > Text facet```.
-
-<img src="https://user-images.githubusercontent.com/15221098/88934339-83476e00-d24e-11ea-8fb0-c538e8e60eee.png" alt="drorvy4" class="responsive" width="500">
-
-5. A column of words and a column of frequencies will appear to the left. In this case, the column of facets shows counts and tabulations of each type of part-of-speech in the file. Try faceting using the other available options including columns and facet types. 
-
-<img src="https://user-images.githubusercontent.com/15221098/88934340-83476e00-d24e-11ea-82a4-7f93ba79f6c1.png" alt="drorvy5" class="responsive" width="300">
-
-6. Click the "Remove All" button to reset your view of the data.
-
-<img src="https://user-images.githubusercontent.com/15221098/88940912-6020bc80-d256-11ea-845d-46de3674b1bf.png" alt="drorvy6" class="responsive" width="500">
-
-7. Click the arrow next to the "token" column and select ```Text filter```.
-
-<img src="https://user-images.githubusercontent.com/15221098/88940914-6020bc80-d256-11ea-9f1b-5771d27ef131.png" alt="drorvy7" class="responsive" width="500">
- 
-8. A box to input text will appear in the left sidebar. Think of a word of interest for your corpus and press “enter” to search. Try as many times as you like.
-
+3. Create a new project in OpenRefine and choose any file from the study carrel's part-of-speech (pos) directory as your input. Accept defaults and “create project”. <img src="https://user-images.githubusercontent.com/15221098/88934336-82aed780-d24e-11ea-8bbb-9d6238d8ce2b.png" alt="drorvy2" class="responsive" width="400" style="vertical-align:middle;margin:20px 0px"> <img src="https://user-images.githubusercontent.com/15221098/88934337-82aed780-d24e-11ea-8abc-fb706e53f25b.png" alt="drorvy3" class="responsive" width="850" style="vertical-align:middle;margin:20px 0px">
+4. Click the arrow next to the POS column and select ```Facet > Text facet```. <img src="https://user-images.githubusercontent.com/15221098/88934339-83476e00-d24e-11ea-8fb0-c538e8e60eee.png" alt="drorvy4" class="responsive" width="500" style="vertical-align:middle;margin:20px 0px">
+5. A column of words and a column of frequencies will appear to the left. In this case, the column of facets shows counts and tabulations of each type of part-of-speech in the file. Try faceting using the other available options including columns and facet types. <img src="https://user-images.githubusercontent.com/15221098/88934340-83476e00-d24e-11ea-82a4-7f93ba79f6c1.png" alt="drorvy5" class="responsive" width="850" style="vertical-align:middle;margin:20px 0px">
+6. Click the "Remove All" button to reset your view of the data. <img src="https://user-images.githubusercontent.com/15221098/88940912-6020bc80-d256-11ea-845d-46de3674b1bf.png" alt="drorvy6" class="responsive" width="500" style="vertical-align:middle;margin:20px 0px">
+7. Click the arrow next to the "token" column and select ```Text filter```. <img src="https://user-images.githubusercontent.com/15221098/88940914-6020bc80-d256-11ea-9f1b-5771d27ef131.png" alt="drorvy7" class="responsive" width="500" style="vertical-align:middle;margin:20px 0px">
+8. A box to input text will appear in the left sidebar. Think of a word of interest for your corpus and press “enter” to search. Try as many times as you like with other words.
 9. “Remove All” again and let’s try filtering and faceting together. This can help with analyzing sentiment.
-
 10. Text filter on the "token" column but search for ```^N``` and check the "regular expression" box.
 > You can use the following to filter parts of speech, respectively:
 > <p> ^N for nouns </p>
 > <p> ^V for verbs </p>
 > <p> ^J for adjectives </p>
-
-11. Text facet on the "lemma" column. The result is a count and tabulation of all the nouns.
-
-<img src="https://user-images.githubusercontent.com/15221098/88941176-b4c43780-d256-11ea-832c-4fb1284ebcad.png" alt="drorvy8" class="responsive" width="500">
+11. Text facet on the "lemma" column. The result is a count and tabulation of all the nouns. <img src="https://user-images.githubusercontent.com/15221098/88941176-b4c43780-d256-11ea-832c-4fb1284ebcad.png" alt="drorvy8" class="responsive" width="500" style="vertical-align:middle;margin:20px 0px">
 
 
 
