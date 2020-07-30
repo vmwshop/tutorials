@@ -97,34 +97,22 @@ The Contexts tool shows each occurrence of a keyword with a bit of surrounding t
 
 <img src="https://user-images.githubusercontent.com/15221098/88464607-33e9f200-ce8a-11ea-84dc-df7e3b839917.png" class="responsive" alt="voyantcontexts1">
 
-1. By default, Voyant selects the word with the highest frequency from your corpus in the Contexts block. For this example, let’s pick something else. Selecting a new word for the Contexts tool can be done a couple of ways: 
-
+1. By default, Voyant selects the word with the highest frequency from your corpus in the Contexts block. <img src="https://user-images.githubusercontent.com/15221098/88464617-51b75700-ce8a-11ea-99d6-df358cefe24a.png" class="responsive" alt="voyantcontexts2">
+>Selecting a new word for the Contexts tool can be done a couple of ways: 
 > - Click the word in the Reader block
 > - Click a data point from the line graph in the Trends block
 > - Using the search bar at the bottom of the Contexts block
-<img src="https://user-images.githubusercontent.com/15221098/88464617-51b75700-ce8a-11ea-99d6-df358cefe24a.png" class="responsive" alt="voyantcontexts2">
-
-2. However you want to get there, select the word “fezzik”. Take a look down the list of the occurrences of “fezzick”. Each line of the table shows each individual occurrence of the word with one column showing the text on the left side of the word and another column showing the text that appears to the right of the word. Click the first line of the table and notice how the blocks for the Reader and Trends tools both change to help elaborate on the context of that occurrence of the word. 
-
-<img src="https://user-images.githubusercontent.com/15221098/88464626-60057300-ce8a-11ea-93ae-5d966b7b975e.png" class="responsive" alt="voyantcontexts3">
-
-3. To add additional terms to your Contexts tool, use the search bar by either clicking and selecting a word or by typing in a word or phrase using Voyant’s search syntax. You can find a cheat sheet for the syntax again by clicking the little “?” symbol on the right end of the search bar. For this example, add “inigo” since he and Fezzik are together for most of the movie. 
-
-<img src="https://user-images.githubusercontent.com/15221098/88464636-73184300-ce8a-11ea-8858-2c61a3540a9d.png" class="responsive" alt="voyantcontexts4">
+2. However you want to get there, select the word “fezzik”. Take a look down the list of the occurrences of “fezzick”. Each line of the table shows each individual occurrence of the word with one column showing the text on the left side of the word and another column showing the text that appears to the right of the word. Click the first line of the table and notice how the blocks for the Reader and Trends tools both change to help elaborate on the context of that occurrence of the word. <img src="https://user-images.githubusercontent.com/15221098/88464626-60057300-ce8a-11ea-93ae-5d966b7b975e.png" class="responsive" alt="voyantcontexts3">
+3. To add additional terms to your Contexts tool, use the search bar by either clicking and selecting a word or by typing in a word or phrase using Voyant’s search syntax. You can find a cheat sheet for the syntax again by clicking the little “?” symbol on the right end of the search bar. For this example, add “inigo” since he and Fezzik are together for most of the movie. <img src="https://user-images.githubusercontent.com/15221098/88464636-73184300-ce8a-11ea-8858-2c61a3540a9d.png" class="responsive" alt="voyantcontexts4">
 
 Adding multiple terms to your Contexts tool allows you to get a bird’s eye view of any consistencies in the contexts of different terms!
 
 ## Exporting and Embedding your Corpus
 
-One of the beauties of Voyant is the ability to not only export your corpus but also embed it into an online collection, article, or webpage. This adds new depth to your data or research and allows readers to interact with it. 
+One of the nice features of Voyant is the ability to not only export your corpus but also embed it into an online collection, article, or webpage. This allows readers to interact with your data or research. 
 
-1. Hover your mouse over the blue header at the top of your browser window to expose four icons. Click on the icon that is a rounded rectangle with an arrow sticking diagonally out of it.
-
-<img src="https://user-images.githubusercontent.com/15221098/88464643-84614f80-ce8a-11ea-952a-08af38daacb0.png" class="responsive" alt="voyantexport1">
-
-2. You are provided with a few different options here. The default is a URL that, when clicked, will populate your corpus in the exact condition that is at the time of click the “Export” button. If you select this option, Voyant will open that URL in a new tab and you can copy it from there. To find additional options, click the “Export View (Tools and Data)” dropdown to expose the following options:
-
-<img src="https://user-images.githubusercontent.com/15221098/88464649-95aa5c00-ce8a-11ea-99a8-811ff6f707e6.png" class="responsive" alt="voyantexport2">
+1. Hover your mouse over the blue header at the top of your browser window to expose four icons. Click on the icon that is a rounded rectangle with an arrow sticking diagonally out of it. <img src="https://user-images.githubusercontent.com/15221098/88464643-84614f80-ce8a-11ea-952a-08af38daacb0.png" class="responsive" alt="voyantexport1">
+2. You are provided with a few different options here. The default is a URL that, when clicked, will populate your corpus in the exact condition that is at the time of click the “Export” button. If you select this option, Voyant will open that URL in a new tab and you can copy it from there. To find additional options, click the “Export View (Tools and Data)” dropdown to expose your options:<img src="https://user-images.githubusercontent.com/15221098/88464649-95aa5c00-ce8a-11ea-99a8-811ff6f707e6.png" class="responsive" alt="voyantexport2">
 
 
 ## Other Tips and Tricks
@@ -137,11 +125,9 @@ If you need to expand or contract the blocks of any of the tools displayed in yo
 
 ### Changing Your Blocks to Other Tools
 
-We only showed you 5 of the tools available for your corpus. To change one of your blocks, hover over the gray header area of the block you want to change and click the icon with four small rectangles.
+We only showed you 5 of the tools available for your corpus. To change one of your blocks, hover over the gray header area of the block you want to change and click the icon with four small rectangles. Check out Voyant’s help database (linked below) to explore all of their available tools! 
 
 <img src="https://user-images.githubusercontent.com/15221098/88464690-d013f900-ce8a-11ea-9a08-fe7c4b44a829.png" class="responsive" alt="voyanttools">
-
-Check out Voyant’s help database (linked below) to explore all of their available tools! 
 
 
 ## Other Resources and References
