@@ -58,7 +58,8 @@ By default, the summary lists the top 5 most frequent words in your corpus. Let'
 
 1. Click and drag the slider in the bottom left corner of the block labeled “Items” to your desired number. This increases in increments of 5. 
 2. Slide your items slide up to 30. Give Voyant about 30 seconds to catch up, and you will see your list of most frequent words increase. <img src="https://user-images.githubusercontent.com/15221098/88464399-685cae80-ce88-11ea-8647-e17a5535b566.png" class="responsive" alt="voyantsummary2" style="vertical-align:middle;margin:20px 0px">
-3. In your list of most frequent words, take turns selecting the yellow highlighted words. Now take a look what this selection does to the rest of your corpus. Using the Summary tool, you can select individual words and that will trigger the rest of the tools within the corpus to adjust and show analysis on that specific word. The most obvious change in this case is the “Trends” block of your corpus. <img src="https://user-images.githubusercontent.com/15221098/88464413-862a1380-ce88-11ea-9af6-58f026134191.png" class="responsive" alt="voyantsummary3" style="vertical-align:middle;margin:20px 0px">
+3. In your list of most frequent words, take turns selecting the yellow highlighted words. Now take a look what this selection does to the rest of your corpus. Using the Summary tool, you can select individual words and that will trigger the rest of the tools within the corpus to adjust and show analysis on that specific word. The most obvious change in this case is the “Trends” block of your corpus. 
+<img src="https://user-images.githubusercontent.com/15221098/88464413-862a1380-ce88-11ea-9af6-58f026134191.png" class="responsive" alt="voyantsummary3" style="vertical-align:middle;margin:20px 0px">
 
 
 ### Trends
@@ -75,7 +76,8 @@ The Trends tool shows you a line graph of the frequency of a selected word in yo
 > This little pop up only lasts for a few seconds. Click the “?” symbol to open a static lightbox version of the cheat sheet.
 4. Based on this cheat sheet, if we want Voyant to search for “man in black” as a single term, all we need to do is surround those three words in quotation marks when we type them into the search bar. Now our line graph shows lines for each term and we can visually see the point in the story when The Man In Black is revealed to actually be Westley! (What a twist!) <img src="https://user-images.githubusercontent.com/15221098/88464459-de611580-ce88-11ea-8130-bc5a951f0421.png" class="responsive" alt="voyanttrends4" style="vertical-align:middle;margin:20px 0px">
 > After you press the Enter key, you might see a random word pop into your search bar. Just click the little “x” next to that word to remove it. 
-5. In the bottom right corner of the Trends block, click on the “Display” dropdown. Here you can change the appearance of the graph. <img src="https://user-images.githubusercontent.com/15221098/88464468-f5a00300-ce88-11ea-8a15-fc4d1edde129.png" class="responsive" alt="voyanttrends5" style="vertical-align:middle;margin:20px 0px">
+5. In the bottom right corner of the Trends block, click on the “Display” dropdown. Here you can change the appearance of the graph. 
+<img src="https://user-images.githubusercontent.com/15221098/88464468-f5a00300-ce88-11ea-8a15-fc4d1edde129.png" class="responsive" alt="voyanttrends5" style="vertical-align:middle;margin:20px 0px">
   
 
 ### Reader
@@ -85,7 +87,8 @@ The Reader tool displays the text from your corpus with some useful features for
 
 1. Hover over a few words. The hover text displays the total count of that word. <img src="https://user-images.githubusercontent.com/15221098/88464569-e077a400-ce89-11ea-8516-bd9a0b09acc5.png" class="responsive" alt="voyantreader2" style="vertical-align:middle;margin:20px 0px">
 
-2. The search bar also functions in the same way as the search bar in the Trends tool. However, in Reader, it highlights the searched word or term and displays a small, simple line graph to illustrate that word or term’s frequency throughout the text. Click within the search bar and select the word “humperdinck”. You will notice the line graph shift. You can also click on the line graph itself to jump to a part of the text that has a higher frequency of your searched word or term. <img src="https://user-images.githubusercontent.com/15221098/88464574-ec636600-ce89-11ea-9d0f-3c9992da119b.png" class="responsive" alt="voyantreader3" style="vertical-align:middle;margin:20px 0px">
+2. The search bar also functions in the same way as the search bar in the Trends tool. However, in Reader, it highlights the searched word or term and displays a small, simple line graph to illustrate that word or term’s frequency throughout the text. Click within the search bar and select the word “humperdinck”. You will notice the line graph shift. You can also click on the line graph itself to jump to a part of the text that has a higher frequency of your searched word or term. 
+<img src="https://user-images.githubusercontent.com/15221098/88464574-ec636600-ce89-11ea-9d0f-3c9992da119b.png" class="responsive" alt="voyantreader3" style="vertical-align:middle;margin:20px 0px">
 
 ### Contexts
 
@@ -99,7 +102,8 @@ The Contexts tool shows each occurrence of a keyword with a bit of surrounding t
 > - Click a data point from the line graph in the Trends block
 > - Using the search bar at the bottom of the Contexts block
 2. However you want to get there, select the word “fezzik”. Take a look down the list of the occurrences of “fezzick”. Each line of the table shows each individual occurrence of the word with one column showing the text on the left side of the word and another column showing the text that appears to the right of the word. Click the first line of the table and notice how the blocks for the Reader and Trends tools both change to help elaborate on the context of that occurrence of the word. <img src="https://user-images.githubusercontent.com/15221098/88464626-60057300-ce8a-11ea-93ae-5d966b7b975e.png" class="responsive" alt="voyantcontexts3" style="vertical-align:middle;margin:20px 0px">
-3. To add additional terms to your Contexts tool, use the search bar by either clicking and selecting a word or by typing in a word or phrase using Voyant’s search syntax. You can find a cheat sheet for the syntax again by clicking the little “?” symbol on the right end of the search bar. For this example, add “inigo” since he and Fezzik are together for most of the movie. <img src="https://user-images.githubusercontent.com/15221098/88464636-73184300-ce8a-11ea-8858-2c61a3540a9d.png" class="responsive" alt="voyantcontexts4" style="vertical-align:middle;margin:20px 0px">
+3. To add additional terms to your Contexts tool, use the search bar by either clicking and selecting a word or by typing in a word or phrase using Voyant’s search syntax. You can find a cheat sheet for the syntax again by clicking the little “?” symbol on the right end of the search bar. For this example, add “inigo” since he and Fezzik are together for most of the movie. 
+<img src="https://user-images.githubusercontent.com/15221098/88464636-73184300-ce8a-11ea-8858-2c61a3540a9d.png" class="responsive" alt="voyantcontexts4" style="vertical-align:middle;margin:20px 0px">
 
 Adding multiple terms to your Contexts tool allows you to get a bird’s eye view of any consistencies in the contexts of different terms!
 
