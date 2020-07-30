@@ -112,7 +112,8 @@ Adding multiple terms to your Contexts tool allows you to get a bird’s eye vie
 One of the nice features of Voyant is the ability to not only export your corpus but also embed it into an online collection, article, or webpage. This allows readers to interact with your data or research. 
 
 1. Hover your mouse over the blue header at the top of your browser window to expose four icons. Click on the icon that is a rounded rectangle with an arrow sticking diagonally out of it. <img src="https://user-images.githubusercontent.com/15221098/88464643-84614f80-ce8a-11ea-952a-08af38daacb0.png" class="responsive" alt="voyantexport1" style="vertical-align:middle;margin:20px 0px">
-2. You are provided with a few different options here. The default is a URL that, when clicked, will populate your corpus in the exact condition that is at the time of click the “Export” button. If you select this option, Voyant will open that URL in a new tab and you can copy it from there. To find additional options, click the “Export View (Tools and Data)” dropdown to expose your options:<img src="https://user-images.githubusercontent.com/15221098/88464649-95aa5c00-ce8a-11ea-99a8-811ff6f707e6.png" class="responsive" alt="voyantexport2" style="vertical-align:middle;margin:20px 0px">
+2. You are provided with a few different options here. The default is a URL that, when clicked, will populate your corpus in the exact condition that is at the time of click the “Export” button. If you select this option, Voyant will open that URL in a new tab and you can copy it from there. To find additional options, click the “Export View (Tools and Data)” dropdown to expose your options:
+<img src="https://user-images.githubusercontent.com/15221098/88464649-95aa5c00-ce8a-11ea-99a8-811ff6f707e6.png" class="responsive" alt="voyantexport2" style="vertical-align:middle;margin:20px 0px">
 
 
 ## Other Tips and Tricks
