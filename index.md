@@ -24,13 +24,13 @@ By the end of this tutorial, you will be able to:
 * Understand the basic functions of Voyant
 * Create a default corpus using Voyant
 
-### [Distant Reader + OpenRefine + Voyant](drorvy.md)
-This tutorial overviews how to use the Distant Reader, OpenRefine, and Voyant together. Please complete or review the Distant Reader, OpenRefine, and Voyant tutorials before completing this tutorial.
+### [Distant Reader + OpenRefine](drorvy.md)
+This tutorial overviews how to use the Distant Reade and OpenRefine together. Please complete or review the Distant Reader and OpenRefine before proceeding.
 
 By the end of this tutorial, you will be able to:
 
-* Identify and locate tab-delimited files in a Distant Reader study carrel
-* Facet, filter, and export, study carrel data using OpenRefine
-* Visualize frequencies with Voyant
+Identify and locate tab-delimited files in a Distant Reader study carrel
+Facet, filter, and export, study carrel data using OpenRefine
+
 ### [spaCy](spacy.md)
 spaCy is a free, open-source library for advanced Natural Language Processing (NLP) in Python. It's designed specifically for production use and helps you build applications that process large volumes of text. spaCy comes with pretrained statistical models and word vectors, and currently supports tokenization for 60+ languages. It features state-of-the-art speed, convolutional neural network models for tagging, parsing and named entity recognition and easy deep learning integration.
