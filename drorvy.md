@@ -36,12 +36,14 @@ The results of downloading and uncompressing the Distant Reader study carrel .zi
 
 For more information on these and other files in Study Carrels, check out [Distant Reader “study carrels”: A manifest](https://sites.nd.edu/emorgan/2019/12/reader-manifest/).
 
-### Faceting and Filterin Study Carrel Data Using OpenRefine
+### Faceting and Filtering Study Carrel Data Using OpenRefine
 1. Download a sample [Study Carrel](https://carrels.distantreader.org/). These examples use the [“extraterrestrial-beings” Study Carrel](https://carrels.distantreader.org/library/extraterrestrial-beings/study-carrel.zip), but feel free to choose one that interests you. 
 
 <img src="https://user-images.githubusercontent.com/15221098/88934333-82164100-d24e-11ea-832a-15808e58ec08.png" alt="drorvy1" class="responsive" width="500">
 
 2. If you have not already done so, [Download](https://openrefine.org/download.html) and install the OpenRefine app. Launch the OpenRefine. Reminder: When you launch the OpenRefine app, your default internet browser will open.
+
+#### Recipe 1: POS File - Parts of Speech Frequency and Grouping 
 
 3. Create a new project in OpenRefine and choose any file from the study carrel's part-of-speech (pos) directory as your input. Accept defaults and “create project”.
 
@@ -66,7 +68,7 @@ For more information on these and other files in Study Carrels, check out [Dista
  
 8. A box to input text will appear in the left sidebar. Think of a word of interest for your corpus and press “enter” to search. Try as many times as you like.
 
-9. “Remove All” again and let’s try filtering and faceting together. 
+9. “Remove All” again and let’s try filtering and faceting together. This can help with analyzing sentiment.
 
 10. Text filter on the "token" column but search for ```^N``` and check the "regular expression" box.
 > You can use the following to filter parts of speech, respectively:
@@ -75,6 +77,7 @@ For more information on these and other files in Study Carrels, check out [Dista
 > <p> ^J for adjectives </p>
 
 11. Text facet on the "lemma" column. The result is a count and tabulation of all the nouns.
+
 <img src="https://user-images.githubusercontent.com/15221098/88941176-b4c43780-d256-11ea-832c-4fb1284ebcad.png" alt="drorvy8" class="responsive" width="500">
 
 
