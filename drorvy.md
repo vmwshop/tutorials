@@ -36,7 +36,7 @@ The results of downloading and uncompressing the Distant Reader study carrel .zi
 
 For more information on these and other files in Study Carrels, check out [Distant Reader “study carrels”: A manifest](https://sites.nd.edu/emorgan/2019/12/reader-manifest/).
 
-### Faceting study carrel data using OpenRefine
+### Faceting Study Carrel Data Using OpenRefine
 1. Download a sample [Study Carrel](https://carrels.distantreader.org/). These examples use the [“extraterrestrial-beings” Study Carrel](https://carrels.distantreader.org/library/extraterrestrial-beings/study-carrel.zip), but feel free to choose one that interests you. 
 <img src="https://user-images.githubusercontent.com/15221098/88934333-82164100-d24e-11ea-832a-15808e58ec08.png" alt="drorvy1" class="responsive" width="400">
 
