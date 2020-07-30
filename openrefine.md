@@ -7,22 +7,22 @@ By the end of this tutorial, you will be able to:
 * Filter and export a specific portion of your dataset
 
 ## What You Need
-- Computer with an internet browser and internet connection
-- A dataset - ideally something on the larger size (i.e. tens or hundreds of thousands of data points)
-    - We altered a dataset from the [Western Pennsylvania Regional Data Center](http://www.wprdc.org/) for this tutorial. Access our **["messy" dataset](https://raw.githubusercontent.com/janethaler/dsamtools/master/Allegheny%20County%20Dog%20Licenses.csv)** here. 
-        - Right click the "this dataset" link above and select "Open in New Tab" 
-        - On the webpage that opens, right click and select "Save As"
-        - Save the .csv file somewhere you can easily access it again when it's time to upload it
-    - Your own data can be uploaded as a file in many different formats (csv, json, wiki, xls, etc.), pulled from a webpage, or even copy/pasted as text
+* Computer with a web browser and internet connection
+* A dataset - ideally something on the larger size (i.e. tens or hundreds of thousands of data points)
+    * We altered a dataset from the [Western Pennsylvania Regional Data Center](http://www.wprdc.org/) for this tutorial. Access our **["messy" dataset](https://raw.githubusercontent.com/janethaler/dsamtools/master/Allegheny%20County%20Dog%20Licenses.csv)** here. 
+        > * Right click the "messy" dataset link above and select "Open in New Tab" 
+        > * On the webpage that opens, right click and select "Save As"
+        > * Save the .csv file somewhere you can easily access it again when it's time to upload it
+    * Your own data can be uploaded as a file in many different formats (csv, json, wiki, xls, etc.), pulled from a webpage, or even copy/pasted as text
 
 ## About OpenRefine
 
 OpenRefine (previously Google Refine) is a powerful, opensource tool for working with messy data. Key features include cleaning up small to large mistakes en masse, converting data from one format to another, and adding to a dataset by pulling data from an online source into your dataset. OpenRefine is an app that is downloaded to your personal computer that then uses your internet browser to interact with it. While it might look as though you are uploading your data to the internet through your browser, the data is in fact still being locally hosted on your hard drive. 
 
 ### What Can We Do With OpenRefine?
-- Clean up messy data
-- Combine data from a website with an outside dataset
-- Convert a dataset from one format to another
+* Clean up messy data
+* Combine data from a website with an outside dataset
+* Convert a dataset from one format to another
 
 ## Getting Started
 
@@ -41,7 +41,7 @@ Once you have the app downloaded and installed, launch the app, upload your data
 
 ## Faceting  
 
-Facets are the bread and butter of OpenRefine when it comes to cleaning up messy data as well as sorting and filtering it. Essentially, they are a collection of each value in each cell of your data, grouped together with a total count for each unique datapoint. When you create a “text facet,” OpenRefine automatically separates and groups them based on text and characters. You will also notice that the fine folks at OpenRefine have [provided a link to some great screencasts](https://github.com/OpenRefine/OpenRefine/wiki/Screencasts) on using filters and facets. Much of this tutorial is based on these videos, so please feel free to reference those as well.
+Facets are the bread and butter of OpenRefine when it comes to cleaning up messy data as well as sorting and filtering it. Essentially, they are a collection of each value in each cell of your data, grouped together with a total count for each unique datapoint. When you create a “text facet” or you "facet text" OpenRefine automatically separates and groups them based on text and characters. You will also notice that the fine folks at OpenRefine have [provided a link to some great screencasts](https://github.com/OpenRefine/OpenRefine/wiki/Screencasts) on using filters and facets. Much of this tutorial is based on these videos, so please feel free to reference those as well.
 
 1. In the Breed column of our data, click the dropdown arrow in the column header and select ```Facet > Text facet```. <img src="https://user-images.githubusercontent.com/15221098/87824323-0de99f80-c843-11ea-912c-e1b001de2aff.png" class="responsive" alt="ORfacets1" width="850" style="vertical-align:middle;margin:20px 0px">
 2. In the left sidebar, you will see a list of all of the different breeds in your dataset grouped together with a total count for each. Take a look through these carefully and you will notice that there are some that appear to be duplicates. <img src="https://user-images.githubusercontent.com/15221098/87824431-3d98a780-c843-11ea-8f46-a70573c98b2f.png" class="responsive" alt="ORfacets2" width="850" style="vertical-align:middle;margin:20px 0px">
