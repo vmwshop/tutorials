@@ -14,7 +14,7 @@ By the end of this tutorial, you will be able to:
     * A set of URLs, one per line
 
 ## About Voyant
-Voyant Tools is an open-source, web-based text reading and analysis environment. When you upload or submit text into Voyant, it generates a corpus with a plethora of different tools built right into the program to help you quickly “see through your data,” as the Voyant catchphrase states. 
+[Voyant Tools]((https://voyant-tools.org/)) is an open-source, web-based text reading and analysis environment. When you upload or submit text into Voyant, it generates a corpus with a plethora of different tools built right into the program to help you quickly “see through your data,” as the Voyant catchphrase states. 
 
 _This tutorial is adapted from documentation found in the Voyant help database. See the references and resources section below for a link to the database._
 
