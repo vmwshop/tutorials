@@ -1,18 +1,17 @@
-# Faceting, Filtering, and Visualizing Distant Reader Data with OpenRefine and Voyant
+# Faceting and Filtering Distant Reader Data with OpenRefine 
 
 ## Objectives
-> This tutorial overviews how to use the Distant Reader, OpenRefine, and Voyant together. Please complete or review the [Distant Reader](distantreader.md), [OpenRefine](openrefine.md), and [Voyant](voyant.md) tutorials before proceeding.
+> This tutorial overviews how to use the Distant Reade and OpenRefine together. Please complete or review the [Distant Reader](distancereader.md) and [OpenRefine](openrefine.md) before proceeding.
 
 By the end of this tutorial, you will be able to:
 * Identify and locate tab-delimited files in a Distant Reader study carrel
 * Facet, filter, and export, study carrel data using OpenRefine
-* Visualize frequencies with Voyant
 
 _Much of the following is adapted from Eric Lease Morgan’s documentation and workshops about the Distant Reader tool. See the references section of this tutorial for links to these resources._ 
 
 ## What You Need
 * Computer with an internet browser and internet connection
-* Tab-delimited file from a [Distant Reader Carrel](https://carrels.distantreader.org/)
+* Tab-delimited files from a [Distant Reader Carrel](https://carrels.distantreader.org/)
 
 ## Distant Reader + OpenRefine
 Distant Reader is designed to be used in conjunction with other tools. One tool that we can use to “hack” the structured data from the Distant Reader is OpenRefine. When we open a tab-delimited file (structure data) in OpenRefine, it will parse the file(s) into fields. We can then use OpenRefine features (finding/replacing, faceting, filtering, sorting, clustering, counting & tabulating, and finally, exporting data) to work with our data.
@@ -40,8 +39,7 @@ For more information on these and other files in Study Carrels, check out [Dista
 1. Download a sample [Study Carrel](https://carrels.distantreader.org/). These examples use the [“extraterrestrial-beings” Study Carrel](https://carrels.distantreader.org/library/extraterrestrial-beings/study-carrel.zip), but feel free to choose one that interests you. <img src="https://user-images.githubusercontent.com/15221098/88934333-82164100-d24e-11ea-832a-15808e58ec08.png" alt="drorvy1" class="responsive" width="500" style="vertical-align:middle;margin:20px 0px">
 2. If you have not already done so, [Download](https://openrefine.org/download.html) and install the OpenRefine app. Launch the OpenRefine. Reminder: When you launch the OpenRefine app, your default internet browser will open.
 
-#### Recipe 1: POS File - Parts of Speech Frequency and Grouping 
-
+### Recipe 1: Part of Speech Filtering
 3. Create a new project in OpenRefine and choose any file from the study carrel's part-of-speech (pos) directory as your input. Accept defaults and “create project”. <img src="https://user-images.githubusercontent.com/15221098/88934336-82aed780-d24e-11ea-8bbb-9d6238d8ce2b.png" alt="drorvy2" class="responsive" width="400" style="vertical-align:middle;margin:20px 0px"> <img src="https://user-images.githubusercontent.com/15221098/88934337-82aed780-d24e-11ea-8abc-fb706e53f25b.png" alt="drorvy3" class="responsive" width="850" style="vertical-align:middle;margin:20px 0px">
 4. Click the arrow next to the POS column and select ```Facet > Text facet```. <img src="https://user-images.githubusercontent.com/15221098/88934339-83476e00-d24e-11ea-8fb0-c538e8e60eee.png" alt="drorvy4" class="responsive" width="500" style="vertical-align:middle;margin:20px 0px">
 5. A column of words and a column of frequencies will appear to the left. In this case, the column of facets shows counts and tabulations of each type of part-of-speech in the file. Try faceting using the other available options including columns and facet types. <img src="https://user-images.githubusercontent.com/15221098/88934340-83476e00-d24e-11ea-82a4-7f93ba79f6c1.png" alt="drorvy5" class="responsive" width="850" style="vertical-align:middle;margin:20px 0px">
@@ -55,6 +53,12 @@ For more information on these and other files in Study Carrels, check out [Dista
 > <p> ^V for verbs </p>
 > <p> ^J for adjectives </p>
 11. Text facet on the "lemma" column. The result is a count and tabulation of all the nouns. <img src="https://user-images.githubusercontent.com/15221098/88941176-b4c43780-d256-11ea-832c-4fb1284ebcad.png" alt="drorvy8" class="responsive" width="500" style="vertical-align:middle;margin:20px 0px">
+
+### Recipe 2: Who and How Often?
+12. Create a new project in OpenRefine and select every file in the study carrel's named-entity (ent) directory as your input. <img src="https://user-images.githubusercontent.com/15221098/88975325-fe794600-d287-11ea-8a71-348b1405e0ed.png" alt="drorvy9" class="responsive" width="500" style="vertical-align:middle;margin:20px 0px">
+13. Select “configure parsing options.” A warning will probably pop up stating that attempts to parse this as an excel file have failed. Press “OK” and “Parse data as” as “CSV/TSV/separator-based” instead. If your data now appears, select “Create Project”. <img src="https://user-images.githubusercontent.com/15221098/88975327-fe794600-d287-11ea-9034-46736a5cd0bc.png" alt="drorvy10" class="responsive" width="500" style="vertical-align:middle;margin:20px 0px">
+14. Text facet on the "type” column.
+15. Select "PERSON" from the list of named entities. The result is a count and tabulation of all the people in the corpus. <img src="https://user-images.githubusercontent.com/15221098/88975328-ff11dc80-d287-11ea-865f-a9fe5c1cc92f.png" alt="drorvy11" class="responsive" width="500" style="vertical-align:middle;margin:20px 0px"> 
 
 
 
