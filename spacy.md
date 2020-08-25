@@ -151,10 +151,12 @@ Running our raw text string through spaCy’s processing pipeline results in a v
 
 We can call these annotations the same way we called our tokenized text above with the `print` function, but with one additional note... Like many NLP libraries, spaCy encodes all strings to hash values to reduce memory usage and improve efficiency. To get the readable string representation of an attribute, add an underscore _ to its name. For example:
 ```
-for token in doc:
+>>> for token in doc:
     print(token.text, token.lemma_, token.pos_, token.tag_, token.dep_,
             token.shape_, token.is_alpha, token.is_stop)
 ```
 
-> Most of the tags and labels appear to be abstract, and they vary between languages. `spacy.explain` will show you a short description – for example, `spacy.explain("VBZ")` returns “verb, 3rd person singular present”.
+Most of the tags and labels appear to be abstract, and they vary between languages. `spacy.explain` will show you a short description – for example, `spacy.explain("VBZ")` returns “verb, 3rd person singular present”.
+
+### Visualizing Dependencies and Entities
 
