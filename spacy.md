@@ -107,6 +107,7 @@ $ python -m spacy download en_core_web_sm
 ## Working with spaCy
 ### Pre-Processing Text String
 The first step for working with spaCy is to pass it to an NLP object. This object is essentially a pipeline of several text pre-processing operations through which the input text string has to go through. The NLP pipeline has multiple components, such as tokenizer, tagger, parser, ner, etc. So, the input text string has to go through all these components before we can work on it.
+<img src="https://user-images.githubusercontent.com/15221098/91214865-b102c400-e6e1-11ea-8b73-fb271b169a4a.png" class="responsive" alt="spacy1" class="responsive" width="600" style="vertical-align:middle;margin:20px 0px">
 
 1. Open a python interactive shell/interpreter by simply typing `python` or `python3` (depending on what worked for you earlier) in your terminal. You should now see `>>>` at the beginning of your prompts. This means you are now running your code in a python shell.
 
@@ -128,17 +129,6 @@ The first step for working with spaCy is to pass it to an NLP object. This objec
 ```
 
 ### Linguistic Annotations
-Running your raw text string through spaCy’s processing pipeline results in a variety of linguistic annotations regarding the text’s grammatical structure. After tokenization, spaCy parses and tags the given `doc`. This is where the statistical model comes in, which enables spaCy to make a prediction of which tag or label most likely applies in this context. This includes the word types, like the parts of speech, and how the words are related to each other. Linguistic annotations are available as `token` attributes:
-> * Text: The original word text
-> * Lemma: The base form of the word
-> * POS: The simple UPOS part-of-speech tag
-> * Tag: The detailed part-of-speech tag
-> * Dep: Syntactic dependency, i.e. the relation between tokens
-> * Shape: The word shape – capitalization, punctuation, digits
-> * is alpha: Is the token an alpha character?
-> * is stop: Is the token part of a stop list, i.e. the most common words of the language?
-
-### Linguistic Annotations
 Running our raw text string through spaCy’s processing pipeline results in a variety of linguistic annotations regarding the text’s grammatical structure. After tokenization, spaCy parses and tags the given `doc`. This is where the statistical model comes in, which enables spaCy to make a prediction of which tag or label most likely applies in this context. This includes the word types, like the parts of speech, and how the words are related to each other. Linguistic annotations are available as `token` attributes:
 > * Text: The original word text
 > * Lemma: The base form of the word
@@ -152,13 +142,12 @@ Running our raw text string through spaCy’s processing pipeline results in a v
 We can call these annotations the same way we called our tokenized text above with the `print` function, but with one additional note... Like many NLP libraries, spaCy encodes all strings to hash values to reduce memory usage and improve efficiency. To get the readable string representation of an attribute, add an underscore _ to its name. For example:
 ```
 >>> for token in doc:
-    print(token.text, token.lemma_, token.pos_, token.tag_, token.dep_,
-            token.shape_, token.is_alpha, token.is_stop)
+    print(token.text,  token.pos_, token.dep_)
 ```
+<img src="https://user-images.githubusercontent.com/15221098/91214870-b2cc8780-e6e1-11ea-9432-f5c4ee1a60c0.png" class="responsive" alt="spacy2" class="responsive" width="600" style="vertical-align:middle;margin:20px 0px">
 
 Most of the tags and labels appear to be abstract, and they vary between languages. `spacy.explain` will show you a short description – for example, `spacy.explain("VBZ")` returns “verb, 3rd person singular present”.
 
-### Visualizing Dependencies and Entities
 ### Visualizing Dependencies and Entities
 
 If you plan to use spaCy for development purposes, visualizing dependencies and named entities can be useful for speeding up things like debugging your code and training. In our case, we will use the spaCy’s tool called “displaCy” on our `Doc` to visually demonstrate NLP and what you have accomplished with spaCy.
@@ -173,5 +162,13 @@ If you plan to use spaCy for development purposes, visualizing dependencies and 
 ```
 3. Copy and paste the `http` address into your internet browser to see the results.
 
+<img src="https://user-images.githubusercontent.com/15221098/91214915-bf50e000-e6e1-11ea-8132-cac6fcf29b55.png" class="responsive" alt="spacy3" class="responsive" width="600" style="vertical-align:middle;margin:20px 0px">
 
 > You can customize the layout using the argument `options`! Check out [spaCy: Visualizers](https://spacy.io/usage/visualizers) for more info.
+
+
+## Resources
+This tutorial is the absolute tip of the iceberg for NLP and spaCy. Check out these resources (particularly the [Lightning Tour](https://spacy.io/usage/spacy-101#lightning-tour) in spaCy 101) to explore the breadth of possibilities:
+
+* [spaCy 101: Everything you need to know](https://spacy.io/usage/spacy-101)
+* [spaCy Universe: Resources developed with or for spaCy](https://spacy.io/universe)
