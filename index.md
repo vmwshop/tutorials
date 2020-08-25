@@ -23,8 +23,19 @@ By the end of this tutorial, you will be able to:
 * Create a default corpus using Voyant
 
 ### [Distant Reader + OpenRefine](drorvy.md)
-This tutorial overviews how to use the Distant Reade and OpenRefine together. Please complete or review the Distant Reader and OpenRefine before proceeding.
+This tutorial overviews how to use the Distant Reader and OpenRefine together. Please complete or review the Distant Reader and OpenRefine tutorials before proceeding.
 
 By the end of this tutorial, you will be able to:
 * Identify and locate tab-delimited files in a Distant Reader study carrel
 * Facet, filter, and export study carrel data using OpenRefine
+
+
+### [spaCy](spacy.md)
+spaCy is a free, open-source library for advanced Natural Language Processing (NLP) in Python. If you’re working with a lot of text, you’ll eventually want to know more about it.
+
+By the end of this tutorial, you will be able to:
+
+* Understand spaCy’s approach to natural language processing
+* Pre-process a string of text using spaCy
+* Pull linguistic annotations for further analysis
+* Use spaCy’s built-in features to visualize dependencies and entities
