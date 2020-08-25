@@ -68,7 +68,7 @@ For more detailed information and varied options see the [spaCy Installation Gui
 > * To open the terminal in MacOS, either open your Applications folder, then open Utilities and double-click on Terminal, or press Command - spacebar to launch Spotlight and type "Terminal," then double-click the search result.
 > * To open the command prompt in Windows, press Windows+R to open “Run” box, then type “cmd” and then click “OK” to open a regular Command Prompt. Type “cmd” and then press Ctrl+Shift+Enter to open an administrator Command Prompt.
 2. Install spaCy in a virtual environment by running the following commands.
-> When using pip it is generally recommended to install packages in a virtual environment to avoid modifying system state. The first two commands here set up a virtual environment and the third installs spaCy in that environment.
+> * When using pip it is generally recommended to install packages in a virtual environment to avoid modifying system state. The first two commands here set up a virtual environment and the third installs spaCy in that environment.
 > * Do not copy the `$`. This character signifies the beginning of a command line prompt. So, commit each separate `$` as a separate prompt (i.e. hit return/enter to run each line before moving to the next `$`).
 
 **MacOS/Linux**
