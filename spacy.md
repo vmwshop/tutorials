@@ -69,20 +69,20 @@ For more detailed information and varied options see the [spaCy Installation Gui
 > When using pip it is generally recommended to install packages in a virtual environment to avoid modifying system state. The first two commands here set up a virtual environment and the third installs spaCy in that environment.
 > * Do not copy the `$`. This character signifies the beginning of a command line prompt. So, commit each separate `$` as a separate prompt (i.e. hit return/enter to run each line before moving to the next `$`).
 
-MacOS/Linux
+**MacOS/Linux**
 ```
 $ python -m venv .env
 $ source .env/bin/activate
 $ pip install -U spacy
 ```
-MacOS/Linux with Python3 and pip3 
+**MacOS/Linux with Python3 and pip3** 
 > If you try the previous commands and nothing returns, try these instead. They go straight to the latest version of python and pip. If these work, remember to add use `python3` and `pip3` for all future commands where you see `python` or `pip`, too!
 ```
 $ python3 -m venv .env
 $ source .env/bin/activate
 $ pip3 install spacy
 ```
-Windows
+**Windows**
 ```
 $ python -m venv .env
 $ .env\Scripts\activate
@@ -93,12 +93,12 @@ $ pip install spacy
 
 > As our input will be in English, this is the download for the core English model-- _other models available [here](https://spacy.io/usage/models)_
 
-MacOS/Linux 
+**MacOS/Linux** 
 > Don't forget to use `python3` and `pip3` if that worked for you in Step 2. 
 ```
 $ python -m spacy download en_core_web_sm
 ```
-Windows
+**Windows**
 ```
 $ python -m spacy download en_core_web_sm
 ```
