@@ -52,19 +52,22 @@ Natural Language Understanding is an active area of research and development, so
 
 ## Getting Started
 
-spaCy is compatible with 64-bit CPython 2.7 / 3.5+ and runs on Unix/Linux, macOS/OS X and Windows. The latest spaCy releases are available over pip and conda. The following installation instructions assume you already have [Python](https://www.python.org/) and the [pip  package-management system](https://pypi.org/project/pip/) installed:
+### Python and pip
+spaCy is compatible with 64-bit CPython 2.7 / 3.5+ and runs on Unix/Linux, macOS/OS X and Windows. The latest spaCy releases are available over pip and conda. The following installation instructions will use Python and pip. For information on installing and working with [Python](https://www.python.org/) and the [pip  package-management system](https://pypi.org/project/pip/), see these resources:
 * [Python Setup and Usage](https://docs.python.org/3/using/index.html)
 * [Do I Need to Install pip?](https://pip.pypa.io/en/stable/installing/)
+* On a Mac, simply type `python3` in your terminal. If not already installed, you will be prompted to install "Command Line Tools" via XCode. Agree to installation and you should be all set. 
 
-For more detailed information and varied options see the [spaCY Installation Guide](https://spacy.io/usage#installation)
+For more detailed information and varied options see the [spaCy Installation Guide](https://spacy.io/usage#installation)
 
-### Install Using pip (English Model)
-1. Navigate to the terminal
+### Installing spaCy and Downloading Statistical Model (English model)
+1. Navigate to the terminal. 
 > * To open the terminal in Linux, press Ctrl+Alt+T in Ubuntu, or press Alt+F2, type in gnome-terminal, and press enter. In Raspberry Pi, type in lxterminal
-> * To open the terminal in MacOS, either open your Applications folder, then open Utilities and double-click on Terminal, or press Command - spacebar to launch Spotlight and type "Terminal," then double-click the search result
-> * To open the command prompt in Windows, press Windows+R to open “Run” box, then type “cmd” and then click “OK” to open a regular Command Prompt. Type “cmd” and then press Ctrl+Shift+Enter to open an administrator Command Prompt
-2. Install in a virtual environment by running the following commands
-> When using pip it is generally recommended to install packages in a virtual environment to avoid modifying system state. The first two commands here set up a virtual environment and the third installs spaCy in that environment. 
+> * To open the terminal in MacOS, either open your Applications folder, then open Utilities and double-click on Terminal, or press Command - spacebar to launch Spotlight and type "Terminal," then double-click the search result.
+> * To open the command prompt in Windows, press Windows+R to open “Run” box, then type “cmd” and then click “OK” to open a regular Command Prompt. Type “cmd” and then press Ctrl+Shift+Enter to open an administrator Command Prompt.
+2. Install spaCy in a virtual environment by running the following commands.
+> When using pip it is generally recommended to install packages in a virtual environment to avoid modifying system state. The first two commands here set up a virtual environment and the third installs spaCy in that environment.
+> * Do not copy the `$`. This character signifies the beginning of a command line prompt. So, commit each separate `$` as a separate prompt (i.e. hit return/enter to run each line before moving to the next `$`).
 
 MacOS/Linux
 ```
@@ -77,15 +80,15 @@ MacOS/Linux with Python3 and pip3
 ```
 $ python3 -m venv .env
 $ source .env/bin/activate
-$ pip3 install -U spacy
+$ pip3 install spacy
 ```
 Windows
 ```
 $ python -m venv .env
 $ .env\Scripts\activate
-$ pip install -U spacy
+$ pip install spacy
 ```
-3. Download core statistical model by running the following command
+3. Download core statistical model by running the following command.
 > While some of spaCy’s features work independently, others require statistical models to be loaded, which enable spaCy to predict linguistic annotations.spaCy core models are general-purpose pretrained models to predict named entities, part-of-speech tags and syntactic dependencies, which can be used out-of-the-box and fine-tuned on more specific data.
 
 > As our input will be in English, this is the download for the core English model-- _other models available [here](https://spacy.io/usage/models)_
@@ -99,3 +102,20 @@ Windows
 ```
 $ python -m spacy download en_core_web_sm
 ```
+## Working with spaCy
+### Pre-Processing Text String
+The first step for working with spaCy is to pass it to an NLP object. This object is essentially a pipeline of several text pre-processing operations through which the input text string has to go through. The NLP pipeline has multiple components, such as tokenizer, tagger, parser, ner, etc. So, the input text string has to go through all these components before we can work on it.
+
+1. Open a python interactive shell/interpreter by simply typing `python` or `python3` (depending on what worked for you earlier) in your terminal. You should now see `>>>` at the beginning of your prompts. This means you are now running your code in a python shell.
+2. Import spaCy and load model installed earlier. This will return a language object, called an NLP, containing all components and data needed to process text.
+```
+>>> import spacy
+>>> nlp = spacy.load("en_core_web_sm")
+```
+3. Process a string of text through the nlp to create a `doc` (an object split into individual words and annotated). This tutorial uses sample text, but feel free to use a text string of your choice between the double quotation marks.
+```
+>>> doc = nlp(“The work we do in the VMW is designed to be as self-reflexive as possible, using agile and iterative approaches to our humanities research in order to refine questions and respond productively to new findings and realizations”)
+```
+
+
+
