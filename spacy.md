@@ -3,12 +3,14 @@
 ## Objectives
 By the end of this tutorial, you will be able to:
 
-* Understand what spaCy is (and what it isn’t)
-* ADD STUFF HERE
+* Understand spaCy’s approach to natural language processing
+* Pre-process a string of text using spaCy
+* Pull linguistic annotations for future analysis
+* Use spaCy’s built-in features to visualize dependencies and entities
 
 ## What You Need
 * Computer with a web browser and internet connection
-* Experience working from the command line
+* Basic experience working from the command line
 * Experience with Python is not necessary for this tutorial, but basic working knowledge is recommended
 
 
@@ -17,7 +19,7 @@ spaCy is a free, open-source library for advanced Natural Language Processing (N
 
 spaCy is designed specifically for production use and helps you build applications that process and “understand” large volumes of text. It can be used to build information extraction or natural language understanding systems, or to pre-process text for deep learning.
 
-spaCy is not a platform or an API. Unlike a platform, spaCy does not provide a software as a service, or a web application. It’s an open-source library designed to help you build NLP applications, not a consumable service. Unlike [NLTK](https://github.com/nltk/nltk) or [Core NLP](https://stanfordnlp.github.io/CoreNLP/) which were designed for teaching and research, spaCy is not research software. This means that spaCy is integrated and opinionated. spaCy avoids asking the user to choose between multiple algorithms that deliver equivalent functionality. Instead, the menu is small and 
+spaCy is not a platform or an API. Unlike a platform, spaCy does not provide a software as a service, or a web application. It’s an open-source library designed to help you build NLP applications, not a consumable service. Unlike [NLTK](https://github.com/nltk/nltk) or [Core NLP](https://stanfordnlp.github.io/CoreNLP/) which were designed for teaching and research, spaCy is not research software. This means that spaCy is integrated and opinionated. spaCy avoids asking the user to choose between multiple algorithms that deliver equivalent functionality. For our purposes in this tutorial, spaCy is useful for exploring features common to NLP without requiring training our own models. 
 
 _Much of the following is adapted from the spaCy Usage documentation. See the references section of this tutorial for links to this and other resources._ 
 
@@ -107,15 +109,52 @@ $ python -m spacy download en_core_web_sm
 The first step for working with spaCy is to pass it to an NLP object. This object is essentially a pipeline of several text pre-processing operations through which the input text string has to go through. The NLP pipeline has multiple components, such as tokenizer, tagger, parser, ner, etc. So, the input text string has to go through all these components before we can work on it.
 
 1. Open a python interactive shell/interpreter by simply typing `python` or `python3` (depending on what worked for you earlier) in your terminal. You should now see `>>>` at the beginning of your prompts. This means you are now running your code in a python shell.
+
 2. Import spaCy and load model installed earlier. This will return a language object, called an NLP, containing all components and data needed to process text.
 ```
 >>> import spacy
 >>> nlp = spacy.load("en_core_web_sm")
 ```
+
 3. Process a string of text through the nlp to create a `doc` (an object split into individual words and annotated). This tutorial uses sample text, but feel free to use a text string of your choice between the double quotation marks.
 ```
 >>> doc = nlp(“The work we do in the VMW is designed to be as self-reflexive as possible, using agile and iterative approaches to our humanities research in order to refine questions and respond productively to new findings and realizations”)
 ```
 
+4. Your string of raw text has now been split on whitespace characters, then tokenized (i.e. segmented it into words, punctuation, etc.) according the language rules:
+```
+>>> for token in doc:
+    print(token.text)
+```
 
+### Linguistic Annotations
+Running your raw text string through spaCy’s processing pipeline results in a variety of linguistic annotations regarding the text’s grammatical structure. After tokenization, spaCy parses and tags the given `doc`. This is where the statistical model comes in, which enables spaCy to make a prediction of which tag or label most likely applies in this context. This includes the word types, like the parts of speech, and how the words are related to each other. Linguistic annotations are available as `token` attributes:
+> * Text: The original word text
+> * Lemma: The base form of the word
+> * POS: The simple UPOS part-of-speech tag
+> * Tag: The detailed part-of-speech tag
+> * Dep: Syntactic dependency, i.e. the relation between tokens
+> * Shape: The word shape – capitalization, punctuation, digits
+> * is alpha: Is the token an alpha character?
+> * is stop: Is the token part of a stop list, i.e. the most common words of the language?
+
+### Linguistic Annotations
+Running our raw text string through spaCy’s processing pipeline results in a variety of linguistic annotations regarding the text’s grammatical structure. After tokenization, spaCy parses and tags the given `doc`. This is where the statistical model comes in, which enables spaCy to make a prediction of which tag or label most likely applies in this context. This includes the word types, like the parts of speech, and how the words are related to each other. Linguistic annotations are available as `token` attributes:
+> * Text: The original word text
+> * Lemma: The base form of the word
+> * POS: The simple UPOS part-of-speech tag
+> * Tag: The detailed part-of-speech tag
+> * Dep: Syntactic dependency, i.e. the relation between tokens
+> * Shape: The word shape – capitalization, punctuation, digits
+> * is alpha: Is the token an alpha character?
+> * is stop: Is the token part of a stop list, i.e. the most common words of the language?
+
+We can call these annotations the same way we called our tokenized text above with the `print` function, but with one additional note... Like many NLP libraries, spaCy encodes all strings to hash values to reduce memory usage and improve efficiency. To get the readable string representation of an attribute, add an underscore _ to its name. For example:
+```
+for token in doc:
+    print(token.text, token.lemma_, token.pos_, token.tag_, token.dep_,
+            token.shape_, token.is_alpha, token.is_stop)
+```
+
+> Most of the tags and labels appear to be abstract, and they vary between languages. `spacy.explain` will show you a short description – for example, `spacy.explain("VBZ")` returns “verb, 3rd person singular present”.
 
