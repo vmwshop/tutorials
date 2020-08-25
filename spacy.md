@@ -159,4 +159,19 @@ We can call these annotations the same way we called our tokenized text above wi
 Most of the tags and labels appear to be abstract, and they vary between languages. `spacy.explain` will show you a short description – for example, `spacy.explain("VBZ")` returns “verb, 3rd person singular present”.
 
 ### Visualizing Dependencies and Entities
+### Visualizing Dependencies and Entities
 
+If you plan to use spaCy for development purposes, visualizing dependencies and named entities can be useful for speeding up things like debugging your code and training. In our case, we will use the spaCy’s tool called “displaCy” on our `Doc` to visually demonstrate NLP and what you have accomplished with spaCy.
+
+1. The quickest and most convenient way to visualize any spaCy `Doc` is to use `displacy.serve`. It will let you view results straight in your browser
+```
+>>> from spacy import displacy
+```
+2. Let’s try visualizing the dependency parse to show part-ofspeech tags and syntactic dependencies:
+```
+>>> displacy.serve(doc, style="dep")
+```
+3. Copy and paste the `http` address into your internet browser to see the results.
+
+
+> You can customize the layout using the argument `options`! Check out [spaCy: Visualizers](https://spacy.io/usage/visualizers) for more info.
