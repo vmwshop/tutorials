@@ -46,11 +46,11 @@ Natural Language Understanding is an active area of research and development, so
  Use | spaCy | NLTK | AllenNLP | StanfordNLP | TensorFlow
  ------------ | ------------- | ------------- | ------------- | ------------- | -------------
  I’m a beginner and just getting started with NLP | ✓ | ✓ | ✗ | ✓ | ✗
- I want to build an end-to-end production application | ✔ | ✘ | ✘ | ✘ | ✔
- I want to try out different neural network architectures for NLP | ✘ | ✘ | ✔ | ✘ | ✔
- I want to try the latest models with state-of-the-art accuracy | ✘ | ✘ | ✔ | ✔ | ✔
- I want to train models from my own data | ✔ | ✔ | ✔ | ✔ | ✔
- I want my application to be efficient on CPU | ✔ | ✔ | ✘ | ✘ | ✘
+ I want to build an end-to-end production application | ✓ | ✗ | ✗ | ✗ | ✓
+ I want to try out different neural network architectures for NLP | ✗ | ✗ | ✓ | ✗ | ✓
+ I want to try the latest models with state-of-the-art accuracy | ✗ | ✗ | ✓ | ✓ | ✓
+ I want to train models from my own data | ✓ | ✓ | ✓ | ✓ | ✓
+ I want my application to be efficient on CPU | ✓ | ✓ | ✗ | ✗ | ✗
 
 ## Getting Started
 
