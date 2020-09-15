@@ -45,7 +45,7 @@ Natural Language Understanding is an active area of research and development, so
 
  Use | spaCy | NLTK | AllenNLP | StanfordNLP | TensorFlow
  ------------ | ------------- | ------------- | ------------- | ------------- | -------------
- I’m a beginner and just getting started with NLP | &#2713 | :white_check_mark: | :x: | :white_check_mark: | :x:
+ I’m a beginner and just getting started with NLP | ✅ | :white_check_mark: | :x: | :white_check_mark: | :x:
  I want to build an end-to-end production application | :white_check_mark: | :x: | :x: | :x: | :white_check_mark:
  I want to try out different neural network architectures for NLP | :x: | :x: | :white_check_mark: | :x: | :white_check_mark:
  I want to try the latest models with state-of-the-art accuracy | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark:
