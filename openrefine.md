@@ -103,3 +103,5 @@ You have now exported a filtered portion of your dataset to manipulate further o
 - [Miriam Posner’s “Get started with OpenRefine”](http://miriamposner.com/classes/dh101f17/tutorials-guides/data-manipulation/get-started-with-openrefine/)
 - [General Refine Expression Language Guide](https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language)
 - [OpenRefine on Github](https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Users) 
+
+This tutorial was adapted and written by Jane Thaler in 2020.  
