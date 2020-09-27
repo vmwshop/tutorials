@@ -49,10 +49,10 @@ For more information on these and other files in Study Carrels, check out [Dista
 7. “Remove All” again and let’s try filtering and faceting together. This can help with analyzing sentiment.
 8. Text filter on the "token" column but search for ```^N``` and check the "regular expression" box.
 > You can use the following to filter parts of speech, respectively:
-> <p> ^N for nouns </p>
-> <p> ^V for verbs </p>
-> <p> ^J for adjectives </p>
-9. Text facet on the "lemma" column. The result is a count and tabulation of all the nouns. <img src="https://user-images.githubusercontent.com/15221098/88941176-b4c43780-d256-11ea-832c-4fb1284ebcad.png" alt="drorvy8" class="responsive" width="500" style="vertical-align:middle;margin:40px 0px">
+> <p> ^NN for nouns </p>
+> <p> ^VB for verbs </p>
+> <p> ^JJ for adjectives </p>
+9. Text facet on the "lemma" column. The result is a count and tabulation of all the nouns. <img src="https://user-images.githubusercontent.com/15221098/94370311-3bfa2400-00bd-11eb-9595-90b9762cac39.png" alt="drorvyupdate1" class="responsive" width="500" style="vertical-align:middle;margin:40px 0px">
 
 ### Recipe 2: Who and How Often?
 1. Create a new project in OpenRefine and select every file in the study carrel's named-entity (ent) directory as your input. <img src="https://user-images.githubusercontent.com/15221098/88975325-fe794600-d287-11ea-8a71-348b1405e0ed.png" alt="drorvy9" class="responsive" width="850" style="vertical-align:middle;margin:40px 0px">
