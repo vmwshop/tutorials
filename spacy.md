@@ -172,3 +172,5 @@ This tutorial is the absolute tip of the iceberg for NLP and spaCy. Check out th
 
 * [spaCy 101: Everything you need to know](https://spacy.io/usage/spacy-101)
 * [spaCy Universe: Resources developed with or for spaCy](https://spacy.io/universe)
+
+This tutorial was adapted and written by Jane Thaler in 2020.  
