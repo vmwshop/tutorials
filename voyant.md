@@ -135,3 +135,4 @@ We only showed you 5 of the tools available for your corpus. To change one of yo
  
 * [Voyant Help Database](https://voyant-tools.org/docs/#!/guide/about)
 
+This tutorial was adapted and written by Jane Thaler in 2020.  
