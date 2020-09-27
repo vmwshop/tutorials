@@ -176,4 +176,4 @@ Analysis programs cover a wide spectrum of tools and these tools fall into a num
 * [Distant Reader Blog by Eric Lease Morgan](http://sites.nd.edu/emorgan/category/distant-reader/)
 
 
-
+This tutorial was adapted and written by Jane Thaler in 2020.  
