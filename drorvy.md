@@ -80,3 +80,5 @@ Word Clouds tend to be looked down upon for a number of reasons (one software ar
 ## References
 * [Distant Reader “study carrels”: A manifest](https://sites.nd.edu/emorgan/2019/12/reader-manifest/)
 * [Distant Reader Workshop by Eric Lease Morgan on GitHub](https://github.com/ericleasemorgan/reader-workshop)
+
+This tutorial was adapted and written by Jane Thaler in 2020.  
