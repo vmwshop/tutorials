@@ -1,7 +1,7 @@
 # Faceting and Filtering Distant Reader Data with OpenRefine 
 
 ## Objectives
-> This tutorial overviews how to use the Distant Reade and OpenRefine together. Please complete or review the [Distant Reader](distancereader.md) and [OpenRefine](openrefine.md) before proceeding.
+> This tutorial overviews how to use the Distant Reader and OpenRefine together. Please complete or review the [Distant Reader](distancereader.md) and [OpenRefine](openrefine.md) before proceeding.
 
 By the end of this tutorial, you will be able to:
 * Identify and locate tab-delimited files in a Distant Reader study carrel
