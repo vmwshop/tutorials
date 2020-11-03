@@ -17,11 +17,11 @@ _Much of the following is adapted from Eric Lease Morgan’s documentation and w
 Distant Reader is designed to be used in conjunction with other tools. One tool that we can use to “hack” the structured data from the Distant Reader is OpenRefine. When we open a tab-delimited file (structure data) in OpenRefine, it will parse the file(s) into fields. We can then use OpenRefine features (finding/replacing, faceting, filtering, sorting, clustering, counting & tabulating, and finally, exporting data) to work with our data.
 
 ### Distant Reader Tab-Delimited Files
-The results of downloading and uncompressing the Distant Reader study carrel .zip file is a directory/folder containing a standard set of files and subdirectories. Most of the files in a Distant Reader study carrel are tab-delimited files, and they will import into OpenRefine with ease. While the file names end in .adr, .bib, .ent, etc., they are plain text files that can be imported into for favorite spreadsheet, database, or analysis application. 
+The results of downloading and uncompressing the Distant Reader study carrel .zip file is a directory/folder containing a standard set of files and subdirectories. Most of the files in a Distant Reader study carrel are tab-delimited files, and they will import into OpenRefine with ease. While the file names end in .adr, .bib, .ent, etc., they are plain text files that can be imported into your favorite spreadsheet, database, or analysis application. 
 
 * **adr**- Each tab-delimited file in this directory contains a set of email addresses extracted from the documents in your corpus. The files have two columns: 1) id, and 2) address. These files can humorously answer the question, “Who are you gonna call?”
 
-* **bib**- Each tab-delimited file in this directory contains a set of rudimentary bibliographic information from a given document in your corpus. The files have thirteen columns: 1) id, 2) author, 3) title, 4) date, 5) page 6), extension, 7) mime, 8) words, 9) sentences, 10) flesch, 11) summary, 12) cache, and 13) txt. These files help answer the question, “What items are in my corpus, and how can they be described?”
+* **bib**- Each tab-delimited file in this directory contains a set of rudimentary bibliographic information from a given document in your corpus. The files have thirteen columns: 1) id, 2) author, 3) title, 4) date, 5) page, 6) extension, 7) mime, 8) words, 9) sentences, 10) flesch, 11) summary, 12) cache, and 13) txt. These files help answer the question, “What items are in my corpus, and how can they be described?”
 
 * **ent**- Each tab-delimited file in this directory contains a set of named entities from a given document in your corpus. The files have five columns: 1) id, 2) sid, 3) eid, 4) entity, and 5) type. These files help answer questions regarding who, what, when, where, how, and how many.
 
@@ -47,7 +47,7 @@ For more information on these and other files in Study Carrels, check out [Dista
 5. Click the arrow next to the "token" column and select ```Text filter```. <img src="https://user-images.githubusercontent.com/15221098/88940914-6020bc80-d256-11ea-9f1b-5771d27ef131.png" alt="drorvy7" class="responsive" width="500" style="vertical-align:middle;margin:40px 0px">
 6. A box to input text will appear in the left sidebar. Think of a word of interest for your corpus and press “enter” to search. Try as many times as you like with other words.
 7. “Remove All” again and let’s try filtering and faceting together. This can help with analyzing sentiment.
-8. Text filter on the "token" column but search for ```^N``` and check the "regular expression" box.
+8. Text filter on the "token" column but search for ```^NN``` and check the "regular expression" box.
 > You can use the following to filter parts of speech, respectively:
 > <p> ^NN for nouns </p>
 > <p> ^VB for verbs </p>
@@ -61,7 +61,7 @@ For more information on these and other files in Study Carrels, check out [Dista
 4. Select "PERSON" from the list of named entities. The result is a count and tabulation of all the people in the corpus. <img src="https://user-images.githubusercontent.com/15221098/88975328-ff11dc80-d287-11ea-865f-a9fe5c1cc92f.png" alt="drorvy11" class="responsive" width="850" style="vertical-align:middle;margin:40px 0px"> 
 
 ### Recipe 3: Just for Fun, Let’s Visualize It (Optional)
-Word Clouds tend to be looked down upon for a number of reasons (one software architect referred to them as the [“mullets of the internet”](https://www.niemanlab.org/2011/10/word-clouds-considered-harmful/). However, as just one type of tool in our analysis toolkit, they can be helpful for identifying trends or anomalies for more thorough investigation. If anything, they can at least give some insight into how messy your data really is.  
+Word Clouds tend to be looked down upon for a number of reasons (one software architect referred to them as the [“mullets of the internet”](https://www.niemanlab.org/2011/10/word-clouds-considered-harmful/)). However, as just one type of tool in our analysis toolkit, they can be helpful for identifying trends or anomalies for more thorough investigation. If anything, they can at least give some insight into how messy your data really is.  
 
 1. Select “Remove All” 
 2. Create any sort of meaningful set of faceted results. For this example, we have text faceted the “type” column, selected “PERSON”, then text faceted the “entity” column.  
