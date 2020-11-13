@@ -11,6 +11,7 @@ By the end of this tutorial, you will be able to:
 ## What You Need
 * Computer with a web browser and internet connection
 * Basic experience working from the command line
+> Check out an online intro course to bash commands using a command line interface like the one from The Programming Historian, which is available [here](https://programminghistorian.org/en/lessons/intro-to-bash) if you are not yet familiar.
 * Experience with Python is not necessary for this tutorial, but basic working knowledge is recommended
 
 
@@ -58,7 +59,7 @@ Natural Language Understanding is an active area of research and development, so
 spaCy is compatible with 64-bit CPython 2.7 / 3.5+ and runs on Unix/Linux, macOS/OS X and Windows. The latest spaCy releases are available over pip and conda. The following installation instructions will use Python and pip. For information on installing and working with [Python](https://www.python.org/) and the [pip  package-management system](https://pypi.org/project/pip/), see these resources:
 * [Python Setup and Usage](https://docs.python.org/3/using/index.html)
 * [Do I Need to Install pip?](https://pip.pypa.io/en/stable/installing/)
-* On a Mac, simply type `python3` in your terminal. If not already installed, you will be prompted to install "Command Line Tools" via XCode. Agree to installation and you should be all set. 
+* On a Mac, simply type `python3` in your terminal. If not already installed, you will be prompted to install "Command Line Tools" via XCode. Agree to installation then press `cmd + d` to exit the python interpreter. You should be all set to install spaCy.
 
 For more detailed information and varied options see the [spaCy Installation Guide](https://spacy.io/usage#installation)
 
