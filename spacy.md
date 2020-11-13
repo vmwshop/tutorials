@@ -59,7 +59,7 @@ Natural Language Understanding is an active area of research and development, so
 spaCy is compatible with 64-bit CPython 2.7 / 3.5+ and runs on Unix/Linux, macOS/OS X and Windows. The latest spaCy releases are available over pip and conda. The following installation instructions will use Python and pip. For information on installing and working with [Python](https://www.python.org/) and the [pip  package-management system](https://pypi.org/project/pip/), see these resources:
 * [Python Setup and Usage](https://docs.python.org/3/using/index.html)
 * [Do I Need to Install pip?](https://pip.pypa.io/en/stable/installing/)
-* On a Mac, simply type `python3` in your terminal. If not already installed, you will be prompted to install "Command Line Tools" via XCode. Agree to installation then press `cmd + d` to exit the python interpreter. You should be all set to install spaCy.
+* On a Mac, simply type `python3` in your terminal. If not already installed, you will be prompted to install "Command Line Tools" via XCode. Agree to installation then press `ctrl + d` to exit the python interpreter. You should be all set to install spaCy.
 
 For more detailed information and varied options see the [spaCy Installation Guide](https://spacy.io/usage#installation)
 
@@ -123,7 +123,7 @@ The first step for working with spaCy is to pass it to an NLP object. This objec
 >>> doc = nlp(“The work we do in the VMW is designed to be as self-reflexive as possible, using agile and iterative approaches to our humanities research in order to refine questions and respond productively to new findings and realizations”)
 ```
 
-4. Your string of raw text has now been split on whitespace characters, then tokenized (i.e. segmented it into words, punctuation, etc.) according the language rules:
+4. Your string of raw text has now been split on whitespace characters, then tokenized (i.e. segmented it into words, punctuation, etc.) according the language rules (you may need to press enter a second time to get the tokenized raw text):
 ```
 >>> for token in doc:
     print(token.text)
@@ -173,5 +173,6 @@ This tutorial is the absolute tip of the iceberg for NLP and spaCy. Check out th
 
 * [spaCy 101: Everything you need to know](https://spacy.io/usage/spacy-101)
 * [spaCy Universe: Resources developed with or for spaCy](https://spacy.io/universe)
+* [Advanced NLP with spaCy - a spaCy course](https://course.spacy.io/en/)
 
 This tutorial was adapted and written by Jane Thaler in 2020.  
