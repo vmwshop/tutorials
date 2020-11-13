@@ -59,7 +59,7 @@ Natural Language Understanding is an active area of research and development, so
 spaCy is compatible with 64-bit CPython 2.7 / 3.5+ and runs on Unix/Linux, macOS/OS X and Windows. The latest spaCy releases are available over pip and conda. The following installation instructions will use Python and pip. For information on installing and working with [Python](https://www.python.org/) and the [pip  package-management system](https://pypi.org/project/pip/), see these resources:
 * [Python Setup and Usage](https://docs.python.org/3/using/index.html)
 * [Do I Need to Install pip?](https://pip.pypa.io/en/stable/installing/)
-* On a Mac, simply type `python3` in your terminal. If not already installed, you will be prompted to install "Command Line Tools" via XCode. Agree to installation then press `ctrl + d` to exit the python interpreter. You should be all set to install spaCy.
+* On a Mac, simply type `python3` in your terminal. If not already installed, you will be prompted to install "Command Line Tools" via XCode. Agree to installation then press `Ctrl + D` to exit the python interpreter. You should be all set to install spaCy.
 
 For more detailed information and varied options see the [spaCy Installation Guide](https://spacy.io/usage#installation)
 
@@ -165,6 +165,7 @@ If you plan to use spaCy for development purposes, visualizing dependencies and 
 <img src="https://user-images.githubusercontent.com/15221098/91214915-bf50e000-e6e1-11ea-8132-cac6fcf29b55.png" class="responsive" alt="spacy3" class="responsive" width="600" style="vertical-align:middle;margin:20px 0px">
 
 > You can customize the layout using the argument `options`! Check out [spaCy: Visualizers](https://spacy.io/usage/visualizers) for more info.
+4. Back in your terminal, press `Ctrl + C` to terminate the program and get back to the shell prompt.
 
 
 ## Resources
