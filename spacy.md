@@ -120,7 +120,7 @@ The first step for working with spaCy is to pass it to an NLP object. This objec
 
 3. Process a string of text through the nlp to create a `doc` (an object split into individual words and annotated). This tutorial uses sample text, but feel free to use a text string of your choice between the double quotation marks.
 ```
->>> doc = nlp(“The work we do in the VMW is designed to be as self-reflexive as possible, using agile and iterative approaches to our humanities research in order to refine questions and respond productively to new findings and realizations”)
+>>> doc = nlp("The work we do in the VMW is designed to be as self reflexive as possible, using agile and iterative approaches to our humanities research in order to refine questions and respond productively to new findings and realizations")
 ```
 4. Your string of raw text has now been split on whitespace characters, then tokenized (i.e. segmented it into words, punctuation, etc.) according the language rules (you may need to press enter a second time to get the tokenized raw text):
 ```
